@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
     style: compressed
 markdown: kramdown
-# permalink:
+permalink: /:categories/:title.html
 
 defaults:
   - scope:
