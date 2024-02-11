@@ -1,0 +1,74 @@
+<div id="gallery">
+  <div>
+    <span id="gallery-title"></span>
+    <span id="gallery-close-btn"><span>╳</span></span>
+  </div>
+  <div id="gallery-body"><img id="img" /></div>
+</div>
+<script>
+  var galleryOpenBtns = document.querySelectorAll('.gallery-open-btn');
+  var gallery = document.getElementById('gallery');
+  var galleryCloseBtn = document.getElementById('gallery-close-btn');
+  
+  var galleryTitle = document.getElementById('gallery-title');
+  var galleryBody = document.getElementById('gallery-body');
+  var img = document.getElementById('img');
+  
+  galleryOpenBtns.forEach(function(galleryOpenBtn) {
+    var imgSrc = galleryOpenBtn.dataset.src;
+    var imgAlt = galleryOpenBtn.dataset.alt;
+    
+    galleryOpenBtn.onclick = function(e) {
+      var galleryOffsetX = e.offsetX;
+      var galleryOffsetY = e.offsetY;
+      
+      galleryTitle.innerHTML = imgAlt;
+      img.src = imgSrc;
+      img.alt = imgAlt;
+      
+      gallery.style.left = galleryOffsetX + 'px';
+      gallery.style.top = galleryOffsetY + 'px';
+      gallery.style.display = 'block';
+    };
+  });
+  
+  galleryCloseBtn.onclick = function() {
+    gallery.style.display = 'none';
+  };
+  
+  // draggable gallery
+  dragGallery(gallery);
+  
+  function dragGallery(el) {
+    var pos1, pos2, pos3, pos4;
+    
+    el.onmousedown = dragMouseDown;
+    
+    function dragMouseDown(e) {
+      e.preventDefault();
+      
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      
+      document.onmouseup = closeDragGallery;
+      document.onmousemove = galleryDrag;
+    };
+    
+    function galleryDrag(e) {
+      e.preventDefault();
+      
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      
+      el.style.top = (el.offsetTop - pos2) + 'px';
+      el.style.left = (el.offsetLeft - pos1) + 'px';
+    };
+    
+    function closeDragGallery() {
+      document.onmouseup = null;
+      document.onmousemove = null;
+    };
+  };
+</script>

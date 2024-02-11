@@ -1,0 +1,185 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: simsun, serif;
+  line-height: 1;
+}
+
+pre {
+  white-space: pre;
+  padding: 0 10px;
+  margin: 10px 0;
+  font-family: simsun, serif;
+  font-size: 16px;
+}
+
+blockquote {
+  display: inline;
+  margin: 0;
+}
+
+.brand {
+  position: fixed;
+  z-index: 10000;
+  background-color: white;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.inactived {
+  display: inline;
+  opacity: .5;
+}
+
+.recommend, .hot, .new {
+  cursor: help;
+  position: relative;
+  top: -2px;
+  margin-left: 4px;
+  font-size: 75%;
+  font-style: normal;
+  border-bottom: 1px dotted;
+}
+
+.recommend {
+  color: gold;
+}
+
+.hot {
+  color: tomato;
+}
+
+.new {
+  color: lime;
+}
+
+.collapse {
+  display: inline;
+  
+  &-toggler {
+    cursor: pointer;
+    /*border-bottom: 1px dotted;*/
+    color: blue;
+    text-decoration: none;
+  }
+  
+  &-body {
+    display: none/* inline */;
+  }
+}
+
+.gallery-open-btn {
+  cursor: pointer;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+  border-bottom: 1px dotted;
+  font-size: 75%;
+  color: blue;
+}
+
+#gallery {
+  cursor: move;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  width: 280px;
+  box-shadow: 5px 5px 120px rgba(0,0,0, .35);
+
+  &-title {
+    position: absolute;
+    background-color: black;
+    padding: 2px;
+    color: white;
+    font-size: 80%;
+  }
+  
+  &-close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    span {
+      /*transition: rotate .2s;*/
+      display: block;
+      padding: 4px;
+      color: #aaa;
+      font-size: 8px;
+      &:hover {
+        color: white;
+        /*rotate: -90deg;*/
+      }
+    }
+  }
+
+  &-body {
+    overflow: hidden;
+    font-size: 0; /* remove the image gap */
+    #img {
+      width: 100%;
+    }
+  }
+}
+
+.map-open-btn {
+  cursor: pointer;
+  border-bottom: 1px dotted;
+}
+
+.post {
+  &-container {
+    position: fixed;
+    right: 10px; 
+    top: 10px; 
+    bottom: auto; 
+    max-width: 50%; 
+    z-index: 9998;
+  }
+  
+  &-content {
+    max-height: 450px; 
+    overflow: auto;
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    line-height: 1.45;
+    text-align: left;
+    letter-spacing: -1px;
+    
+    p {
+      display: inline;
+      margin: 0;
+    }
+    
+    .more {
+      color: black;
+      font-size: 75%;
+    }
+  }
+  
+  &-controls {
+    margin: 5px auto;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  pre {
+    font-size: 20px;
+  }
+  
+  .post-container {
+    display: none;
+  }
+}
