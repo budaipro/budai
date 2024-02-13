@@ -6,19 +6,26 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <script>
+  function request(options, onSuccess) {
+    var xhttp = new XMLHttpRequest();
+    
+    xhttp.onreadystatechange = function() {
+      if (this.readyState === 4 && this.status === 200) {
+        onSuccess(this.responseText);
+      }
+    };
+    
+    xhttp.open(options.method, options.url, true);
+    xhttp.send();
+  };
+  </script>
 </head>
 <body>
-  <div>{{ content }}</div>
-  {% include gallery.html %}
-  <div class="post-container">
-    <div class="post-content">{{ site.posts[0].content }}<a class="more" href="{{ site.posts[0].url }}" target="_blank">完整阅读</a></div>
-    <div class="post-controls">
-      <a href="javascript:;">◀</a>
-      <a href="javascript:;">▶</a>
-    </div>
+  <div id="app">
+    <div>{{ content }}</div>
+    {% include gallery.html %}
+    {% include posts.html %}
   </div>
-  <script>
-  // post js goes here.
-  </script>
 </body>
 <html>

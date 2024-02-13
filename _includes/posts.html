@@ -1,0 +1,55 @@
+<div class="post-container">
+    <div class="post-content">
+      <div id="post" style="display: inline;">{{ site.posts[0].content }}</div>
+    </div>
+    <div class="post-controls">
+      <button id="btn-prev" type="button">◀</button>
+      <a class="has-line" href="/posts" target="_blank">查看所有<small>（{{ site.posts.size }}条）</small></a>
+      <button id="btn-next" type="button">▶</button>
+    </div>
+  </div>
+  <script>
+  ;(function() {
+    var btnPrev = document.getElementById('btn-prev');
+    var btnNext = document.getElementById('btn-next');
+    var post = document.getElementById("post");
+    var postUrls = [];
+    
+    {% for post in site.posts %}
+      postUrls.push("{{ post.url }}");
+    {% endfor %}
+    
+    var postLength = postUrls.length;
+    var currentPost = 0;
+    var isFirstPost;
+    var isLastPost;
+    
+    btnPrev.onclick = function(e) {
+      e.preventDefault();
+      
+      isFirstPost = currentPost === 0;
+      currentPost = isFirstPost ? (postLength - 1) : (currentPost - 1);
+      
+      request({
+        method: 'GET',
+        url: postUrls[currentPost]
+      }, function(data) {
+        post.innerHTML = data; 
+      });
+    };
+
+    btnNext.onclick = function(e) {
+      e.preventDefault();
+      
+      isLastPost = currentPost === (postLength - 1);
+      currentPost = isLastPost ?  0 : (currentPost + 1) ;
+      
+      request({
+        method: 'GET',
+        url: postUrls[currentPost]
+      }, function(data) {
+        post.innerHTML = data;
+      });
+    };
+  }());
+  </script>

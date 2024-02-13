@@ -24,22 +24,9 @@
       width: 50%;
       padding: 20px 30px;
     }
-    
-    .post-list {
-      position: fixed;
-      top: 100px;
-      right: 0;
-      width: 50%;
-      text-align: center;
-    }
     </style>
   </head>
   <body>
     <div class="post">{{ content }}</div>
-    <div class="post-list">
-      {% for post in site.posts %}
-        <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-      {% endfor %}
-    </div>
   </body>
 </html>

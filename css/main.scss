@@ -7,15 +7,29 @@
 body {
   margin: 0;
   font-family: simsun, serif;
+  letter-spacing: -1px;
   line-height: 1;
+}
+
+#app {
+  max-width: 960px;
+}
+
+.brand {
+  position: fixed;
+  left: 10px;
+  top: 13px;
+  z-index: 10000;
+  background-color: white;
+  font-size: 22px;
 }
 
 pre {
   white-space: pre;
-  padding: 0 10px;
-  margin: 10px 0;
+  padding: 40px 10px 10px;
+  margin: 0;
   font-family: simsun, serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 blockquote {
@@ -23,16 +37,20 @@ blockquote {
   margin: 0;
 }
 
-.brand {
-  position: fixed;
-  z-index: 10000;
-  background-color: white;
-}
-
 a {
   color: blue;
   text-decoration: none;
-  border-bottom: 1px dotted;
+  &.has-line {
+    border-bottom: 1px dotted;
+  }
+}
+
+.fontsize-normal {
+  font-size: 20px!important;
+}
+
+.no-ml {
+  margin-left: 0!important;
 }
 
 .inactived {
@@ -45,7 +63,7 @@ a {
   position: relative;
   top: -2px;
   margin-left: 4px;
-  font-size: 75%;
+  font-size: 65%;
   font-style: normal;
   border-bottom: 1px dotted;
 }
@@ -80,10 +98,9 @@ a {
 .gallery-open-btn {
   cursor: pointer;
   position: relative;
-  top: -2px;
   margin-left: 5px;
   border-bottom: 1px dotted;
-  font-size: 75%;
+  font-size: 85%;
   color: blue;
 }
 
@@ -92,16 +109,8 @@ a {
   display: none;
   position: absolute;
   z-index: 9999;
-  width: 280px;
-  box-shadow: 5px 5px 120px rgba(0,0,0, .35);
-
-  &-title {
-    position: absolute;
-    background-color: black;
-    padding: 2px;
-    color: white;
-    font-size: 80%;
-  }
+  width: 300px;
+  box-shadow: 10px 10px 50px rgba(0,0,0, .2);
   
   &-close-btn {
     cursor: pointer;
@@ -111,9 +120,9 @@ a {
     span {
       /*transition: rotate .2s;*/
       display: block;
-      padding: 4px;
-      color: #aaa;
-      font-size: 8px;
+      padding: 8px;
+      color: #ccc;
+      font-size: 10px;
       &:hover {
         color: white;
         /*rotate: -90deg;*/
@@ -141,45 +150,54 @@ a {
     right: 10px; 
     top: 10px; 
     bottom: auto; 
-    max-width: 50%; 
+    width: 50%; 
     z-index: 9998;
+    font-family: kaiti, serif;
   }
   
   &-content {
     max-height: 450px; 
     overflow: auto;
     background-color: yellow;
-    padding: 5px;
+    padding: 15px;
     color: black;
-    font-size: 16px;
+    font-size: 1.275rem;
     line-height: 1.45;
     text-align: left;
-    letter-spacing: -1px;
     
     p {
       display: inline;
       margin: 0;
     }
-    
-    .more {
-      color: black;
-      font-size: 75%;
-    }
   }
   
   &-controls {
-    margin: 5px auto;
-    font-size: 12px;
+    margin: 10px auto;
+    font-size: 17px;
     text-align: center;
+    button {
+      cursor: pointer;
+      border: none;
+      position: relative;
+      top: -2px;
+    }
   }
 }
 
 @media only screen and (max-width: 600px) {
   pre {
-    font-size: 20px;
+    font-size: 22px;
+    overflow: scroll;
   }
   
   .post-container {
-    display: none;
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
   }
+  
+   .post-content {
+     max-height: auto; 
+   }
 }

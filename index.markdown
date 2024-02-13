@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<pre>
 <div class="brand"><span>&copy;</span><strong>布袋豆腐</strong></div>
+<pre>
 {% include tofu/about.html %}
 {% include tofu/product/index.html %}
 {% include tofu/sales/index.html %}
