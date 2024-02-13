@@ -7,12 +7,12 @@
 body {
   margin: 0;
   font-family: simsun, serif;
+  font-size: 13px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 #app {
-  max-width: 960px;
 }
 
 .brand {
@@ -21,15 +21,13 @@ body {
   top: 13px;
   z-index: 10000;
   background-color: white;
-  font-size: 22px;
 }
 
 pre {
   white-space: pre;
-  padding: 40px 10px 10px;
+  padding: 30px 10px 10px;
   margin: 0;
   font-family: simsun, serif;
-  font-size: 20px;
 }
 
 blockquote {
@@ -43,10 +41,6 @@ a {
   &.has-line {
     border-bottom: 1px dotted;
   }
-}
-
-.fontsize-normal {
-  font-size: 20px!important;
 }
 
 .no-ml {
@@ -98,9 +92,8 @@ a {
 .gallery-open-btn {
   cursor: pointer;
   position: relative;
-  margin-left: 5px;
+  margin-left: 2px;
   border-bottom: 1px dotted;
-  font-size: 85%;
   color: blue;
 }
 
@@ -120,7 +113,7 @@ a {
     span {
       /*transition: rotate .2s;*/
       display: block;
-      padding: 8px;
+      padding: 6px;
       color: #ccc;
       font-size: 10px;
       &:hover {
@@ -161,7 +154,6 @@ a {
     background-color: yellow;
     padding: 15px;
     color: black;
-    font-size: 1.275rem;
     line-height: 1.45;
     text-align: left;
     
@@ -173,20 +165,21 @@ a {
   
   &-controls {
     margin: 10px auto;
-    font-size: 17px;
     text-align: center;
     button {
       cursor: pointer;
       border: none;
       position: relative;
-      top: -2px;
     }
   }
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
   pre {
-    font-size: 22px;
+    padding-top: 35px;
     overflow: scroll;
   }
   
