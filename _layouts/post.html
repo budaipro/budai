@@ -5,6 +5,10 @@
     <title>{{ site.title }}</title>
     <style>
     body {
+      font-family: simsun, serif;
+      line-height: 1.475;
+      letter-spacing: -1px;
+      padding: 10px;
       margin: 0;
     }
     
@@ -13,20 +17,16 @@
       text-decoration: none;
     }
     
-    a:hover {
-      font-weight: bold;
+    h3 {
+      position: relative;
+      left: -50px;
     }
     
-    .post {
-      font-size: 17px;
-      line-height: 1.5;
-      letter-spacing: -1px;
-      width: 50%;
-      padding: 20px 30px;
+    #app {
     }
     </style>
   </head>
   <body>
-    <div class="post">{{ content }}</div>
+    <div id="app">{{ content }}</div>
   </body>
 </html>

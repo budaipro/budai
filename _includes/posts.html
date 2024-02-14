@@ -1,12 +1,17 @@
 <div class="post-container">
     <div class="post-content">
-      <div id="post" style="display: inline;">{{ site.posts[0].content }}</div>
+      {% for post in site.posts %}
+        {% if post.title == "「布袋和尚」东土应化事迹" %}
+          <div id="post" style="display: inline;">{{ post.content }}</div>
+        {% endif %}
+      {% endfor %}
     </div>
-    <div class="post-controls">
-      <button id="btn-prev" type="button">◀</button>
-      <a class="has-line" href="/posts" target="_blank">查看所有<small>（{{ site.posts.size }}条）</small></a>
-      <button id="btn-next" type="button">▶</button>
-    </div>
+    {% unless site.posts.size == 1 %}
+      <div class="post-controls">
+        <button id="btn-prev" type="button">◀</button>
+        <button id="btn-next" type="button">▶</button>
+      </div>
+    {% endunless %}
   </div>
   <script>
   ;(function() {

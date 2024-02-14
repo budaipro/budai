@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="brand"><span>&copy;</span><strong>布袋豆腐</strong></div>
+<div class="brand">&copy;<strong>布袋豆腐</strong>（2023-2024）</div>
 <pre>
 {% include tofu/about.html %}
 {% include tofu/product/index.html %}
@@ -14,16 +14,8 @@ document.querySelectorAll('.collapse')
     var body = collapse.querySelector('.collapse-body');
     
     toggler.onclick = function() {
-      var togglerStyle = toggler.style;
-      var bodyStyle = body.style;
-      
-      if (bodyStyle.display !== 'inline') {
-        togglerStyle.fontWeight = 'bold';
-        bodyStyle.display = 'inline';
-      } else {
-        togglerStyle.fontWeight = 'normal';
-        bodyStyle.display = '';
-      }
+      toggler.classList.toggle('active');
+      body.classList.toggle('active');
     };
   });
 </script>
