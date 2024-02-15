@@ -18,6 +18,7 @@
     galleryOpenBtns.forEach(function(galleryOpenBtn) {
       var imgSrc = galleryOpenBtn.dataset.src;
       var imgAlt = galleryOpenBtn.dataset.alt;
+      var imgWidth = galleryOpenBtn.dataset.width;
       
       galleryOpenBtn.onclick = function(e) {
         var galleryClientX = e.clientX;
@@ -36,6 +37,7 @@
        
         img.src = imgSrc;
         img.alt = imgAlt;
+        img.style.width = imgWidth || '100%';
       };
     });
     
