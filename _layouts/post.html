@@ -1,32 +1,41 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ site.title }}</title>
-    <style>
-    body {
-      font-family: simsun, serif;
-      line-height: 1.475;
-      letter-spacing: -1px;
-      padding: 10px;
-      margin: 0;
-    }
-    
-    a, a:hover, a:active, a:visited {
-      color: blue;
-      text-decoration: none;
-    }
-    
-    h3 {
-      position: relative;
-      left: -50px;
-    }
-    
-    #app {
-    }
-    </style>
-  </head>
-  <body>
-    <div id="app">{{ content }}</div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <style>
+  body {
+    font-family: simsun, serif;
+    line-height: 1.475;
+    letter-spacing: -1px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  a, a:hover, a:active, a:visited {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h3 {
+    position: relative;
+    left: -50px;
+  }
+  
+  #app {
+  }
+  </style>
+</head>
+<body>
+  <div id="app">{{ content }}</div>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MVB3SC8YVX');
+  </script>
+</body>
 </html>
