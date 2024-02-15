@@ -4,9 +4,19 @@
 
 @charset "utf-8";
 
+@font-face {
+  font-family: 'simkai';
+  src: url('/assets/fonts/simkai.ttf');
+}
+
+@font-face {
+  font-family: 'simhei';
+  src: url('/assets/fonts/simhei.ttf');
+}
+
 body {
   margin: 0;
-  font-family: kaiti, simsun, simhei, serif;
+  font-family: kaiti, simkai, simsun, simhei, serif;
   font-size: 18px;
   letter-spacing: -1px;
   line-height: 1;
@@ -20,7 +30,7 @@ body {
   left: 10px;
   top: 10px;
   z-index: 10000;
-  font-family: simsun, kaiti, simhei, serif;
+  font-family: simsun, kaiti, simkai, simhei, serif;
 }
 
 pre {
@@ -30,7 +40,7 @@ pre {
   width: 60%;
   padding: 30px 10px 10px;
   margin: 0;
-  font-family: kaiti, simsun, simhei, serif;
+  font-family: kaiti, simkai, simsun, simhei, serif;
 }
 
 blockquote {
