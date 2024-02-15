@@ -172,14 +172,12 @@ mark {
     background-color: black;
     display: none;
     span {
-      /*transition: rotate .2s;*/
       display: block;
-      padding: 10px;
+      padding: 8px;
       color: #ccc;
       font-size: 10px;
       &:hover {
         color: white;
-        /*rotate: -90deg;*/
       }
     }
   }
@@ -236,7 +234,10 @@ mark {
       cursor: pointer;
       border: none;
       position: relative;
-      padding: 8px 10px;
+      padding: 0;
+      background-color: transparent;
+      color: blue;
+      border-bottom: 1px dotted;
     }
   }
 }
