@@ -111,7 +111,6 @@ mark {
   margin-left: 4px;
   font-size: 65%;
   font-style: normal;
-  border-bottom: 1px dotted;
 }
 
 .primary {
@@ -213,7 +212,7 @@ mark {
   
   &-content {
     position: relative;
-    max-height: 350px; 
+    max-height: 370px; 
     overflow: auto;
     background-color: white;
     padding: 15px;
