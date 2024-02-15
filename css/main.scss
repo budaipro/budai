@@ -28,6 +28,10 @@ body {
   width: 100%;
   padding: 4px 10px;
   background-color: ghostwhite;
+  
+  sup {
+    font-size: 75%;
+  }
 }
 
 pre {
@@ -57,6 +61,12 @@ a {
 
 abbr {
   cursor: help;
+}
+
+code, .code {
+  font-family: menlo, consolas, helvetica, arial, sans-serif;
+  font-size: 85%;
+  letter-spacing: -0.025rem;
 }
 
 dfn {
