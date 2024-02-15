@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="brand">&copy;<strong>布袋豆腐</strong>（2023-2024）</div>
+<div class="brand">&copy;<strong>布袋豆腐</strong><sup>（2023-2024）</sup></div>
 <pre>
 {% include tofu/about.html %}
 {% include tofu/product/index.html %}
