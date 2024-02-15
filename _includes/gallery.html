@@ -20,16 +20,15 @@
       var imgAlt = galleryOpenBtn.dataset.alt;
       
       galleryOpenBtn.onclick = function(e) {
-        var galleryOffsetX = e.offsetX;
-        var galleryOffsetY = e.offsetY;
-        
-        gallery.style.left = galleryOffsetX + 'px';
-        gallery.style.top = galleryOffsetY + 'px';
+        var galleryClientX = e.clientX;
+        var galleryClientY = e.clientY;
+
+        gallery.style.left = galleryClientX + 'px';
+        gallery.style.top = galleryClientY + 'px';
         gallery.style.display = 'block';
         
         loading2.innerHTML = '加载中...';
         
-        // 图片记载完成
         img.onload = function() {
           loading2.innerHTML = '';
           galleryCloseBtn.style.display = 'inline-block';
@@ -43,6 +42,8 @@
     galleryCloseBtn.onclick = function() {
       gallery.style.display = 'none';
       galleryCloseBtn.style.display = 'none';
+      img.src = '';
+      img.alt = '';
     };
     
     // draggable gallery
