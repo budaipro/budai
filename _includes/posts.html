@@ -2,15 +2,15 @@
     <div class="post-content">
       {% for post in site.posts %}
         {% if post.title == "「布袋和尚」东土应化事迹" %}
-          <div id="post" style="display: inline;">{{ post.content }}</div>
+          <div id="post">{{ post.content }}</div>
         {% endif %}
       {% endfor %}
-      <div id="loading1" style="position: absolute; left: 0; bottom: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; box-sizing: border-box;"></div>
     </div>
     {% unless site.posts.size == 1 %}
       <div class="post-controls">
         <button id="btn-prev" type="button">◀</button>
         <button id="btn-next" type="button">▶</button>
+        <div id="loading1" style="display: none;">加载中...</div>
       </div>
     {% endunless %}
   </div>
@@ -31,8 +31,6 @@
     var isFirstPost;
     var isLastPost;
     
-    var loadingText = '加载中...';
-    
     btnPrev.onclick = function(e) {
       e.preventDefault();
       
@@ -43,11 +41,11 @@
         method: 'GET',
         url: postUrls[currentPost]
       }, function() {
-        loading1.innerHTML = loadingText;
+        loading1.style.display = 'inline';
       },
       function(data) {
         post.innerHTML = data; 
-        loading1.innerHTML = '';
+        loading1.style.display = 'none';
       });
     };
 
@@ -61,11 +59,11 @@
         method: 'GET',
         url: postUrls[currentPost]
       }, function() {
-        loading1.innerHTML = loadingText;
+        loading1.style.display = 'inline';
       },
       function(data) {
         post.innerHTML = data;
-        loading1.innerHTML = '';
+        loading1.style.display = 'none';
       });
     };
   }());
