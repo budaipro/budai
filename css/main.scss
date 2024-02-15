@@ -221,7 +221,7 @@ mark {
     text-align: left;
     
     #post {
-      max-width: 650px;
+      max-width: 610px;
     }
     
     .bdhs {
@@ -267,11 +267,4 @@ mark {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 22px;
-  }
-  
-  pre {
-    font-size: 23px;
-  }
 }
