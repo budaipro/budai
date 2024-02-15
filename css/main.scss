@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: kaiti, simkai, simsun, simhei, serif;
+  font-family: simkai, simsun, simhei, serif;
   font-size: 18px;
   letter-spacing: -1px;
   line-height: 1;
@@ -25,7 +25,7 @@ body {
   left: 10px;
   top: 10px;
   z-index: 10000;
-  font-family: simsun, kaiti, simkai, simhei, serif;
+  font-family: simsun, simkai, simhei, serif;
 }
 
 pre {
@@ -35,7 +35,7 @@ pre {
   width: 60%;
   padding: 30px 10px 10px;
   margin: 0;
-  font-family: kaiti, simkai, simsun, simhei, serif;
+  font-family: simkai, simsun, simhei, serif;
 }
 
 blockquote {
@@ -212,10 +212,11 @@ mark {
   
   &-content {
     position: relative;
-    max-height: 370px; 
+    max-height: 400px; 
     overflow: auto;
     background-color: white;
-    padding: 20px 25px;
+    padding: 30px 25px;
+    box-sizing: border-box;
     color: black;
     line-height: 1.375;
     text-align: left;
