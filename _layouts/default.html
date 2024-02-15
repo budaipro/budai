@@ -7,8 +7,10 @@
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <script>
-  function request(options, onSuccess) {
+  function request(options, onRequest, onSuccess) {
     var xhttp = new XMLHttpRequest();
+    
+    onRequest();
     
     xhttp.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {

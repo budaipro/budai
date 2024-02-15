@@ -5,6 +5,7 @@
           <div id="post" style="display: inline;">{{ post.content }}</div>
         {% endif %}
       {% endfor %}
+      <div id="loading1" style="position: absolute; left: 0; bottom: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; box-sizing: border-box;"></div>
     </div>
     {% unless site.posts.size == 1 %}
       <div class="post-controls">
@@ -17,7 +18,8 @@
   ;(function() {
     var btnPrev = document.getElementById('btn-prev');
     var btnNext = document.getElementById('btn-next');
-    var post = document.getElementById("post");
+    var post = document.getElementById('post');
+    var loading1 = document.getElementById('loading1');
     var postUrls = [];
     
     {% for post in site.posts %}
@@ -29,6 +31,8 @@
     var isFirstPost;
     var isLastPost;
     
+    var loadingText = '加载中...';
+    
     btnPrev.onclick = function(e) {
       e.preventDefault();
       
@@ -38,8 +42,12 @@
       request({
         method: 'GET',
         url: postUrls[currentPost]
-      }, function(data) {
+      }, function() {
+        loading1.innerHTML = loadingText;
+      },
+      function(data) {
         post.innerHTML = data; 
+        loading1.innerHTML = '';
       });
     };
 
@@ -52,8 +60,12 @@
       request({
         method: 'GET',
         url: postUrls[currentPost]
-      }, function(data) {
+      }, function() {
+        loading1.innerHTML = loadingText;
+      },
+      function(data) {
         post.innerHTML = data;
+        loading1.innerHTML = '';
       });
     };
   }());

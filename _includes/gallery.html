@@ -1,17 +1,19 @@
 <div id="gallery">
+  <div id="loading2" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
   <div>
     <span id="gallery-close-btn"><span>╳</span></span>
   </div>
-  <div id="gallery-body"><img id="img" /></div>
+  <div id="gallery-body"><img id="img"></div>
 </div>
 <script>
 ;(function() {
     var galleryOpenBtns = document.querySelectorAll('.gallery-open-btn');
     var gallery = document.getElementById('gallery');
     var galleryCloseBtn = document.getElementById('gallery-close-btn');
+    var loading2 = document.getElementById('loading2');
+    var img = document.getElementById('img');
     
     var galleryBody = document.getElementById('gallery-body');
-    var img = document.getElementById('img');
     
     galleryOpenBtns.forEach(function(galleryOpenBtn) {
       var imgSrc = galleryOpenBtn.dataset.src;
@@ -21,17 +23,26 @@
         var galleryOffsetX = e.offsetX;
         var galleryOffsetY = e.offsetY;
         
-        img.src = imgSrc;
-        img.alt = imgAlt;
-        
         gallery.style.left = galleryOffsetX + 'px';
         gallery.style.top = galleryOffsetY + 'px';
         gallery.style.display = 'block';
+        
+        loading2.innerHTML = '加载中...';
+        
+        // 图片记载完成
+        img.onload = function() {
+          loading2.innerHTML = '';
+          galleryCloseBtn.style.display = 'inline-block';
+        }
+       
+        img.src = imgSrc;
+        img.alt = imgAlt;
       };
     });
     
     galleryCloseBtn.onclick = function() {
       gallery.style.display = 'none';
+      galleryCloseBtn.style.display = 'none';
     };
     
     // draggable gallery

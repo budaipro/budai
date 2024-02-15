@@ -154,7 +154,8 @@ mark {
   display: none;
   position: absolute;
   z-index: 9999;
-  width: 340px;
+  width: auto;
+  max-width: 340px;
   box-shadow: 10px 10px 50px rgba(0,0,0, .2);
   
   &-close-btn {
@@ -162,6 +163,7 @@ mark {
     position: absolute;
     right: 0;
     background-color: black;
+    display: none;
     span {
       /*transition: rotate .2s;*/
       display: block;
@@ -201,6 +203,7 @@ mark {
   }
   
   &-content {
+    position: relative;
     max-height: 400px; 
     overflow: auto;
     background-color: yellow;
