@@ -38,7 +38,6 @@ pre {
   padding: 27px 10px 10px;
   margin: 0;
   font-family: simkai, simsun, simhei, serif;
-  font-size: 19px;
   white-space: pre;
   overflow: scroll;
 }
@@ -93,6 +92,9 @@ q {
 rt {
   position: relative;
   bottom: -2px;
+  font-family: helvetica, arial, sans-serif;
+  letter-spacing: 0;
+  font-size: 60%;
 }
 
 mark {
@@ -207,17 +209,18 @@ mark {
 
 .post {
   &-container {
+    position: relative;
     width: 100%; 
+    padding-top: 30px;
   }
   
   &-content {
     position: relative;
     background-color: white;
-    padding: 0 25px;
-    margin: 30px auto;
+    padding: 0 15px;
     box-sizing: border-box;
     color: black;
-    line-height: 1.385;
+    line-height: 1.175;
     text-align: left;
     
     #post {
@@ -226,7 +229,7 @@ mark {
     
     .bdhs {
       font-size: 80%;
-      width: 300px;
+      width: 320px;
       padding: 20px;
       box-sizing: border-box;
       float: right;
