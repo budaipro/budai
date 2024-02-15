@@ -18,24 +18,29 @@ body {
 }
 
 #app {
+
 }
 
 .brand {
   position: fixed;
-  left: 10px;
-  top: 10px;
   z-index: 10000;
   font-family: simsun, simkai, simhei, serif;
+  width: 100%;
+  padding: 4px 10px;
+  background-color: ghostwhite;
 }
 
 pre {
+  /*background: ghostwhite url("/assets/img/bg.png") 80% 100%/400px no-repeat;*/
   background-color: ghostwhite;
-  white-space: pre;
   box-sizing: border-box;
-  width: 60%;
-  padding: 30px 10px 10px;
+  width: 100%;
+  padding: 27px 10px 10px;
   margin: 0;
   font-family: simkai, simsun, simhei, serif;
+  font-size: 19px;
+  white-space: pre;
+  overflow: scroll;
 }
 
 blockquote {
@@ -202,39 +207,46 @@ mark {
 
 .post {
   &-container {
-    position: fixed;
-    right: 10px; 
-    top: 25px; 
-    bottom: auto; 
-    width: 47%; 
-    z-index: 9998;
+    width: 100%; 
   }
   
   &-content {
     position: relative;
-    max-height: 400px; 
-    overflow: auto;
     background-color: white;
-    padding: 30px 25px;
+    padding: 0 25px;
+    margin: 30px auto;
     box-sizing: border-box;
     color: black;
-    line-height: 1.375;
+    line-height: 1.385;
     text-align: left;
+    
+    #post {
+      max-width: 650px;
+    }
+    
+    .bdhs {
+      font-size: 80%;
+      width: 300px;
+      padding: 20px;
+      box-sizing: border-box;
+      float: right;
+    }
     
     h1, h2, h3, h4, h5, h6 {
       margin-top: 0;
-      margin-bottom: 18px;
-      font-size: 20px;
+      margin-bottom: 20px;
+      font-size: 22px;
     }
     
     p {
-      margin:18px 0;
+      margin: 20px 0;
     }
   }
   
   &-controls {
+    padding: 0 25px;
     margin: 10px auto;
-    text-align: center;
+    text-align: left;
     button {
       cursor: pointer;
       border: none;
@@ -255,20 +267,11 @@ mark {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+  
   pre {
-    width: 100%;
-    padding-top: 35px;
-    overflow: scroll;
+    font-size: 23px;
   }
-  
-  .post-container {
-    position: relative;
-    top: auto;
-    right: auto;
-    width: 100%;
-  }
-  
-   .post-content {
-     max-height: auto; 
-   }
 }
