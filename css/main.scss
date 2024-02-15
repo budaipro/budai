@@ -23,8 +23,8 @@ body {
 }
 
 pre {
+  background-color: ghostwhite;
   white-space: pre;
-  background-color: mintcream;
   box-sizing: border-box;
   width: 60%;
   padding: 30px 10px 10px;
@@ -195,21 +195,21 @@ mark {
   &-container {
     position: fixed;
     right: 10px; 
-    top: 10px; 
+    top: 25px; 
     bottom: auto; 
-    width: 50%; 
+    width: 47%; 
     z-index: 9998;
     font-family: kaiti, serif;
   }
   
   &-content {
     position: relative;
-    max-height: 400px; 
+    max-height: 350px; 
     overflow: auto;
-    background-color: yellow;
+    background-color: white;
     padding: 15px;
     color: black;
-    line-height: 1.475;
+    line-height: 1.375;
     text-align: left;
     
     h1, h2, h3, h4, h5, h6 {
