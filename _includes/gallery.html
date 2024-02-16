@@ -33,7 +33,7 @@
          
           img.src = src;
           img.alt = alt;
-          img.style.width = window.innerWidth > 600 ? width : '100%';
+          img.style.width = width ? width : '100%';
         };
       });
     
@@ -42,6 +42,7 @@
       closeBtn.style.display = 'none';
       img.src = '';
       img.alt = '';
+      img.style.width = '';
     };
     
     // draggable gallery
