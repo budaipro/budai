@@ -33,7 +33,7 @@
          
           img.src = src;
           img.alt = alt;
-          img.style.width = width || '100%';
+          img.style.width = window.innerWidth > 600 ? width : '100%';
         };
       });
     
