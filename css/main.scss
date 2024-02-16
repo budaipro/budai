@@ -186,7 +186,7 @@ mark {
   background-color: white;
   box-shadow: 10px 10px 50px rgba(0,0,0, .2);
   
-  &-close-btn {
+  .close-btn {
     cursor: pointer;
     position: absolute;
     right: 0;
@@ -203,10 +203,10 @@ mark {
     }
   }
 
-  &-body {
+  .body {
     overflow: hidden;
     font-size: 0; /* remove the image gap */
-    #img {
+    .img {
       width: 100%;
     }
   }

@@ -1,87 +1,50 @@
 <div id="gallery">
-  <div id="loading2" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
+  <div class="loading2" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
   <div>
-    <span id="gallery-close-btn"><span>╳</span></span>
+    <span class="close-btn"><span>╳</span></span>
   </div>
-  <div id="gallery-body"><img id="img"></div>
+  <div class="body"><img class="img"></div>
 </div>
 <script>
 ;(function() {
-    var galleryOpenBtns = document.querySelectorAll('.gallery-open-btn');
     var gallery = document.getElementById('gallery');
-    var galleryCloseBtn = document.getElementById('gallery-close-btn');
-    var loading2 = document.getElementById('loading2');
-    var img = document.getElementById('img');
+    var closeBtn = gallery.querySelector('.close-btn');
+    var loading2 = gallery.querySelector('.loading2');
+    var body = gallery.querySelector('.body');
+    var img = gallery.querySelector('.img');
     
-    var galleryBody = document.getElementById('gallery-body');
-    
-    galleryOpenBtns.forEach(function(galleryOpenBtn) {
-      var imgSrc = galleryOpenBtn.dataset.src;
-      var imgAlt = galleryOpenBtn.dataset.alt;
-      var imgWidth = galleryOpenBtn.dataset.width;
-      
-      galleryOpenBtn.onclick = function(e) {
-        var galleryClientX = e.clientX;
-        var galleryClientY = e.clientY;
-
-        gallery.style.left = galleryClientX + 'px';
-        gallery.style.top = galleryClientY + 'px';
-        gallery.style.display = 'block';
+    document.querySelectorAll('.gallery-open-btn')
+      .forEach(function(btn) {
+        var src = btn.dataset.src;
+        var alt = btn.dataset.alt;
+        var width = btn.dataset.width;
         
-        loading2.innerHTML = '加载中...';
-        
-        img.onload = function() {
-          loading2.innerHTML = '';
-          galleryCloseBtn.style.display = 'inline-block';
-        }
-       
-        img.src = imgSrc;
-        img.alt = imgAlt;
-        img.style.width = imgWidth || '100%';
-      };
-    });
+        btn.onclick = function(e) {
+          gallery.style.left = e.clientX + 'px';
+          gallery.style.top = e.clientY + 'px';
+          gallery.style.display = 'block';
+          
+          loading2.innerHTML = '加载中...';
+          
+          img.onload = function() {
+            loading2.innerHTML = '';
+            closeBtn.style.display = 'inline-block';
+          }
+         
+          img.src = src;
+          img.alt = alt;
+          img.style.width = width || '100%';
+        };
+      });
     
-    galleryCloseBtn.onclick = function() {
+    closeBtn.onclick = function() {
       gallery.style.display = 'none';
-      galleryCloseBtn.style.display = 'none';
+      closeBtn.style.display = 'none';
       img.src = '';
       img.alt = '';
     };
     
     // draggable gallery
-    dragGallery(gallery);
-    
-    function dragGallery(el) {
-      var pos1, pos2, pos3, pos4;
-      
-      el.onmousedown = dragMouseDown;
-      
-      function dragMouseDown(e) {
-        e.preventDefault();
-        
-        pos3 = e.clientX;
-        pos4 = e.clientY;
-        
-        document.onmouseup = closeDragGallery;
-        document.onmousemove = galleryDrag;
-      };
-      
-      function galleryDrag(e) {
-        e.preventDefault();
-        
-        pos1 = pos3 - e.clientX;
-        pos2 = pos4 - e.clientY;
-        pos3 = e.clientX;
-        pos4 = e.clientY;
-        
-        el.style.top = (el.offsetTop - pos2) + 'px';
-        el.style.left = (el.offsetLeft - pos1) + 'px';
-      };
-      
-      function closeDragGallery() {
-        document.onmouseup = null;
-        document.onmousemove = null;
-      };
-    };
+    draggable(gallery);
   }());
 </script>
