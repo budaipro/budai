@@ -20,6 +20,13 @@
         var width = btn.dataset.width;
         
         btn.onclick = function(e) {
+          if (img.src) {
+            img.src = '';
+            img.alt = '';
+            gallery.style.display = 'none';
+            closeBtn.style.display = 'none';
+          }
+
           gallery.style.left = e.clientX + 'px';
           gallery.style.top = e.clientY + 'px';
           gallery.style.display = 'block';
