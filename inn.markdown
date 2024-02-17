@@ -361,11 +361,12 @@ sub {
 
 @media only screen and (max-width: 600px) {
 body, pre {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .rooms, .about {
   float: none;
   width: 100%;
+  max-width: 100%;
 }
 </style>
