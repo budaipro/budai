@@ -4,16 +4,9 @@
 
 @charset "utf-8";
 
-/*
-@font-face {
-  font-family: 'simkai';
-  src: url('/assets/fonts/simkai.ttf');
-}
-*/
-
 body {
   margin: 0;
-  font-family: simkai, kaiti, simsun, simhei, serif;
+  font-family: simkai, kaiti, simsun, simhei, '等线', serif;
   font-size: 18px;
   letter-spacing: -1px;
   line-height: 1;
@@ -22,12 +15,11 @@ body {
 .brand {
   position: fixed;
   z-index: 10000;
-  font-family: simsun, simkai, kaiti, simhei, serif;
+  font-family: simsun, simkai, kaiti, simhei, '等线', serif;
   text-indent: -10px;
   width: 100%;
   padding: 5px 10px;
-  background-color: white/*#fcb367*/;
-  /*background: white url("/assets/img/bg.png") center/135px no-repeat;*/
+  background-color: white;
   
   sup {
     font-size: 75%;
@@ -36,7 +28,6 @@ body {
 
 .tofu {
   min-height: 300px;
-  /*background: transparent url("/assets/img/bg.png") 70% center/300px no-repeat;*/
 }
 
 pre {
@@ -44,7 +35,7 @@ pre {
   width: 100%;
   padding: 28px 10px 10px;
   margin: 0;
-  font-family: menlo, consolas, 'source code pro', 'cascadia mono', simsun, simkai, kaiti, simhei, serif;
+  font-family: menlo, consolas, 'source code pro', 'cascadia mono', simsun, simkai, kaiti, simhei, '等线', serif;
   font-size: 18px;
   line-height: 1.125;
   white-space: pre;
