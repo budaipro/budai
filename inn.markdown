@@ -358,4 +358,14 @@ sub {
 #gallery .body .img {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+body, pre {
+  font-size: 20px;
+}
+
+.rooms, .about {
+  float: none;
+  width: 100%;
+}
 </style>
