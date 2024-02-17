@@ -19,32 +19,33 @@ body {
   line-height: 1;
 }
 
-#app {
-
-}
-
 .brand {
   position: fixed;
   z-index: 10000;
   font-family: simsun, simkai, kaiti, simhei, serif;
+  text-indent: -10px;
   width: 100%;
   padding: 4px 10px;
-  background-color: ghostwhite;
+  background-color: white/*#fcb367*/;
   
   sup {
     font-size: 75%;
   }
 }
 
+.tofu {
+  min-height: 332px;
+  background: transparent url("/assets/img/bg.png") 70% center/350px no-repeat;
+}
+
 pre {
-  /*background: ghostwhite url("/assets/img/bg.png") 80% 100%/400px no-repeat;*/
-  background-color: ghostwhite;
   box-sizing: border-box;
   width: 100%;
   padding: 27px 10px 10px;
   margin: 0;
   font-family: menlo, consolas, 'source code pro', 'cascadia mono', simkai, kaiti, simsun, simhei, serif;
-  line-height: 1.175;
+  font-size: 20px;
+  line-height: 1.135;
   white-space: pre;
   overflow: scroll;
 }
@@ -237,7 +238,7 @@ mark {
     padding: 0 15px;
     box-sizing: border-box;
     color: black;
-    line-height: 1.375;
+    line-height: 1.575;
     text-align: left;
     
     #post {
