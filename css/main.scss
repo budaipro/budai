@@ -25,8 +25,9 @@ body {
   font-family: simsun, simkai, kaiti, simhei, serif;
   text-indent: -10px;
   width: 100%;
-  padding: 4px 10px;
+  padding: 5px 10px;
   background-color: white/*#fcb367*/;
+  /*background: white url("/assets/img/bg.png") center/135px no-repeat;*/
   
   sup {
     font-size: 75%;
@@ -35,17 +36,17 @@ body {
 
 .tofu {
   min-height: 332px;
-  /*background: transparent url("/assets/img/bg.png") 70% center/320px no-repeat;*/
+  /*background: transparent url("/assets/img/bg.png") 70% center/300px no-repeat;*/
 }
 
 pre {
   box-sizing: border-box;
   width: 100%;
-  padding: 27px 10px 10px;
+  padding: 28px 10px 10px;
   margin: 0;
-  font-family: menlo, consolas, 'source code pro', 'cascadia mono', simkai, kaiti, simsun, simhei, serif;
-  font-size: 20px;
-  line-height: 1.135;
+  font-family: menlo, consolas, 'source code pro', 'cascadia mono', simsun, simkai, kaiti, simhei, serif;
+  font-size: 18px;
+  line-height: 1.125;
   white-space: pre;
   overflow: scroll;
 }
@@ -238,7 +239,7 @@ mark {
     padding: 0 15px;
     box-sizing: border-box;
     color: black;
-    line-height: 1.575;
+    line-height: 1.375;
     text-align: left;
     
     #post {
