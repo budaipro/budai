@@ -1,12 +1,8 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>布袋豆腐 | 家庭民宿出租</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-<style>
+---
+permalink: /inn.html
+layout: null
+---
+<style type="text/css" media="screen">
 body, pre {
   font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
   font-size: 18px;
@@ -117,11 +113,20 @@ sub {
 }
 
 .on-mobile {
+  font-size: 65px;
+}
+
+.on-mobile pre {
+  font-size: 60px;
+}
+
+.on-mobile .rooms, .on-mobile .about, .on-mobile .rules {
   float: none;
   width: 100%;
-  max-width: auto;
+  max-width: 100%;
 }
 </style>
+
 <script>
 window.mobileCheck = function() {
   let check = false;
@@ -129,8 +134,7 @@ window.mobileCheck = function() {
   return check;
 };
 </script>
-</head>
-<body>
+
 <div style="margin-bottom: 10px;">&copy;<a href="/" target="_blank"><strong>布袋豆腐</strong></a><sup style="border: 0;">（2023-2024）</sup></div>
 <pre class="rooms">
 <span style="color: red; font-weight: bold;">家庭民宿出租（500-700元/月）</span>
@@ -286,13 +290,13 @@ window.mobileCheck = function() {
     ├ 3、月付、季付、半年付、年付<strong>同价</strong>。
     ├ 4、<em>意外情况</em>退房，按天算房租，<span style="text-decoration: underline;">多余房租全额退还</span>。
     ├ 5、<strong>不提前</strong>半个月乃至一天，<strong>要求</strong>交房租。
-    ├ 6、<span style="text-decoration: underline;">在房租到期日</span>正在搬走，可再给<strong>3天免租期</strong>搬家<sup>（关爱规则）</sup>。
+    ├ 6、<span style="text-decoration: underline;">在房租到期日</span>正在搬家，可多给<strong>3天免租</strong><sup>（人情规则）</sup>。
     ├ 7、入乡随俗，包基本的水电使用费。
     ├ 8、钥匙自己配，<em>不巧立名目</em>收押金。
-    ├ 9、口说有凭；即使后期彼此有矛盾，公事公办，<em>不因嗔恨心反悔</em>以上规则。
-    └ 10、期间如遇到其他情况，本着公平诚心，不以贪婪、嗔恨的立场来协商处理。
+    ├ 9、口说有凭；即使后期彼此有矛盾，公事公办，<em>不为嫌恨心反悔</em>以上规则。
+    └ 10、期间如遇到其他情况，本着公平和诚心，不以贪婪、嗔恨的立场来协商处理。
 </pre>
-<div id="xx" style="margin: 15px; text-align: center; font-size: 16px;"><span style="text-decoration: underline dotted; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">已了解情况，点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：（同电话号）。</mark></div>
+<div style="margin: 15px; text-align: center;"><span style="text-decoration: underline dotted; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">已了解情况，点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：（同电话号）。</mark></div>
 <div id="gallery">
   <div class="loading" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
   <div>
@@ -364,10 +368,7 @@ window.mobileCheck = function() {
 <script>
 ;(function() {
   if (mobileCheck()) {
-    document.querySelector('.rooms').classList.add('on-mobile');
-    document.querySelector('.about').classList.add('on-mobile');
-    document.querySelector('.rules').classList.add('on-mobile');
-    document.body.style.zoom = '2.45';
+    document.body.classList.add('on-mobile');
   }
 })();
 </script>
@@ -380,5 +381,3 @@ window.mobileCheck = function() {
 
   gtag('config', 'G-MVB3SC8YVX');
 </script>
-</body>
-</html>
