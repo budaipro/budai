@@ -243,7 +243,7 @@ window.mobileCheck = function() {
     document.querySelector('.rooms').classList.add('on-mobile');
     document.querySelector('.about').classList.add('on-mobile');
     document.querySelector('.rules').classList.add('on-mobile');
-    document.body.style.fontSize = '38px';
+    document.body.style.zoom = '2.45';
   }
 })();
 </script>
@@ -367,7 +367,6 @@ sub {
 }
 
 .on-mobile {
-  font-size: 36px;
   float: none;
   width: 100%;
   max-width: auto;
