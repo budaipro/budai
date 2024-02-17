@@ -2,11 +2,15 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
   <style>
   body {
-    font-family: simsun, serif;
-    line-height: 1.475;
+    font-family: simsun, simkai, simhei, serif;
+    font-size: 18px;
+    line-height: 1.575;
     letter-spacing: -1px;
     padding: 10px;
     margin: 0;
@@ -21,13 +25,21 @@
     position: relative;
     left: -50px;
   }
-  
-  #app {
+
+  dfn, abbr {
+    text-decoration: underline dotted;
+  }
+
+  rt {
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 0;
+    position: relative;
+    bottom: -2px;
   }
   </style>
 </head>
 <body>
-  <div id="app">{{ content }}</div>
+  <div id="container">{{ content }}</div>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
   <script>
