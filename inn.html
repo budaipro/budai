@@ -7,7 +7,7 @@ body, pre {
   font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
   font-size: 18px;
   line-height: 1.185;
-  margin: 3px;
+  margin: 0;
 }
 
 a, a:hover, a:active, a:visited {
@@ -125,6 +125,14 @@ sub {
   float: none;
   width: 100%;
   max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .rooms, .about, .rules {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 </style>
 
@@ -300,10 +308,10 @@ window.mobileCheck = function() {
 ├ 7、<span style="text-decoration: underline;">在房租到期日</span>正在搬家的，可多给<strong>3天免租</strong>时间予搬家<sup>（人情规则）</sup>。
 ├ 8、入乡随俗，包基本的水电使用费。
 ├ 9、不收钥匙押金，配钥匙费用自理。
-├ 10、口说有凭；即使后期彼此间有矛盾，按照以上规则<em>公事公办</em>。
-└ 11、期间如遇到其他情况，对着公平和诚心的原则协商处理。
+├ 10、即使后期彼此间产生矛盾，按照以上规则<em>公事公办</em>。
+└ 11、期间如遇到其他情况，依着公平诚心的原则协商处理。
 </pre>
-<div style="margin: 15px; text-align: center;"><span style="text-decoration: underline dotted; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">已了解情况，点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：（同电话号）。</mark></div>
+<div style="margin: 15px; text-align: center;"><span style="text-decoration: underline dotted; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">已了解情况，点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：同电话号。</mark></div>
 <div id="gallery">
   <div class="loading" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
   <div>
