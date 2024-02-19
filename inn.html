@@ -86,7 +86,7 @@ sub {
   position: absolute;
   z-index: 9999;
   width: auto;
-  max-width: 380px;
+  max-width: 550px;
   background-color: white;
   box-shadow: 10px 10px 50px rgba(0,0,0, .2);
 }
@@ -101,9 +101,9 @@ sub {
 
 #gallery .close-btn span {
   display: block;
-  padding: 8px;
+  padding: 16px;
   color: #ccc;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 #gallery .close-btn span:hover {
@@ -365,7 +365,7 @@ B、我们推崇健康的素食生活，我自己本人也是长期素食者。�
 <div id="gallery">
   <div class="loading" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 60px;"></div>
   <div>
-    <span class="close-btn"><span>╳</span></span>
+    <span class="close-btn"><span>×</span></span>
   </div>
   <div class="body"><img class="img"></div>
 </div>
@@ -390,6 +390,7 @@ B、我们推崇健康的素食生活，我自己本人也是长期素食者。�
   var loading = gallery.querySelector('.loading');
   var body = gallery.querySelector('.body');
   var img = gallery.querySelector('.img');
+  var isOnMobile = mobileCheck();
   
   document.querySelectorAll('.gallery-open-btn')
     .forEach(function(btn) {
@@ -403,9 +404,15 @@ B、我们推崇健康的素食生活，我自己本人也是长期素食者。�
           gallery.style.display = 'none';
           closeBtn.style.display = 'none';
         }
-
-        gallery.style.left = e.clientX + 'px';
-        gallery.style.top = e.clientY + 'px';
+        
+        if (!isOnMobile) {
+          gallery.style.left = e.clientX + 'px';
+          gallery.style.top = e.clientY + 'px';
+        } else {
+          gallery.style.left = '20px';
+          gallery.style.top = '20px';
+        }
+        
         gallery.style.display = 'block';
         
         loading.innerHTML = '加载中...';
