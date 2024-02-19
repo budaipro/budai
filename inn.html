@@ -45,7 +45,7 @@ sub {
 .rooms, .about {
   float: left;
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .rules {
@@ -155,10 +155,10 @@ window.mobileCheck = function() {
 };
 </script>
 
-<div style="margin-bottom: 10px;">&copy;<a href="/" target="_blank"><strong>布袋豆腐</strong></a><sup style="border: 0;">（2023-2024）</sup></div>
+<div style="margin-bottom: 25px;">&copy;<a href="/" target="_blank"><strong>布袋豆腐</strong></a><sup style="border: 0;">（2023-2024）</sup></div>
 <pre class="rooms">
-<b>家庭民宿出租</b>
-├ <b>二楼</b>
+<b>单间出租</b>
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二楼</span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
 │ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="二楼卫生间" title="点击查看图片">图片</span><div class="collapse-body">
 │ │ │ └ 基础设施
@@ -209,8 +209,8 @@ window.mobileCheck = function() {
 │         ├ 氛围台灯
 │         ├ 仿真植物
 │         └ 椅子</div></div>
-│
-└ <b>三楼</b>
+│</div></div>
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三楼</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="三楼卫生间" title="点击查看图片">图片</span><div class="collapse-body">
   │ │ └ 基础设施
@@ -269,34 +269,34 @@ window.mobileCheck = function() {
         └ 原木书桌<sup>无漆</sup>
           ├ 氛围台灯
           ├ 仿真植物
-          └ 椅子</div></div>
+          └ 椅子</div></div></div></div>
 </pre>
 <pre class="about">
 <b>相关信息</b>
 ├ <b>地点</b>
 │ └ 银桥镇头铺村
-└ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">周边环境</span><div class="collapse-body active">
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">周边环境</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">500米范围内</span><div class="collapse-body">
-  │ │       ┌ 山泉水取水处
-  │ │       ├ 早餐店
-  │ ├ <abbr title="日常">daily</abbr> ┼ 餐饮店
-  │ │       ├ 便利生活超市
-  │ │       ├ 农贸市场（<mark>每月4次大型集市</mark>）
-  │ │       ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递网点</span><div class="collapse-body">
-  │ │       │ └ 圆通、申通、极兔、中通、韵达</div></div>
-  │ │       └ 咖啡馆
+  │ │   ┌ 山泉水取水处
+  │ │   ├ 早餐店
+  │ ├ 1.┼ 餐饮店
+  │ │   ├ 便利生活超市
+  │ │   ├ 农贸市场（<mark>每月4次大型集市</mark>）
+  │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递网点</span><div class="collapse-body">
+  │ │   │ └ 圆通、申通、极兔、中通、韵达</div></div>
+  │ │   └ 咖啡馆
   │ │ 
-  │ │        ┌ 中国邮政
-  │ │        ├ 镇卫生院
-  │ ├ <abbr title="其他">others</abbr> ┼ 云南农村信用银行
-  │ │        ├ 幼儿园（多个）
-  │ │        ├ 镇中学
-  │ │        ├ 镇公安局
-  │ │        └ 镇政府
+  │ │   ┌ 幼儿园（多个）
+  │ │   ├ 镇中学
+  │ ├ 2.┼ 镇卫生院
+  │ │   ├ 云南农村信用银行
+  │ │   ├ 中国邮政
+  │ │   ├ 镇公安局
+  │ │   └ 镇政府
   │ │
-  │ ├ 很多外地来旅居的邻居
+  │ ├ 3.很多外地来旅居的邻居
   │ │
-  │ └ <b>外出</b>
+  │ └ <b>4.外出</b>
   │   └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">C7路公交车</span><div class="collapse-body">
   │     ├ 九孔桥
   │     ├ 鹤阳
@@ -333,12 +333,18 @@ window.mobileCheck = function() {
     ├ 素食街
     ├ 三塔
     ├ 崇圣寺
-    ├ <del style="opacity: .5;">素方舟（7.2千米）</del>
-    ├ <del style="opacity: .5;">大理古城北门（7.7千米）</del>
-    ├ <del style="opacity: .5;">三月街（8.2千米）</del>
-    ├ <del style="opacity: .5;">杨丽萍大剧院（9.7千米）</del>
-    ├ <del style="opacity: .5;">大理大学（9.8千米）</del>
-    └ <del style="opacity: .5;">喜洲古镇（12千米）</del></div></div></div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">素方舟</del></span><div class="collapse-body">
+    │ └ 7.2千米</div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理古城北门</del></span><div class="collapse-body">
+    │ └ 7.7千米</div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">三月街</del></span><div class="collapse-body">
+    │ └ 8.2千米</div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">杨丽萍大剧院</del></span><div class="collapse-body">
+    │ └ 9.7千米</div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理大学</del></span><div class="collapse-body">
+    │ └ 9.8千米</div></div>
+    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">喜洲古镇</del></span><div class="collapse-body">
+      └ 12千米</div></div></div></div></div></div>
 </pre>
 <pre class="rules">
 <div style="white-space: pre-wrap;">
@@ -347,23 +353,23 @@ window.mobileCheck = function() {
 此外，我们希望租给想长期居住的人，短租的至少有计划租一个月。以下是我们制定的一些原则和要求。</div>
 
 几条原则：
-├ 一、<span style="text-decoration: underline solid 2px red;">无房租押金</span>。
-├ 二、<span style="text-decoration: underline solid 2px red;">月租金统一</span>。
-│     ├ 短租、长租。           
-│     ├ 淡季、旺季。
-│     └ 月付、季付、半年付、年付。
-├ 三、<span style="text-decoration: underline solid 2px red;">按天算租金</span>；意外情况退租，多余租金全额退还。
-├ 四、<span style="text-decoration: underline solid 2px red;">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
-├ 五、<span style="text-decoration: underline solid 2px red;">提供延续3天的免租日</span>，给予要搬走又赶上房租到期日的人。
-├ 六、<span style="text-decoration: underline solid 2px red;">房租包基本的水电使用费</span>；入乡随俗，大理租房的普遍情况。
-├ 七、<span style="text-decoration: underline solid 1px red;">无钥匙押金</span>。
-└ 八、如居住期彼此间产生矛盾。
-      ├ 1、按照以上原则公事公办。
-      └ 2、超出以上原则的，依着诚心和公平来协商处理。
+一、<span style="text-decoration: underline solid 2px red;">统一的月租金</span>。
+  ├ 短租、长租；        
+  ├ 淡季、旺季；
+  └ 月付、季付、半年付、年付。
+二、<span style="text-decoration: underline solid 2px red;">租金包基本的水电使用费</span>。
+三、<span style="text-decoration: underline solid 2px red;">无房租押金</span>。
+四、<span style="text-decoration: underline solid 2px red;">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
+五、<span style="text-decoration: underline solid 2px red;">按天算租金</span>；意外情况退租，多余租金全额退还。
+六、<span style="text-decoration: underline solid 2px red;">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。
+七、<span style="text-decoration: underline solid 1px red;">也没有钥匙押金</span>。
+八、如居住期彼此间产生矛盾。
+    ├ 1、按照以上原则公事公办。
+    └ 2、超出以上原则的，依着诚心和公平来协商处理。
 <div style="white-space: pre-wrap;">
 2点要求：
 A、不能养宠物。
-B、我们推崇健康的素食生活，我自己本人也是长期素食者。因此<span style="color: red; text-decoration: underline solid red 4px;"><strong>公用的厨房</strong>里不能出现荤腥的东西（包括蛋类）</span>；<span style="color: lightgreen; font-weight: bold; text-decoration: underline solid lightgreen 4px;">牛奶及其他奶制品允许</span>。
+B、我们推崇健康的素食生活，我本人也是长期素食者。因此<span style="color: red; text-decoration: underline solid red 4px;"><strong>公用的厨房</strong>里不能出现荤腥的东西（包括蛋类）</span>；<span style="color: lightgreen; font-weight: bold; text-decoration: underline solid lightgreen 4px;">牛奶、羊奶等，及相关奶制品允许</span>。
 
 <em>备注：我们会不定期地，免费提供一些自制的豆制品给大家。比如：豆浆，豆腐、豆干、油豆腐等。</em>
 </div>
