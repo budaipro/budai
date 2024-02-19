@@ -136,6 +136,12 @@ sub {
     max-width: 100%;
   }
 }
+
+.supa {
+  color: white;
+  font-size: 85%;
+  cursor: help;
+}
 </style>
 
 <script>
@@ -213,9 +219,9 @@ window.mobileCheck = function() {
   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">阳台</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="阳台" title="点击查看图片">图片</span><div class="collapse-body">
   │ │ └ 家具
   │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">原木沙发<sup>无漆</sup></span><div class="collapse-body">
-  │ │   │ ├ 三人座x1
-  │ │   │ ├ 二人座x1
-  │ │   │ └ 一人座x1</div></div>
+  │ │   │ ├ 3人座x1
+  │ │   │ ├ 2人座x1
+  │ │   │ └ 1人座x1</div></div>
   │ │   └ 茶几<sup>无漆</sup></div></div>
   │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">晾衣区</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="晾衣区" title="点击查看图片">图片</span><div class="collapse-body">
   │   └ 家具
@@ -231,7 +237,7 @@ window.mobileCheck = function() {
     │ └ 家具
     │   ├ 原木壁挂置物架（6钩）<sup>无漆</sup>
     │   ├ 原木衣架<sup>无漆</sup>
-    │   ├ 实木双人床
+    │   ├ 原木双人床<sup>无漆</sup>
     │   ├ 原木床头柜<sup>无漆</sup>
     │   └ 原木书桌<sup>无漆</sup>
     │     ├ 氛围台灯
@@ -256,7 +262,7 @@ window.mobileCheck = function() {
       └ 家具
         ├ 原木壁挂置物架（6钩）<sup>无漆</sup>
         ├ 原木衣架<sup>无漆</sup>
-        ├ 实木双人床
+        ├ 原木双人床<sup>无漆</sup>
         └ 原木书桌<sup>无漆</sup>
           ├ 氛围台灯
           ├ 仿真植物
@@ -270,20 +276,19 @@ window.mobileCheck = function() {
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">500米范围内</span><div class="collapse-body">
   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活相关</span><div class="collapse-body">
   │ │ ├ 公交车站
-  │ │ ├ 打山泉水处
+  │ │ ├ 山泉水取水处
   │ │ ├ <b>早餐店</b>
   │ │ ├ 餐饮店
   │ │ ├ <b>农贸市场</b>（<mark>每月4次大型集市</mark>）
   │ │ ├ 便利生活超市
   │ │ ├ 咖啡馆
   │ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>快递网点</b></span><div class="collapse-body">
-  │ │ │ └  圆通、申通、极兔、中通、韵达</div></div>
+  │ │ │ └ 圆通、申通、极兔、中通、韵达</div></div>
   │ │ ├ 中国邮政
   │ │ ├ <b>镇卫生院</b>
   │ │ ├ <b>云南农村信用银行</b>
   │ │ ├ 幼儿园/中学
-  │ │ └ <em>很多旅居的邻居</em>
-  │ │</div></div>
+  │ │ └ <em>很多旅居的邻居</em></div></div>
   │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">行政相关</span><div class="collapse-body">
   │   ├ 镇政府
   │   └ 镇公安局</div></div>
@@ -305,21 +310,35 @@ window.mobileCheck = function() {
     └ <del style="opacity: .5;">喜洲古镇（12千米）</del></div></div></div></div>
 </pre>
 <pre class="rules">
-<mark>我们从节约、环保、实用及品质等多个方面的考量，采购的家具基本上都是<strong>原木、无漆的</strong>。<br>此外，我自己拟了以下11条我们租房子的原则。</mark>
+<div style="white-space: pre-wrap;">
+<mark>我们采购的家具基本上都是<strong>原木、无漆</strong>，以健康、简朴、实用性为第一的。</mark>
 
-1、<strong>无</strong>押金。
-2、短租、长租的<strong>月租金一样</strong>。
-3、淡季、旺季的<strong>月租金一样</strong>。
-4、月付、季付、半年付、年付的<strong>月租金一样</strong>。
-5、<em>意外情况</em>退租，<strong>按天</strong>算租金，<span style="text-decoration: underline;">多余租金全额退还</span>。
-6、<strong>不提前</strong>半个月乃至一天，<strong>要求</strong>续交房租。
-7、<span style="text-decoration: underline;">在房租到期日</span>正在搬家的，可多给<strong>3天免租</strong>时间予搬家<sup>（人情规则）</sup>。
-8、入乡随俗，包基本的水电使用费。
-9、不收钥匙押金，配钥匙费用自理。
-10、即使后期彼此间产生矛盾，按照以上规则<em>公事公办</em>。
-11、期间如遇到其他情况，依着公平诚心的原则协商处理。
+此外，我们希望租给想长期居住的人，短租的至少有计划租一个月。以下是我们制定的一些原则和要求。</div>
+
+几条原则：
+├ 一、<span style="text-decoration: underline solid 2px red;">无房租押金</span>。
+├ 二、<span style="text-decoration: underline solid 2px red;">月租金统一</span>。
+│     ├ 短租、长租。           
+│     ├ 淡季、旺季。
+│     └ 月付、季付、半年付、年付。
+├ 三、<span style="text-decoration: underline solid 2px red;">按天算租金</span>；意外情况退租，多余租金全额退还。
+├ 四、<span style="text-decoration: underline solid 2px red;">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
+├ 五、<span style="text-decoration: underline solid 2px red;">提供延续3天的免租日</span>，给予要搬走又赶上房租到期日的人。
+├ 六、<span style="text-decoration: underline solid 2px red;">房租包基本的水电使用费</span>；入乡随俗，大理租房的普遍情况。
+├ 七、<span style="text-decoration: underline solid 1px red;">无钥匙押金</span>。
+└ 八、如居住期彼此间产生矛盾。
+      ├ 1、按照以上原则公事公办。
+      └ 2、超出以上原则的，依着诚心和公平来协商处理。
+<div style="white-space: pre-wrap;">
+2点要求：
+A、不能养宠物。
+B、我们推崇健康的素食生活，我自己本人也是长期素食者。因此<span style="text-decoration: underline solid red 4px;"><strong>公用的厨房</strong>里不能出现荤腥的东西（包括蛋类）</span>；<span style="color: lightgreen; font-weight: bold; text-decoration: underline solid lightgreen 4px;">牛奶及其他奶制品允许</span>。
+
+<em>备注：我们会不定期地，免费提供一些自制的豆制品给大家。比如：豆浆，豆腐、豆干、油豆腐等。</em>
+</div>
 </pre>
-<div style="margin: 35px; color: red; font-size: 110%; font-weight: bold; text-align: center;"><span style="text-decoration: underline; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">已了解情况，点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：同电话号。</mark></div>
+<div style="margin: 35px; color: red; font-size: 110%; font-weight: bold; text-align: center;"><span style="text-decoration: underline; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">→已了解情况，有意加入我们；请点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：同电话号。</mark></div>
+<div style="font-size: 125%; font-weight: bold; text-align: center; margin: 20px 0;"><span style="color: white; background-color: lightgreen;">健康、环保、节约、品质、积极<sup class="supa"><abbr title="注：①此处引用的“健康”、“环保”、“节约”、“品质”、“积极”5个词语，所赋予的涵义属于我们个人的定义；不同人之间的标准会有所差别。">①</abbr></sup>。</span></div>
 <div id="gallery">
   <div class="loading" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 60px;"></div>
   <div>
