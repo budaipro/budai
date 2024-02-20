@@ -64,18 +64,29 @@
   };
 </script>
 <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
   body {
     font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
     font-size: 18px;
     line-height: 1.185;
     margin: 0;
   }
+  
+  #container {
+    height: 100%;
+  }
 </style>
 </head>
 <body>
-  {{ content }}
-  {% include footer.html %}
-  {% include gallery.html %}
+  <div id="container">
+    {{ content }}
+    {% include footer.html %}
+    {% include gallery.html %}
+  </div>
   <script>
     mobileCheck() && document.body.classList.add('on-mobile');
   </script>
