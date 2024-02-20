@@ -1,0 +1,75 @@
+---
+layout: post
+title: "关于布袋和尚"
+---
+<div style="float: right: margin: 50px;"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 60%;"><span>布袋和尚像，大英博物馆藏。</span></div>
+
+<div id="post">
+  {% for post in site.posts %}
+    {% if post.title == "「布袋和尚」东土应化事迹" %}
+      {{ post.content }}
+    {% endif %}
+  {% endfor %}
+</div>
+  
+{% unless site.posts.size == 1 %}
+  <div>
+    <button id="btn-prev" type="button" title="上一条">◀</button>
+    <button id="btn-next" type="button" title="下一条">▶</button>
+    <div id="loading" style="display: none;">加载中...</div>
+  </div>
+{% endunless %}
+<script>
+;(function() {
+  var btnPrev = document.getElementById('btn-prev');
+  var btnNext = document.getElementById('btn-next');
+  var post = document.getElementById('post');
+  var loading = document.getElementById('loading');
+  var postUrls = [];
+  
+  {% for post in site.posts %}
+    postUrls.push("{{ post.url }}");
+  {% endfor %}
+  
+  var postLength = postUrls.length;
+  var currentPost = 0;
+  var isFirstPost;
+  var isLastPost;
+  
+  btnPrev.onclick = function(e) {
+    e.preventDefault();
+    
+    isFirstPost = currentPost === 0;
+    currentPost = isFirstPost ? (postLength - 1) : (currentPost - 1);
+    
+    request({
+      method: 'GET',
+      url: postUrls[currentPost]
+    }, function() {
+      loading.style.display = 'inline';
+    },
+    function(data) {
+      post.innerHTML = data; 
+      loading.style.display = 'none';
+    });
+  };
+
+  btnNext.onclick = function(e) {
+    e.preventDefault();
+    
+    isLastPost = currentPost === (postLength - 1);
+    currentPost = isLastPost ?  0 : (currentPost + 1) ;
+    
+    request({
+      method: 'GET',
+      url: postUrls[currentPost]
+    }, function() {
+      loading.style.display = 'inline';
+    },
+    function(data) {
+      post.innerHTML = data;
+      loading.style.display = 'none';
+    });
+  };
+})();
+</script>

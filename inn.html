@@ -382,79 +382,75 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
   <div class="body"><img class="img"></div>
 </div>
 <script>
-;(function() {
-  document.querySelectorAll('.collapse')
-    .forEach(function(collapse) {
-      var toggler = collapse.querySelector('.collapse-toggler');
-      var body = collapse.querySelector('.collapse-body');
-      
-      toggler.onclick = function() {
-        toggler.classList.toggle('active');
-        body.classList.toggle('active');
-      };
-    });
-})();
+  ;(function() {
+    document.querySelectorAll('.collapse')
+      .forEach(function(collapse) {
+        var toggler = collapse.querySelector('.collapse-toggler');
+        var body = collapse.querySelector('.collapse-body');
+        
+        toggler.onclick = function() {
+          toggler.classList.toggle('active');
+          body.classList.toggle('active');
+        };
+      });
+  })();
+  </script>
+  <script>
+  ;(function() {
+    var gallery = document.getElementById('gallery');
+    var closeBtn = gallery.querySelector('.close-btn');
+    var loading = gallery.querySelector('.loading');
+    var body = gallery.querySelector('.body');
+    var img = gallery.querySelector('.img');
+    var isOnMobile = mobileCheck();
+    
+    document.querySelectorAll('.gallery-open-btn')
+      .forEach(function(btn) {  
+        btn.onclick = function(e) {
+          var src = this.dataset.src;
+          var alt = this.dataset.alt;
+          
+          if (img.src) {
+            img.src = '';
+            img.alt = '';
+            gallery.style.display = 'none';
+            closeBtn.style.display = 'none';
+          }
+          
+          if (!isOnMobile) {
+            gallery.style.left = e.pageX + 'px';
+            gallery.style.top = e.pageY + 'px';
+          } else {
+            gallery.style.left = '20px';
+            gallery.style.top = '20px';
+          }
+          
+          gallery.style.display = 'block';
+          
+          loading.innerHTML = '加载中...';
+          
+          img.onload = function() {
+            loading.innerHTML = '';
+            closeBtn.style.display = 'inline-block';
+          }
+         
+          img.src = src;
+          img.alt = alt;
+          img.style.width = '100%';
+        };
+      });
+    
+    closeBtn.onclick = function() {
+      gallery.style.display = 'none';
+      closeBtn.style.display = 'none';
+      img.src = '';
+      img.alt = '';
+      img.style.width = '';
+    };
+  })();
 </script>
 <script>
-;(function() {
-  var gallery = document.getElementById('gallery');
-  var closeBtn = gallery.querySelector('.close-btn');
-  var loading = gallery.querySelector('.loading');
-  var body = gallery.querySelector('.body');
-  var img = gallery.querySelector('.img');
-  var isOnMobile = mobileCheck();
-  
-  document.querySelectorAll('.gallery-open-btn')
-    .forEach(function(btn) {  
-      btn.onclick = function(e) {
-        var src = this.dataset.src;
-        var alt = this.dataset.alt;
-        
-        if (img.src) {
-          img.src = '';
-          img.alt = '';
-          gallery.style.display = 'none';
-          closeBtn.style.display = 'none';
-        }
-        
-        if (!isOnMobile) {
-          gallery.style.left = e.pageX + 'px';
-          gallery.style.top = e.pageY + 'px';
-        } else {
-          gallery.style.left = '20px';
-          gallery.style.top = '20px';
-        }
-        
-        gallery.style.display = 'block';
-        
-        loading.innerHTML = '加载中...';
-        
-        img.onload = function() {
-          loading.innerHTML = '';
-          closeBtn.style.display = 'inline-block';
-        }
-       
-        img.src = src;
-        img.alt = alt;
-        img.style.width = '100%';
-      };
-    });
-  
-  closeBtn.onclick = function() {
-    gallery.style.display = 'none';
-    closeBtn.style.display = 'none';
-    img.src = '';
-    img.alt = '';
-    img.style.width = '';
-  };
-})();
-</script>
-<script>
-;(function() {
-  if (mobileCheck()) {
-    document.body.classList.add('on-mobile');
-  }
-})();
+  mobileCheck() && document.body.classList.add('on-mobile');
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>

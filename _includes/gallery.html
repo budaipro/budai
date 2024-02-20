@@ -1,25 +1,64 @@
 <div id="gallery">
-  <div class="loading2" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
+  <div id="gallery-loadingbar" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 70%; padding: 0 5px; width: 58px;"></div>
   <div>
-    <span class="close-btn"><span>╳</span></span>
+    <span id="gallery-close-btn"><span>╳</span></span>
   </div>
-  <div class="body"><img class="img"></div>
+  <div id="gallery-body"><img></div>
 </div>
+<style>
+  #gallery {
+    display: none;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 50px rgba(0,0,0, .2);
+    position: absolute;
+    z-index: 9999;
+    width: auto;
+    cursor: move;
+  }
+
+  #gallery-close-btn {
+    display: none;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+
+  #gallery-close-btn span {
+    display: block;
+    font-size: 10px;
+    font-family: simsun, simkai, kaiti, simhei, serif;
+    color: #ccc;
+    padding: 12px;
+  }
+
+  #gallery-close-btn span:hover {
+    color: white;
+  }
+
+  #gallery-body {
+    font-size: 0; /* remove the image gap */
+    overflow: hidden;
+  }
+
+  #gallery-body img {
+    width: 100%;
+  }
+</style>
 <script>
-;(function() {
+  ;(function() {
     var gallery = document.getElementById('gallery');
-    var closeBtn = gallery.querySelector('.close-btn');
-    var loading2 = gallery.querySelector('.loading2');
-    var body = gallery.querySelector('.body');
-    var img = gallery.querySelector('.img');
+    var body = document.getElementById('gallery-body');
+    var img = body.querySelector('img');
+    var closeBtn = document.getElementById('gallery-close-btn');
+    var loadingbar = document.getElementById('gallery-loadingbar');
     
     document.querySelectorAll('.gallery-open-btn')
       .forEach(function(btn) {
-        btn.onclick = function(e) {
-          var src = this.dataset.src;
-          var alt = this.dataset.alt;
-          var width = this.dataset.width;
-        
+        btn.onclick = function(e) { 
+          var dataset = this.dataset;
+          
           if (img.src) {
             img.src = '';
             img.alt = '';
@@ -31,16 +70,16 @@
           gallery.style.top = e.pageY + 'px';
           gallery.style.display = 'block';
           
-          loading2.innerHTML = '加载中...';
+          loadingbar.innerHTML = '加载中...';
           
           img.onload = function() {
-            loading2.innerHTML = '';
+            loadingbar.innerHTML = '';
             closeBtn.style.display = 'inline-block';
           }
          
-          img.src = src;
-          img.alt = alt;
-          img.style.width = width ? width : '100%';
+          img.src = dataset.src;
+          img.alt = dataset.alt;
+          img.style.width = dataset.width ? dataset.width : '100%';
         };
       });
     

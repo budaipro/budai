@@ -1,53 +1,64 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  <style>
-  body {
-    font-family: simsun, simkai, simhei, serif;
-    font-size: 18px;
-    line-height: 1.575;
-    letter-spacing: -1px;
-    padding: 10px;
-    margin: 0;
-  }
-  
-  a, a:hover, a:active, a:visited {
-    color: blue;
-    text-decoration: none;
-  }
-  
-  h3 {
-    position: relative;
-    left: -50px;
-  }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<style>
+body {
+  font-family: simkai, kaiti, simsun, simkai, simhei, serif;
+  font-size: 20px;
+  line-height: 1.575;
+  letter-spacing: -1px;
+  padding: 10px;
+  margin: 0;
+}
 
-  dfn, abbr {
-    text-decoration: underline dotted;
-  }
+a, a:hover, a:active, a:visited {
+  color: blue;
+  text-decoration: none;
+}
 
-  rt {
-    font-family: helvetica, arial, sans-serif;
-    letter-spacing: 0;
-    position: relative;
-    bottom: -2px;
-  }
-  </style>
+dfn, abbr {
+  text-decoration: underline dotted;
+}
+
+rt {
+  font-family: helvetica, arial, sans-serif;
+  letter-spacing: 0;
+  position: relative;
+  bottom: -2px;
+}
+</style>
+<script>
+window.request = function(options, onRequest, onSuccess) {
+  var xhttp = new XMLHttpRequest();
+  
+  onRequest();
+  
+  xhttp.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      onSuccess(this.responseText);
+    }
+  };
+  
+  xhttp.open(options.method, options.url, true);
+  xhttp.send();
+};
+</script>
 </head>
 <body>
-  <div id="container">{{ content }}</div>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<div id="container">{{ content }}</div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'G-MVB3SC8YVX');
-  </script>
+  gtag('config', 'G-MVB3SC8YVX');
+</script>
 </body>
 </html>
