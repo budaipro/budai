@@ -1,8 +1,27 @@
 ---
-layout: post
-title: "关于布袋和尚"
+permalink: posts.html
+layout: null
 ---
-<div style="float: right: margin: 50px;"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 60%;"><span>布袋和尚像，大英博物馆藏。</span></div>
+<style type="text/css" media="screen">
+</style>
+<script>
+window.request = function(options, onRequest, onSuccess) {
+  var xhttp = new XMLHttpRequest();
+  
+  onRequest();
+  
+  xhttp.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      onSuccess(this.responseText);
+    }
+  };
+  
+  xhttp.open(options.method, options.url, true);
+  xhttp.send();
+};
+</script>
+
+<div><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 60%;"><br><span>布袋和尚像，大英博物馆藏。</span></div>
 
 <div id="post">
   {% for post in site.posts %}
@@ -72,4 +91,13 @@ title: "关于布袋和尚"
     });
   };
 })();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MVB3SC8YVX');
 </script>
