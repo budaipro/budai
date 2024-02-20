@@ -82,11 +82,7 @@
 </style>
 </head>
 <body>
-  <div id="container">
-    {{ content }}
-    {% include footer.html %}
-    {% include gallery.html %}
-  </div>
+  <div id="container">{{ content }}</div>
   <script>
     mobileCheck() && document.body.classList.add('on-mobile');
   </script>

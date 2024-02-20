@@ -4,6 +4,7 @@ layout: default
 <div class="brand">
   <div>&copy;<strong>布袋豆腐</strong><sub>（2023-2024）</sub></div>
 </div>
+
 <div class="tofu">
 <pre>
 {% include tofu/about.html %}
@@ -25,6 +26,55 @@ layout: default
     });
 })();
 </script>
+
+<style type="text/css" media="screen">
+body {
+  margin: 0;
+}
+
+#imagegallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+
+#imagegallery:after {
+  content: "";
+  flex-grow: 999;
+}
+
+#imagegallery img {
+  width: 15%;
+  flex: 1 auto;
+  align-self: center;
+}
+
+.on-mobile #imagegallery img {
+  width: 25%;
+}
+</style>
+<div id="imagegallery">
+  <img src="/assets/img/tofu/gallery/logo_orignal.png" alt="/assets/img/tofu/gallery/logo_orignal.png">
+  <img src="/assets/img/tofu/gallery/01.jpg" alt="/assets/img/tofu/gallery/01.jpg">
+  <img src="/assets/img/tofu/gallery/02.jpg" alt="/assets/img/tofu/gallery/02.jpg">
+  <img src="/assets/img/tofu/gallery/03.jpg" alt="/assets/img/tofu/gallery/03.jpg">
+  <img src="/assets/img/tofu/gallery/04.jpg" alt="/assets/img/tofu/gallery/04.jpg">
+  <img src="/assets/img/tofu/gallery/05.jpg" alt="/assets/img/tofu/gallery/05.jpg">
+  <img src="/assets/img/tofu/gallery/06.jpg" alt="/assets/img/tofu/gallery/06.jpg">
+  <img src="/assets/img/tofu/gallery/07.jpg" alt="/assets/img/tofu/gallery/07.jpg">
+  <img src="/assets/img/tofu/gallery/08.jpg" alt="/assets/img/tofu/gallery/08.jpg">
+  <img src="/assets/img/tofu/gallery/09.jpg" alt="/assets/img/tofu/gallery/09.jpg">
+  <img src="/assets/img/tofu/gallery/10.jpg" alt="/assets/img/tofu/gallery/10.jpg">
+  <img src="/assets/img/tofu/gallery/11.jpg" alt="/assets/img/tofu/gallery/11.jpg">
+  <img src="/assets/img/tofu/gallery/12.jpg" alt="/assets/img/tofu/gallery/12.jpg">
+  <img src="/assets/img/tofu/gallery/13.jpg" alt="/assets/img/tofu/gallery/13.jpg">
+  <img src="/assets/img/tofu/gallery/14.jpg" alt="/assets/img/tofu/gallery/14.jpg">
+  <img src="/assets/img/tofu/gallery/15.jpg" alt="/assets/img/tofu/gallery/15.jpg">
+  <img src="/assets/img/tofu/gallery/16.jpg" alt="/assets/img/tofu/gallery/16.jpg">
+  <img src="/assets/img/tofu/gallery/17.jpg" alt="/assets/img/tofu/gallery/17.jpg">
+</div>
 
 
 

@@ -14,10 +14,6 @@ a {
   text-decoration: none;
 }
 
-a.has-line {
-  border-bottom: 1px dotted;
-}
-
 abbr {
   cursor: help;
 }
@@ -64,18 +60,14 @@ pre {
 .tofu {
 }
 
-.no-ml {
-  margin-left: 0!important;
-}
-
 .muted {
   display: inline;
   opacity: .4;
 }
 
-.recommend, .primary, .hot, .new, .pic {
+.recommend, .hot {
+  color: red;
   font-size: 75%;
-  margin-left: 4px;
   position: relative;
   top: -2px;
 }

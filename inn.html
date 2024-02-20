@@ -71,52 +71,6 @@ sub {
   display: inline;
 }
 
-.gallery-open-btn {
-  cursor: pointer;
-  position: relative;
-  margin-left: 2px;
-  border-bottom: 1px dotted;
-  color: blue;
-  font-size: 80%;
-}
-
-#gallery {
-  display: none;
-  position: absolute;
-  z-index: 9999;
-  width: auto;
-  max-width: 550px;
-  background-color: white;
-  box-shadow: 10px 10px 50px rgba(0,0,0, .2);
-}
-  
-#gallery .close-btn {
-  cursor: pointer;
-  position: absolute;
-  right: 0;
-  background-color: black;
-  display: none;
-}
-
-#gallery .close-btn span {
-  display: block;
-  padding: 16px;
-  color: #ccc;
-  font-size: 18px;
-}
-
-#gallery .close-btn span:hover {
-  color: white;
-}
-
-#gallery .body {
-  overflow: hidden;
-  font-size: 0; /* remove the image gap */
-}
-#gallery .body .img {
-  width: 100%;
-}
-
 .on-mobile {
   font-size: 45px;
 }
@@ -149,7 +103,6 @@ sub {
   cursor: help;
 }
 </style>
-
 <script>
 window.mobileCheck = function() {
   let check = false;
@@ -372,17 +325,8 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
 <em>备注：我们会不定期地，免费提供一些自制的豆制品给大家。比如：豆浆，豆腐、豆干、油豆腐等。</em>
 </div>
 </pre>
-<div style="margin: 35px; font-size: 110%; font-weight: bold; text-align: center;"><span style="text-decoration: underline; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">→已了解情况，有意加入我们；请点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：同电话号。</mark></div>
-<div style="font-size: 125%; font-weight: bold; text-align: center; margin: 20px 0;"><span style="color: white; background-color: lightgreen;">节俭、朴实、薄欲、健康、积极<sup class="supa"><abbr title="注：①此处引用的“节俭”、“朴实”、“薄欲”、“健康”、“积极”5个词语，所赋予的涵义属于我们个人的定义；不同人之间的标准会有所差别。">①</abbr></sup>。</span></div>
-<div id="gallery">
-  <div class="loading" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 60%; padding: 0 5px; width: 60px;"></div>
-  <div>
-    <span class="close-btn"><span>×</span></span>
-  </div>
-  <div class="body"><img class="img"></div>
-</div>
 <script>
-  ;(function() {
+  (function() {
     document.querySelectorAll('.collapse')
       .forEach(function(collapse) {
         var toggler = collapse.querySelector('.collapse-toggler');
@@ -394,21 +338,78 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
         };
       });
   })();
-  </script>
-  <script>
-  ;(function() {
+</script>
+  
+<div style="margin: 35px; font-size: 110%; font-weight: bold; text-align: center;"><span style="text-decoration: underline; cursor: pointer;" onclick="this.style.display = 'none'; this.parentNode.querySelector('mark').style.display = 'inline';">→已了解情况，有意加入我们；请点击查看联系方式。</span><mark style="display: none;">电话：19542586219，微信：同电话号。</mark></div>
+<div style="font-size: 125%; font-weight: bold; text-align: center; margin: 20px 0;"><span style="color: white; background-color: lightgreen;">节俭、朴实、薄欲、健康、积极<sup class="supa"><abbr title="注：①此处引用的“节俭”、“朴实”、“薄欲”、“健康”、“积极”5个词语，所赋予的涵义属于我们个人的定义；不同人之间的标准会有所差别。">①</abbr></sup>。</span></div>
+
+<div id="gallery">
+  <div id="gallery-loadingbar" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 65%; padding: 0 5px; width: 65px;"></div>
+  <div>
+    <span id="gallery-close-btn"><span>╳</span></span>
+  </div>
+  <div id="gallery-body"><img></div>
+</div>
+<style>
+  .gallery-open-btn {
+    color: blue;
+    margin-left: 2px;
+    border-bottom: 1px dotted;
+    position: relative;
+    cursor: pointer;
+  }
+
+  #gallery {
+    display: none;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 50px rgba(0,0,0, .2);
+    position: absolute;
+    z-index: 9999;
+    width: auto;
+  }
+
+  #gallery-close-btn {
+    display: none;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+
+  #gallery-close-btn span {
+    display: block;
+    font-size: 10px;
+    font-family: simsun, simkai, kaiti, simhei, serif;
+    color: #ccc;
+    padding: 12px;
+  }
+
+  #gallery-close-btn span:hover {
+    color: white;
+  }
+
+  #gallery-body {
+    font-size: 0; /* remove the image gap */
+    overflow: hidden;
+  }
+
+  #gallery-body img {
+    width: 100%;
+  }
+</style>
+<script>
+  (function() {
     var gallery = document.getElementById('gallery');
-    var closeBtn = gallery.querySelector('.close-btn');
-    var loading = gallery.querySelector('.loading');
-    var body = gallery.querySelector('.body');
-    var img = gallery.querySelector('.img');
-    var isOnMobile = mobileCheck();
+    var body = document.getElementById('gallery-body');
+    var img = body.querySelector('img');
+    var closeBtn = document.getElementById('gallery-close-btn');
+    var loadingbar = document.getElementById('gallery-loadingbar');
     
     document.querySelectorAll('.gallery-open-btn')
-      .forEach(function(btn) {  
-        btn.onclick = function(e) {
-          var src = this.dataset.src;
-          var alt = this.dataset.alt;
+      .forEach(function(btn) {
+        btn.onclick = function(e) { 
+          var dataset = this.dataset;
           
           if (img.src) {
             img.src = '';
@@ -416,27 +417,21 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
             gallery.style.display = 'none';
             closeBtn.style.display = 'none';
           }
-          
-          if (!isOnMobile) {
-            gallery.style.left = e.pageX + 'px';
-            gallery.style.top = e.pageY + 'px';
-          } else {
-            gallery.style.left = '20px';
-            gallery.style.top = '20px';
-          }
-          
+
+          gallery.style.left = e.pageX + 'px';
+          gallery.style.top = e.pageY + 'px';
           gallery.style.display = 'block';
           
-          loading.innerHTML = '加载中...';
+          loadingbar.innerHTML = '加载中...';
           
           img.onload = function() {
-            loading.innerHTML = '';
+            loadingbar.innerHTML = '';
             closeBtn.style.display = 'inline-block';
           }
          
-          img.src = src;
-          img.alt = alt;
-          img.style.width = '100%';
+          img.src = dataset.src;
+          img.alt = dataset.alt;
+          img.style.width = dataset.width ? dataset.width : '100%';
         };
       });
     
@@ -449,6 +444,7 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
     };
   })();
 </script>
+
 <script>
   mobileCheck() && document.body.classList.add('on-mobile');
 </script>

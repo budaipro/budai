@@ -4,7 +4,7 @@ layout: null
 ---
 <style type="text/css" media="screen">
 body {
-  font: 16px/1.485 simsun, simkai, kaiti, simhei, serif;
+  font: 1em/1.485 simsun, simkai, kaiti, simhei, serif;
   letter-spacing: -0.035em;
 }
 
@@ -69,58 +69,58 @@ window.request = function(options, onRequest, onSuccess) {
 {% endunless %}
 </div>
 <script>
-;(function() {
-  var btnPrev = document.getElementById('btn-prev');
-  var btnNext = document.getElementById('btn-next');
-  var post = document.getElementById('post');
-  var loading = document.getElementById('loading');
-  var postUrls = [];
-  
-  {% for post in site.posts %}
-    postUrls.push("{{ post.url }}");
-  {% endfor %}
-  
-  var postLength = postUrls.length;
-  var currentPost = 0;
-  var isFirstPost;
-  var isLastPost;
-  
-  btnPrev.onclick = function(e) {
-    e.preventDefault();
+  (function() {
+    var btnPrev = document.getElementById('btn-prev');
+    var btnNext = document.getElementById('btn-next');
+    var post = document.getElementById('post');
+    var loading = document.getElementById('loading');
+    var postUrls = [];
     
-    isFirstPost = currentPost === 0;
-    currentPost = isFirstPost ? (postLength - 1) : (currentPost - 1);
+    {% for post in site.posts %}
+      postUrls.push("{{ post.url }}");
+    {% endfor %}
     
-    request({
-      method: 'GET',
-      url: postUrls[currentPost]
-    }, function() {
-      loading.style.display = 'inline';
-    },
-    function(data) {
-      post.innerHTML = data; 
-      loading.style.display = 'none';
-    });
-  };
+    var postLength = postUrls.length;
+    var currentPost = 0;
+    var isFirstPost;
+    var isLastPost;
+    
+    btnPrev.onclick = function(e) {
+      e.preventDefault();
+      
+      isFirstPost = currentPost === 0;
+      currentPost = isFirstPost ? (postLength - 1) : (currentPost - 1);
+      
+      request({
+        method: 'GET',
+        url: postUrls[currentPost]
+      }, function() {
+        loading.style.display = 'inline';
+      },
+      function(data) {
+        post.innerHTML = data; 
+        loading.style.display = 'none';
+      });
+    };
 
-  btnNext.onclick = function(e) {
-    e.preventDefault();
-    
-    isLastPost = currentPost === (postLength - 1);
-    currentPost = isLastPost ?  0 : (currentPost + 1) ;
-    
-    request({
-      method: 'GET',
-      url: postUrls[currentPost]
-    }, function() {
-      loading.style.display = 'inline';
-    },
-    function(data) {
-      post.innerHTML = data;
-      loading.style.display = 'none';
-    });
-  };
-})();
+    btnNext.onclick = function(e) {
+      e.preventDefault();
+      
+      isLastPost = currentPost === (postLength - 1);
+      currentPost = isLastPost ?  0 : (currentPost + 1) ;
+      
+      request({
+        method: 'GET',
+        url: postUrls[currentPost]
+      }, function() {
+        loading.style.display = 'inline';
+      },
+      function(data) {
+        post.innerHTML = data;
+        loading.style.display = 'none';
+      });
+    };
+  })();
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
