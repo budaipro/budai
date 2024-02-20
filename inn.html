@@ -43,13 +43,12 @@ sub {
 }
 
 .rooms, .about {
-  float: left;
-  width: 50%;
-  margin-bottom: 25px;
+  width: 100%;
+  margin: 45px auto 25px;
 }
 
 .rules {
-  clear: both;
+  /*clear: both;*/
 }
 
 .collapse {
@@ -155,9 +154,10 @@ window.mobileCheck = function() {
 };
 </script>
 
-<div style="margin-bottom: 25px;">&copy;<a href="/" target="_blank"><strong>布袋豆腐</strong></a><sup style="border: 0;">（2023-2024）</sup></div>
+<div style="margin-bottom: 25px; background-color: white; position: fixed; left: 0; top: 0;"><div>&copy;<strong>布袋豆腐</strong><sup style="color: black; border: 0;">（2023-2024）</sup></div><div style="font-size: 85%; color: white; background-color: red; padding: 2px 10px;">家庭民宿<em>（单间出租）</em></div></div>
 <pre class="rooms">
-<b>单间出租</b>
+├ <b>地点</b>
+│ └ 银桥镇头铺村
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二楼</span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
 │ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="二楼卫生间" title="点击查看图片">图片</span><div class="collapse-body">
@@ -272,79 +272,73 @@ window.mobileCheck = function() {
           └ 椅子</div></div></div></div>
 </pre>
 <pre class="about">
-<b>相关信息</b>
-├ <b>地点</b>
-│ └ 银桥镇头铺村
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">周边环境</span><div class="collapse-body">
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">500米范围内</span><div class="collapse-body">
-  │ │   ┌ 山泉水取水处
-  │ │   ├ 早餐店
-  │ ├ 1.┼ 餐饮店
-  │ │   ├ 便利生活超市
-  │ │   ├ 农贸市场（<mark>每月4次大型集市</mark>）
-  │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递网点</span><div class="collapse-body">
-  │ │   │ └ 圆通、申通、极兔、中通、韵达</div></div>
-  │ │   └ 咖啡馆
-  │ │ 
-  │ │   ┌ 幼儿园（多个）
-  │ │   ├ 镇中学
-  │ ├ 2.┼ 镇卫生院
-  │ │   ├ 云南农村信用银行
-  │ │   ├ 中国邮政
-  │ │   ├ 镇公安局
-  │ │   └ 镇政府
-  │ │
-  │ ├ 3.很多外地来旅居的邻居
-  │ │
-  │ └ <b>4.外出</b>
-  │   └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">C7路公交车</span><div class="collapse-body">
-  │     ├ 九孔桥
-  │     ├ 鹤阳
-  │     ├ <b>银桥镇政府（本站）</b>
-  │     ↓
-  │     ├ 银桥幼儿园
-  │     ├ 磻曲
-  │     ├ 银桥村
-  │     ├ 阳波
-  │     ├ 阳乡
-  │ 3KM⇥├ 无为寺
-  │     ├ 双阳
-  │     ├ 北五里桥
-  │     ├ 绿桃村
-  │≈6KM⇥├ 三塔路口
-  │≈6KM⇥├ 北门桥头
-  │     ├ 水碓村
-  │≈8KM⇥├ 三月街口
-  │≈8KM⇥├ 人民路口
-  │≈8KM⇥├ 红龙井
-  │     ├ 一塔路口
-  │     ├ 玉局路口
-  │     ├ 学府路口
-  │     ├ 弘圣路口
-  │     ├ 山水间
-  │     └ 大理财校</div></div>
-  │</div></div>
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">3千米范围内</span><div class="collapse-body">
-  │ ├ 环洱海生态走廊
-  │ └ 更多的民宿、农场、庄园，及来自五湖四海的邻居。
-  │</div></div>
-  └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">7千米范围内</span><div class="collapse-body">
-    ├ 无为寺（灵鹫山大门）
-    ├ 素食街
-    ├ 三塔
-    ├ 崇圣寺
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">素方舟</del></span><div class="collapse-body">
-    │ └ 7.2千米</div></div>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理古城北门</del></span><div class="collapse-body">
-    │ └ 7.7千米</div></div>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">三月街</del></span><div class="collapse-body">
-    │ └ 8.2千米</div></div>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">杨丽萍大剧院</del></span><div class="collapse-body">
-    │ └ 9.7千米</div></div>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理大学</del></span><div class="collapse-body">
-    │ └ 9.8千米</div></div>
-    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">喜洲古镇</del></span><div class="collapse-body">
-      └ 12千米</div></div></div></div></div></div>
+<b>周边环境</b>
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">500米范围内</span><div class="collapse-body">
+│ │┌ 山泉水取水处
+│ │├ 早餐店
+│ │├ 餐饮店
+│ ├┼ 便利生活超市
+│ │├ 农贸市场（<mark>每月4次大型集市</mark>）
+│ │├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递网点</span><div class="collapse-body">
+│ ││ └ 圆通、申通、极兔、中通、韵达</div></div>
+│ │└ 咖啡馆
+│ │┌ 幼儿园（多个）
+│ │├ 镇中学
+│ │├ 镇卫生院
+│ ├┼ 云南农村信用银行
+│ │├ 中国邮政
+│ │├ 镇公安局
+│ │└ 镇政府
+│ ├ 很多旅居的邻居
+│ └ <b>外出</b>
+│   └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">C7路公交车</span><div class="collapse-body">
+│     ├ 九孔桥
+│     ├ 鹤阳
+│     ├ <b>银桥镇政府（本站）</b>
+│     ↓
+│     ├ 银桥幼儿园
+│     ├ 磻曲
+│     ├ 银桥村
+│     ├ 阳波
+│     ├ 阳乡
+│ 3KM⇥├ 无为寺
+│     ├ 双阳
+│     ├ 北五里桥
+│     ├ 绿桃村
+│≈6KM⇥├ 三塔路口
+│≈6KM⇥├ 北门桥头
+│     ├ 水碓村
+│≈8KM⇥├ 三月街口
+│≈8KM⇥├ 人民路口
+│≈8KM⇥├ 红龙井
+│     ├ 一塔路口
+│     ├ 玉局路口
+│     ├ 学府路口
+│     ├ 弘圣路口
+│     ├ 山水间
+│     └ 大理财校</div></div>
+│</div></div>
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">3千米范围内</span><div class="collapse-body">
+│ ├ 环洱海生态走廊
+│ └ 更多的民宿、农场、庄园，及来自五湖四海的邻居。
+│</div></div>
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">7千米范围内</span><div class="collapse-body">
+  ├ 无为寺（灵鹫山大门）
+  ├ 素食街
+  ├ 三塔
+  ├ 崇圣寺
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">素方舟</del></span><div class="collapse-body">
+  │ └ 7.2千米</div></div>
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理古城北门</del></span><div class="collapse-body">
+  │ └ 7.7千米</div></div>
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">三月街</del></span><div class="collapse-body">
+  │ └ 8.2千米</div></div>
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">杨丽萍大剧院</del></span><div class="collapse-body">
+  │ └ 9.7千米</div></div>
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">大理大学</del></span><div class="collapse-body">
+  │ └ 9.8千米</div></div>
+  └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><del style="opacity: .5;">喜洲古镇</del></span><div class="collapse-body">
+    └ 12千米</div></div></div></div>
 </pre>
 <pre class="rules">
 <div style="white-space: pre-wrap;">
@@ -395,7 +389,7 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
         body.classList.toggle('active');
       };
     });
-}());
+})();
 </script>
 <script>
 ;(function() {
@@ -407,11 +401,11 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
   var isOnMobile = mobileCheck();
   
   document.querySelectorAll('.gallery-open-btn')
-    .forEach(function(btn) {
-      var src = btn.dataset.src;
-      var alt = btn.dataset.alt;
-      
+    .forEach(function(btn) {  
       btn.onclick = function(e) {
+        var src = this.dataset.src;
+        var alt = this.dataset.alt;
+        
         if (img.src) {
           img.src = '';
           img.alt = '';
@@ -420,8 +414,8 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
         }
         
         if (!isOnMobile) {
-          gallery.style.left = e.clientX + 'px';
-          gallery.style.top = e.clientY + 'px';
+          gallery.style.left = e.pageX + 'px';
+          gallery.style.top = e.pageY + 'px';
         } else {
           gallery.style.left = '20px';
           gallery.style.top = '20px';

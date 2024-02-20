@@ -15,11 +15,11 @@
     
     document.querySelectorAll('.gallery-open-btn')
       .forEach(function(btn) {
-        var src = btn.dataset.src;
-        var alt = btn.dataset.alt;
-        var width = btn.dataset.width;
-        
         btn.onclick = function(e) {
+          var src = this.dataset.src;
+          var alt = this.dataset.alt;
+          var width = this.dataset.width;
+        
           if (img.src) {
             img.src = '';
             img.alt = '';
@@ -27,8 +27,8 @@
             closeBtn.style.display = 'none';
           }
 
-          gallery.style.left = e.clientX + 'px';
-          gallery.style.top = e.clientY + 'px';
+          gallery.style.left = e.pageX + 'px';
+          gallery.style.top = e.pageY + 'px';
           gallery.style.display = 'block';
           
           loading2.innerHTML = '加载中...';
@@ -54,5 +54,5 @@
     
     // draggable gallery
     draggable(gallery);
-  }());
+  })();
 </script>

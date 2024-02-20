@@ -23,7 +23,7 @@ layout: default
         body.classList.toggle('active');
       };
     });
-}());
+})();
 </script>
 
 
