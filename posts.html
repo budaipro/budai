@@ -4,7 +4,7 @@ layout: null
 ---
 <style type="text/css" media="screen">
 body {
-  font: 1em/1.485 simsun, simkai, kaiti, simhei, serif;
+  font: 1em/1.675 simsun, simkai, kaiti, simhei, serif;
   letter-spacing: -0.035em;
 }
 
@@ -18,15 +18,20 @@ rt {
   letter-spacing: 0;
 }
 
+#container {
+  max-width: 650px;
+}
+
 #post h3 {
   font-size: 180%;
 }
 
 button {
   color: blue;
+  font-size: 115%;
   background-color: transparent;
   border: 0;
-  border-bottom: 1px dotted;
+  border-bottom: 2px dotted;
   cursor: pointer;
 }
 </style>
@@ -50,7 +55,7 @@ window.request = function(options, onRequest, onSuccess) {
 <div style="background-color: white; position: fixed; right: 0; bottom: 0; z-index: 9999;">&copy;<a href="/"><strong>布袋豆腐</strong></a><sup style="color: black; border: 0;">（2023-2024）</sup></div>
 
 <div id="container">
-<div style="float: right; width: 30%; margin: 50px;"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 60%;"><br><span>布袋和尚像，大英博物馆藏。</span></div>
+<div style="font-size: 80%; text-align: center; float: right; width: 30%; margin: 20px;"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 100%;"><br><span>布袋和尚像，大英博物馆藏。</span></div>
 
 <div id="post">
   {% for post in site.posts %}
@@ -61,7 +66,7 @@ window.request = function(options, onRequest, onSuccess) {
 </div>
   
 {% unless site.posts.size == 1 %}
-  <div>
+  <div style="text-align: center;">
     <button id="btn-prev" type="button" title="上一条">◀</button>
     <button id="btn-next" type="button" title="下一条">▶</button>
     <div id="loading" style="display: none;">加载中...</div>
