@@ -3,6 +3,10 @@ permalink: /inn.html
 layout: null
 ---
 <style type="text/css" media="screen">
+* {
+  box-sizing: border-box;
+}
+
 body, pre {
   font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
   font-size: 18px;
@@ -30,15 +34,20 @@ abbr {
 }
 
 sup, sub {
-  color: orange;
-  font-size: 65%;
+  color: white;
+  font-size: 55%;
   border-bottom: 1px dotted;
+  box-sizing: border-box;
+  background-color: black;
   position: relative;
 }
 
 sub {
-  position: relative;
   bottom: 2px;
+}
+
+.color-default {
+  color: black;
 }
 
 .rooms, .about {
@@ -137,7 +146,7 @@ window.mobileCheck = function() {
 };
 </script>
 
-<div style="margin-bottom: 25px; background-color: white; position: fixed; left: 0; top: 0; z-index: 9999;"><div>&copy;<strong>布袋豆腐</strong><sup style="color: black; border: 0;">（2023-2024）</sup></div></div>
+<div style="margin-bottom: 25px; background-color: white; position: fixed; left: 0; top: 0; z-index: 9999;"><div>&copy;<strong>布袋豆腐</strong><sup style="color: black; font-size: 75%; border: 0; background-color: transparent; top: 5px;">（2023-2024）</sup></div></div>
 <pre class="rooms">
 <b>出租房</b>
 ├ <b>地点</b>
@@ -146,16 +155,16 @@ window.mobileCheck = function() {
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二楼</span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
 │ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="二楼卫生间" title="点击查看图片">图片</span><div class="collapse-body">
-│ │ │ └ 基础设施
+│ │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">基础设施</span><div class="collapse-body">
 │ │ │   ├ 淋浴（热水）
 │ │ │   ├ 取暖器
 │ │ │   ├ 马桶
 │ │ │   ├ 洗脸池
-│ │ │   └ 化妆柜（含镜子）</div></div>
+│ │ │   └ 化妆柜（含镜子）</div></div></div></div>
 │ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">客厅</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="客厅" title="点击查看图片">图片</span><div class="collapse-body">
 │ │ │ └ 家具
-│ │ │   ├ 原木会议桌<sup>无漆</sup>
-│ │ │   │ └ 椅子x6
+│ │ │   ├ 实木会议桌
+│ │ │   │ └ 凳子<sub>x6</sub>
 │ │ │   └ 沙发
 │ │ │</div></div>
 │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">厨房</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="厨房" title="点击查看图片">图片</span><div class="collapse-body">
@@ -166,8 +175,8 @@ window.mobileCheck = function() {
 │ │     │ ├ 冷藏：83升。
 │ │     │ └ 冷冻：52升。</div></div>
 │ │     ├ 电磁炉
-│ │     └ 原木餐桌<sup>无漆</sup>
-│ │       └ 原木餐椅x4<sup>无漆</sup></div></div>
+│ │     └ 实木餐桌
+│ │       └ 实木餐椅<sub>x4</sub></div></div>
 │ │</div></div>
 │ └ <b>房间</b>
 │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">203室（650元/月）</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="203室" title="点击查看图片">图片</span><div class="collapse-body">
@@ -198,18 +207,18 @@ window.mobileCheck = function() {
 └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三楼</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="三楼卫生间" title="点击查看图片">图片</span><div class="collapse-body">
-  │ │ └ 基础设施
+  │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">基础设施</span><div class="collapse-body">
   │ │   ├ 淋浴（热水）
   │ │   ├ 取暖器
   │ │   ├ 马桶
   │ │   ├ 洗脸池
-  │ │   └ 化妆柜（含镜子）</div></div>
+  │ │   └ 化妆柜（含镜子）</div></div></div></div>
   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">阳台</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="阳台" title="点击查看图片">图片</span><div class="collapse-body">
   │ │ └ 家具
   │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">原木沙发<sup>无漆</sup></span><div class="collapse-body">
-  │ │   │ ├ 3人座x1
-  │ │   │ ├ 2人座x1
-  │ │   │ └ 1人座x1</div></div>
+  │ │   │ ├ 3人座<sub>x1</sub>
+  │ │   │ ├ 2人座<sub>x1</sub>
+  │ │   │ └ 1人座<sub>x1</sub></div></div>
   │ │   └ 茶几<sup>无漆</sup></div></div>
   │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">晾衣区</span><span class="gallery-open-btn" data-src="/assets/img/logo.png" data-alt="晾衣区" title="点击查看图片">图片</span><div class="collapse-body">
   │   └ 家具
