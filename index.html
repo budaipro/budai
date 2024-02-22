@@ -6,7 +6,7 @@ layout: default
 </div>
 
 <div id="imagegallery">
-  <div id="imagegallery-body" class="primarymove">
+  <div id="imagegallery-body">
     <img src="/assets/img/tofu/gallery/logo_orignal.png" alt="/assets/img/tofu/gallery/logo_orignal.png">
     <img src="/assets/img/tofu/gallery/01.jpg" alt="/assets/img/tofu/gallery/01.jpg">
     <img src="/assets/img/tofu/gallery/02.jpg" alt="/assets/img/tofu/gallery/02.jpg">
@@ -81,9 +81,8 @@ layout: default
 {% include tofu/about.html %}
 {% include tofu/product/index.html %}
 {% include tofu/sales/index.html %}</pre>
-</div>
 <script>
-;(function() {
+(function() {
   document.querySelectorAll('.collapse')
     .forEach(function(collapse) {
       var toggler = collapse.querySelector('.collapse-toggler');
@@ -96,6 +95,7 @@ layout: default
     });
 })();
 </script>
+</div>
 
 <div id="footer">
   <em style="color: green; font-weight: bold;">纯素产品，不含五辛。</em>
