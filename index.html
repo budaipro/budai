@@ -5,59 +5,6 @@ layout: default
   <div>&copy;<strong>布袋豆腐</strong><sub>（2023-2024）</sub></div>
 </div>
 
-<div class="tofu">
-<pre>
-{% include tofu/about.html %}
-{% include tofu/product/index.html %}
-{% include tofu/sales/index.html %}</pre>
-</div>
-<script>
-;(function() {
-  document.querySelectorAll('.collapse')
-    .forEach(function(collapse) {
-      var toggler = collapse.querySelector('.collapse-toggler');
-      var body = collapse.querySelector('.collapse-body');
-      
-      toggler.onclick = function() {
-        toggler.classList.toggle('active');
-        body.classList.toggle('active');
-      };
-    });
-})();
-</script>
-
-<style type="text/css" media="screen">
-#imagegallery {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  overflow-x: hidden;
-}
-
-#imagegallery-body {
-  display: flex;
-  gap: 10px;
-  /*width: 3570px;*/
-  position: absolute;
-  top: 0;
-  /*right: -3570px;*/
-  animation: move 120s linear infinite;
-  -moz-animation-direction: left;
-}
-
-#imagegallery-body img {
-  align-self: center;
-  width: 200px;
-  height: auto;
-}
-
-.on-mobile #imagegallery img {
-  width: 150px;
-}
-</style>
 <div id="imagegallery">
   <div id="imagegallery-body" class="primarymove">
     <img src="/assets/img/tofu/gallery/logo_orignal.png" alt="/assets/img/tofu/gallery/logo_orignal.png">
@@ -79,6 +26,38 @@ layout: default
     <img src="/assets/img/tofu/gallery/16.jpg" alt="/assets/img/tofu/gallery/16.jpg">
     <img src="/assets/img/tofu/gallery/17.jpg" alt="/assets/img/tofu/gallery/17.jpg">
   </div>
+  <style type="text/css" media="screen">
+  #imagegallery {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow-x: hidden;
+  }
+
+  #imagegallery-body {
+    display: flex;
+    gap: 10px;
+    /*width: 3570px;*/
+    position: absolute;
+    top: 0;
+    /*right: -3570px;*/
+    animation: move 120s linear infinite;
+    -moz-animation-direction: left;
+  }
+
+  #imagegallery-body img {
+    align-self: center;
+    width: 200px;
+    height: auto;
+  }
+
+  .on-mobile #imagegallery img {
+    width: 150px;
+  }
+  </style>
   <script>
   (function() {
     var scroller = document.getElementById('imagegallery-body');
@@ -96,3 +75,39 @@ layout: default
   })();
   </script>
 </div>
+
+<div class="tofu">
+<pre>
+{% include tofu/about.html %}
+{% include tofu/product/index.html %}
+{% include tofu/sales/index.html %}</pre>
+</div>
+<script>
+;(function() {
+  document.querySelectorAll('.collapse')
+    .forEach(function(collapse) {
+      var toggler = collapse.querySelector('.collapse-toggler');
+      var body = collapse.querySelector('.collapse-body');
+      
+      toggler.onclick = function() {
+        toggler.classList.toggle('active');
+        body.classList.toggle('active');
+      };
+    });
+})();
+</script>
+
+<div id="footer"><a href="/inn.html" target="_blank">家庭民宿</a></div>
+<style>
+#footer {
+  font-size: 65%;
+  padding: 3px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+#footer a {
+  text-decoration: underline;
+}
+</style>
