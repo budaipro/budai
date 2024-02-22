@@ -55,11 +55,12 @@ sub {
 
 .tofu {
   display: inline-block;
+  min-width: 400px;
   padding: 20px 10px;
   background-color: white;
   position: relative;
   z-index: 1;
-  opacity: .9;
+  opacity: .95;
 }
 
 .tofu pre {
