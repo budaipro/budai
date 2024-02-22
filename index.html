@@ -40,12 +40,12 @@ layout: default
 #imagegallery-body {
   display: flex;
   gap: 10px;
-  width: 3570px;
+  /*width: 3570px;*/
   position: absolute;
   top: 0;
   /*right: -3570px;*/
   animation: move 120s linear infinite;
-  animation-direction: left;
+  -moz-animation-direction: left;
 }
 
 #imagegallery-body img {
@@ -82,14 +82,20 @@ layout: default
   <script>
   (function() {
     var scroller = document.getElementById('imagegallery-body');
-    var offsetRight = -(scroller.offsetWidth - document.body.offsetWidth) + 'px';
+    var scrollerWidth = scroller.offsetWidth;
+    var bodyWidth = document.body.offsetWidth;
+    var newScrollerWidth = scrollerWidth + bodyWidth;
     
-    scroller.style.right = offsetRight;
+    scroller.style.width = newScrollerWidth + 'px';
+    
+    var offsetRight = -(newScrollerWidth);
+    
+    scroller.style.right = offsetRight + 'px';
     
     var style = document.createElement('style');
     style.type = 'text/css';
     
-    style.innerText = '@keyframes move { 0% { right:' + offsetRight + '; } 100% { right: 0; }}';
+    style.innerText = '@keyframes move { 0% { right:' + offsetRight + 'px; } 100% { right: 0; }}';
     scroller.parentNode.appendChild(style);
   })();
   </script>
