@@ -100,3 +100,7 @@ sub {
   position: relative;
   cursor: pointer;
 }
+
+.on-mobile .tofu {
+  min-width: 100%;
+}
