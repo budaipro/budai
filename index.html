@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="brand">
-  <div>&copy;<strong>布袋豆腐</strong><sub>（2023-2024）</sub></div>
+  <div>&copy;<strong>布袋豆腐</strong><span style="font-size: 85%;">（2023-2024）</span></div>
 </div>
 
 <div id="imagegallery">
@@ -97,17 +97,27 @@ layout: default
 })();
 </script>
 
-<div id="footer"><a href="/inn.html" target="_blank">家庭民宿↗</a></div>
+<div id="footer">
+  <em style="color: green; font-weight: bold;">纯素产品，不含五辛。</em>
+  <a href="/inn.html" target="_blank">家庭民宿↗</a>
+</div>
 <style>
 #footer {
-  font-size: 65%;
   padding: 3px;
   position: fixed;
+  left: 0;
   right: 0;
   bottom: 0;
 }
 
+#footer:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 #footer a {
+  float: right;
   text-decoration: underline;
 }
 </style>

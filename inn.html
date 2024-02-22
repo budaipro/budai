@@ -7,9 +7,12 @@ layout: null
   box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+}
+
 body, pre {
   font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
-  font-size: 18px;
   line-height: 1.185;
   margin: 0;
 }
@@ -17,16 +20,6 @@ body, pre {
 a, a:hover, a:active, a:visited {
   color: blue;
   text-decoration: none;
-}
-
-pre {
-  font-size: 16px;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-
-pre div {
-  display: inline;
 }
 
 abbr {
@@ -50,13 +43,20 @@ sup {
   top: -2px;
 }
 
-.color-default {
-  color: black;
+pre {
+}
+
+pre div {
+  display: inline;
 }
 
 .rooms, .about {
   width: 100%;
-  margin: 40px auto 25px;
+  margin: 20px 0;
+}
+
+.rooms {
+  margin-top: 40px;
 }
 
 .rules {
@@ -99,47 +99,11 @@ sup {
 }
 
 .on-mobile {
-  font-size: 45px;
-}
-
-.on-mobile pre {
-  font-size: 40px;
-}
-
-.on-mobile .rooms, .on-mobile .about, .on-mobile .rules {
-  float: none;
-  width: 100%;
-  max-width: 100%;
+  font-size: 35px;
 }
 
 .on-mobile .rooms {
-  margin-top: 110px;
-}
-
-.on-mobile .bottomborder2px-red {
-  border-bottom: 2px solid red;
-}
-
-.on-mobile .bottomborder4px-green {
-  border-bottom: 4px solid lightgreen;
-}
-
-.on-mobile .bottomborder4px-red {
-  border-bottom: 4px solid red;
-}
-
-@media only screen and (max-width: 800px) {
-  .rooms, .about, .rules {
-    float: none;
-    width: 100%;
-    max-width: 100%;
-  }
-}
-
-.supa {
-  color: white;
-  font-size: 85%;
-  cursor: help;
+  margin-top: 50px;
 }
 </style>
 <script>
@@ -150,9 +114,9 @@ window.mobileCheck = function() {
 };
 </script>
 
-<div style="margin-bottom: 25px; background-color: white; position: fixed; left: 0; top: 0; z-index: 9999;"><div>&copy;<strong>布袋豆腐</strong><sup style="color: black; font-size: 75%; border: 0; background-color: transparent; top: 5px;">（2023-2024）</sup></div></div>
+<div style="background-color: white; position: fixed; left: 0; top: 0; z-index: 9999;"><div>&copy;<strong>布袋豆腐</strong><span style="font-size: 85%;">（2023-2024）</span></div></div>
 <pre class="rooms">
-<b>出租房</b>
+<b>家庭民宿出租</b>
 ├ <b>地点</b>
 │ └ 银桥镇头铺村
 ├ <b>院内</b><span class="gallery-open-btn" data-src="/assets/img/inn/1/01.jpg" data-alt="院内图1" title="点击查看图片">图1</span><span class="gallery-open-btn" data-src="/assets/img/inn/1/02.jpg" data-alt="院内图2" title="点击查看图片">图2</span>
@@ -380,11 +344,11 @@ B、我们推崇健康的素食生活，我本人也是长期素食者。因此<
   })();
 </script>
   
-<div style="margin: 35px; font-size: 110%; font-weight: bold; text-align: center;"><mark>→已了解情况，有意加入我们的请联系电话：19542586219，或微信：同电话号。</mark></div>
-<div style="font-size: 125%; font-weight: bold; text-align: center; margin: 20px 0;"><span style="color: white; background-color: lightgreen;">节俭、朴实、薄欲、健康、积极<sup class="supa"><abbr title="注：①此处引用的“节俭”、“朴实”、“薄欲”、“健康”、“积极”5个词语，所赋予的涵义属于我们个人的定义；不同人之间的标准会有所差别。">①</abbr></sup>。</span></div>
+<div style="margin: 20px 0; font-weight: bold; text-align: center;"><mark>→已了解情况，有意加入我们的请联系电话：19542586219，或微信：同电话号。</mark></div>
+<div style="font-weight: bold; text-align: center; margin: 20px 0;"><span style="color: white; background-color: lightgreen;">节俭、朴实、薄欲、健康、积极<sup><abbr title="注：①此处引用的“节俭”、“朴实”、“薄欲”、“健康”、“积极”5个词语，所赋予的涵义属于我们个人的定义；不同人之间的标准会有所差别。">①</abbr></sup>。</span></div>
 
 <div id="gallery">
-  <div id="gallery-loadingbar" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 65%; padding: 0 5px; width: 65px;"></div>
+  <div id="gallery-loadingbar" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 85%; padding: 0 5px; width: 65px;"></div>
   <div>
     <span id="gallery-close-btn"><span>╳</span></span>
   </div>
