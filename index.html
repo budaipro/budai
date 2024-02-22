@@ -84,18 +84,14 @@ layout: default
     var scroller = document.getElementById('imagegallery-body');
     var scrollerWidth = scroller.offsetWidth;
     var bodyWidth = document.body.offsetWidth;
-    var newScrollerWidth = scrollerWidth + bodyWidth;
     
-    scroller.style.width = newScrollerWidth + 'px';
-    
-    var offsetRight = -(newScrollerWidth);
-    
-    scroller.style.right = offsetRight + 'px';
+    scroller.style.width = scrollerWidth + 'px';
+    scroller.style.right = -scrollerWidth + 'px';
     
     var style = document.createElement('style');
     style.type = 'text/css';
     
-    style.innerText = '@keyframes move { 0% { right:' + offsetRight + 'px; } 100% { right: 0; }}';
+    style.innerText = '@keyframes move { 0% { right:' + (-scrollerWidth) + 'px; } 100% { right:' + bodyWidth + 'px; }}';
     scroller.parentNode.appendChild(style);
   })();
   </script>
