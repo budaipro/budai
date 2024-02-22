@@ -84,6 +84,10 @@ sub {
 .collapse-toggler.active {
   font-weight: bold;
 }
+
+.collapse-toggler + abbr {
+  font-size: 85%;
+}
   
 .collapse-body {
   display: none/* inline */;
@@ -103,4 +107,8 @@ sub {
 
 .on-mobile .tofu {
   min-width: 100%;
+}
+
+.on-mobile .tofu pre {
+  font-size: 14px;
 }
