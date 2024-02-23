@@ -33,7 +33,7 @@ layout: default
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: -1;
     overflow-x: hidden;
   }
 
@@ -119,5 +119,27 @@ layout: default
 #footer a {
   float: right;
   text-decoration: underline;
+}
+</style>
+
+<div id="note">
+<span>同样的产品，在不同的经销商处价格可能不一致。</span>由于最初我们的定价没有考虑到给经销商预留合理的利润空间，出于他们自身的运营成本，价格可能会比我们的略高一些。
+</div>
+<style>
+#note {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.375;
+  width: 300px;
+  padding: 0 10px;
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+}
+
+.on-mobile #note {
+  width: 100%;
+  position: relative;
+  bottom: auto;
 }
 </style>
