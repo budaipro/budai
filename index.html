@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-<div class="brand">
-  <div>&copy;<strong>布袋豆腐</strong><span style="font-size: 85%;">（2023-2024）</span></div>
-</div>
-
 <div id="imagegallery">
   <div id="imagegallery-body">
     <img src="/assets/img/tofu/gallery/buddha.jpg" alt="/assets/img/tofu/gallery/buddha.jpg">
@@ -27,74 +23,75 @@ layout: default
     <img src="/assets/img/tofu/gallery/15.jpg" alt="/assets/img/tofu/gallery/15.jpg">
     <img src="/assets/img/tofu/gallery/16.jpg" alt="/assets/img/tofu/gallery/16.jpg">
   </div>
-  <style type="text/css" media="screen">
-  #imagegallery {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    overflow-x: hidden;
-  }
-
-  #imagegallery-body {
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    top: 0;
-    animation: move 150s linear infinite;
-    -moz-animation-direction: left;
-  }
-
-  #imagegallery-body img {
-    align-self: center;
-    width: 200px;
-    height: auto;
-  }
-
-  .on-mobile #imagegallery img {
-    width: 150px;
-  }
-  </style>
-  <script>
-  (function() {
-    var scroller = document.getElementById('imagegallery-body');
-    var scrollerWidth = scroller.offsetWidth;
-    var bodyWidth = document.body.offsetWidth;
-    
-    scroller.style.width = scrollerWidth + 'px';
-    scroller.style.right = -scrollerWidth + 'px';
-    
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    
-    style.innerText = '@keyframes move { 0% { right:' + (-scrollerWidth) + 'px; } 100% { right:' + bodyWidth + 'px; }}';
-    scroller.parentNode.appendChild(style);
-  })();
-  </script>
 </div>
+<style>
+#imagegallery {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+#imagegallery-body {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  animation: move 150s linear infinite;
+  -moz-animation-direction: left;
+}
+
+#imagegallery-body img {
+  align-self: center;
+  width: 200px;
+  height: auto;
+}
+
+.on-mobile #imagegallery img {
+  width: 150px;
+}
+</style>
+<script>
+(function() {
+  var scroller = document.getElementById('imagegallery-body');
+  var scrollerWidth = scroller.offsetWidth;
+  var bodyWidth = document.body.offsetWidth;
+  
+  scroller.style.width = scrollerWidth + 'px';
+  scroller.style.right = -scrollerWidth + 'px';
+  
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  
+  style.innerText = '@keyframes move { 0% { right:' + (-scrollerWidth) + 'px; } 100% { right:' + bodyWidth + 'px; }}';
+  scroller.parentNode.appendChild(style);
+})();
+</script>
 
 <div class="tofu">
 <pre>
 {% include tofu/about.html %}
 {% include tofu/product/index.html %}
 {% include tofu/sales/index.html %}</pre>
-<script>
-(function() {
-  document.querySelectorAll('.collapse')
-    .forEach(function(collapse) {
-      var toggler = collapse.querySelector('.collapse-toggler');
-      var body = collapse.querySelector('.collapse-body');
-      
-      toggler.onclick = function() {
-        toggler.classList.toggle('active');
-        body.classList.toggle('active');
-      };
-    });
-})();
-</script>
 </div>
+<style>
+.tofu {
+  display: inline-block;
+  min-width: 400px;
+  padding: 20px 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  opacity: .95;
+}
+
+.on-mobile .tofu {
+  min-width: 100%;
+}
+</style>
 
 <div id="footer">
   <em style="color: green; font-weight: bold;">纯素产品，不含五辛。</em>

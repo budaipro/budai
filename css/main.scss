@@ -4,18 +4,27 @@
 
 @charset "utf-8";
 
-blockquote {
-  display: inline;
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body, pre {
+  font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
+  font-size: 15.4px;
+  line-height: 1.185;
   margin: 0;
 }
 
-a {
+a, a:hover, a:active, a:visited {
   color: blue;
   text-decoration: none;
-}
-
-abbr {
-  cursor: help;
 }
 
 sup, sub {
@@ -33,6 +42,30 @@ sub {
   bottom: -4px;
 }
 
+rt {
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+}
+  
+abbr {
+  cursor: help;
+}
+
+dfn {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+pre {
+  white-space: pre;
+  width: 100%;
+}
+
+pre div {
+  display: inline;
+}
+
 .muted {
   display: inline;
   opacity: .4;
@@ -42,33 +75,6 @@ sub {
   color: red;
   position: relative;
   top: -2px;
-}
-
-.brand {
-  width: 100%;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-}
-
-.tofu {
-  display: inline-block;
-  min-width: 400px;
-  padding: 20px 10px;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  opacity: .95;
-}
-
-.tofu pre {
-  font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
-  white-space: pre;
-  width: 100%;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .collapse {
@@ -105,14 +111,19 @@ sub {
   cursor: pointer;
 }
 
-.on-mobile {
-  font-size: 16px;
+.brand {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
 }
 
-.on-mobile .tofu {
-  min-width: 100%;
+#container {
+  height: 100%;
 }
 
-.on-mobile .tofu pre {
+body.on-mobile, body.on-mobile pre {
   font-size: 16px;
 }

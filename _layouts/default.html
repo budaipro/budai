@@ -63,34 +63,28 @@
     };
   };
 </script>
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    height: 100%;
-    margin: 0;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-  }
-  
-  body {
-    font-family: 'dejavu sans mono', menlo, consolas, simsun, simkai, kaiti, simhei, serif;
-    font-size: 15.4px;
-    line-height: 1.185;
-    margin: 0;
-  }
-  
-  #container {
-    height: 100%;
-  }
-</style>
 </head>
 <body>
+  <div class="brand">
+    <div>&copy;<strong>布袋豆腐</strong><span style="font-size: 85%;">（2023-2024）</span></div>
+  </div>
   <div id="container">{{ content }}</div>
   <script>
     mobileCheck() && document.body.classList.add('on-mobile');
+  </script>
+  <script>
+  (function() {
+    document.querySelectorAll('.collapse')
+      .forEach(function(collapse) {
+        var toggler = collapse.querySelector('.collapse-toggler');
+        var body = collapse.querySelector('.collapse-body');
+        
+        toggler.onclick = function() {
+          toggler.classList.toggle('active');
+          body.classList.toggle('active');
+        };
+      });
+  })();
   </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MVB3SC8YVX"></script>
