@@ -4,18 +4,18 @@ layout: default
 title: "家庭民宿"
 ---
 <div id="inngallery">
-  <div><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"><div>院子1</div></div>
-  <div><img src="/assets/img/inn/102.jpg" alt="/assets/img/inn/102.jpg"><div>院子2</div></div>
-  <div><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><div>203室 - 600元/月</div></div>
-  <div><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><div>204室 - 700元/月</div></div>
-  <div><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><div>301室 - 800元/月</div></div>
-  <div><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><div>302室 - 600元/月</div></div>
-  <div><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><div>303室 - 700元/月</div></div>
-  <div><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"><div>卫生间1</div></div>
-  <div><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"><div>卫生间2</div></div>
-  <div><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"><div>2楼公共区域</div></div>
-  <div><img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg"><div>3楼公共区域</div></div>
-  <div><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"><div>3楼洗凉衣区域</div></div>
+  <div><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"><div><span class="arrow">▲</span>院子1</div></div>
+  <div><img src="/assets/img/inn/102.jpg" alt="/assets/img/inn/102.jpg"><div><span class="arrow">▲</span>院子2</div></div>
+  <div><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><div><span class="arrow">▲</span>203室 - 600元/月</div></div>
+  <div><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><div><span class="arrow">▲</span>204室 - 700元/月</div></div>
+  <div><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><div><span class="arrow">▲</span>301室 - 800元/月</div></div>
+  <div><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><div><span class="arrow">▲</span>302室 - 600元/月</div></div>
+  <div><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><div><span class="arrow">▲</span>303室 - 700元/月</div></div>
+  <div><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"><div><span class="arrow">▲</span>卫生间1</div></div>
+  <div><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"><div><span class="arrow">▲</span>卫生间2</div></div>
+  <div><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"><div><span class="arrow">▲</span>2楼公共区域</div></div>
+  <div><img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg"><div><span class="arrow">▲</span>3楼公共区域</div></div>
+  <div><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"><div><span class="arrow">▲</span>3楼洗凉衣区域</div></div>
 </div>
 <style>
 #inngallery {
@@ -29,10 +29,21 @@ title: "家庭民宿"
   align-self: center;
 }
 
+#inngallery .arrow {
+  font-size: 85%;
+  margin-right: 2px;
+  position: relative;
+  top: -1px;
+}
+
 #inngallery img {
   width: 300px;
   height: auto;
   margin: 0 auto;
+}
+
+.on-mobile #inngallery img {
+  width: 100%;
 }
 </style>
 
@@ -179,23 +190,25 @@ A、不能养宠物。
 <pre class="about">
 <b>生活圈</b>
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">500米范围内</span><div class="collapse-body">
-│ │┌ 山泉水取水处
-│ │├ 早餐店
-│ │├ 餐饮店
-│ ├┼ 便利生活超市
-│ │├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
-│ │├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
-│ ││ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
-│ ││ └ 送货上门：顺丰、京东、德邦等。</div></div>
-│ │└ 咖啡馆
-│ │┌ 幼儿园（多个）
-│ │├ 镇中学
-│ │├ 镇卫生院
-│ ├┼ 云南农村信用银行
-│ │├ 中国邮政
-│ │├ 镇公安局
-│ │└ 镇政府
-│ ├ 很多旅居的邻居
+│ ├ 生活
+│ │ ├ 山泉水取水处
+│ │ ├ 早餐店
+│ │ ├ 餐饮店
+│ │ ├ 便利生活超市
+│ │ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
+│ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
+│ │ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
+│ │ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
+│ │ ├ 咖啡馆
+│ │ ├ <b>很多旅居的邻居</b>
+│ │ ├ 云南农村信用银行
+│ │ ├ 中国邮政
+│ │ └ 镇卫生院
+│ ├ 学校/行政
+│ │ ├ 幼儿园
+│ │ ├ 镇中学
+│ │ ├ 镇公安局
+│ │ └ 镇政府
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出</b></span><div class="collapse-body">
 │   │ C7路公交车
 │   │ ├ 九孔桥
