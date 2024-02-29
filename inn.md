@@ -18,34 +18,34 @@ title: "家庭民宿"
   <div><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"><div><span class="arrow">▲</span>三楼洗凉衣区域</div></div>
 </div>
 <style>
-#inngallery {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
-}
+  #inngallery {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
 
-#inngallery div {
-  align-self: center;
-}
+  #inngallery div {
+    align-self: center;
+  }
 
-#inngallery .arrow {
-  font-size: 85%;
-  margin-right: 2px;
-  position: relative;
-  top: -1px;
-}
+  #inngallery .arrow {
+    font-size: 85%;
+    margin-right: 2px;
+    position: relative;
+    top: -1px;
+  }
 
-#inngallery img {
-  width: 300px;
-  height: auto;
-  margin: 0 auto;
-}
+  #inngallery img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
 
-.on-mobile #inngallery img {
-  width: 100%;
-}
+  .on-mobile #inngallery img {
+    width: 100%;
+  }
 </style>
 
 <pre class="rules">
@@ -243,37 +243,37 @@ title: "家庭民宿"
 <div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：19542586219，微信：同电话号。</div>
 
 <style>
-.rooms, .about {
-  width: 100%;
-  margin: 20px 0;
-}
+  .rooms, .about {
+    width: 100%;
+    margin: 20px 0;
+  }
 
-.rooms {
-  margin-top: 40px;
-}
+  .rooms {
+    margin-top: 40px;
+  }
 
-.rules {
-  /*clear: both;*/
-}
+  .rules {
+    /*clear: both;*/
+  }
 
-.bottomborder2px-red {
-  display: inline-block;
-  border-bottom: 2px solid red;
-}
+  .bottomborder2px-red {
+    display: inline-block;
+    border-bottom: 2px solid red;
+  }
 
-.bottomborder4px-green {
-  color: green;
-  border-bottom: 4px solid green;
-}
+  .bottomborder4px-green {
+    color: green;
+    border-bottom: 4px solid green;
+  }
 
-.bottomborder4px-red {
-  color: red;
-  border-bottom: 4px solid red;
-}
+  .bottomborder4px-red {
+    color: red;
+    border-bottom: 4px solid red;
+  }
 
-body.on-mobile .rooms {
-  margin-top: 50px;
-}
+  body.on-mobile .rooms {
+    margin-top: 50px;
+  }
 </style>
 
 <div id="gallery">
@@ -284,91 +284,91 @@ body.on-mobile .rooms {
   <div id="gallery-body"><img></div>
 </div>
 <style>
-#gallery {
-  display: none;
-  width: auto;
-  max-width: 600px;
-  background-color: white;
-  box-shadow: 10px 10px 80px rgba(0,0,0, .4);
-  position: absolute;
-  z-index: 9998;
-  cursor: move;
-}
+  #gallery {
+    display: none;
+    width: auto;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 80px rgba(0,0,0, .4);
+    position: absolute;
+    z-index: 9998;
+    cursor: move;
+  }
 
-#gallery-close-btn {
-  display: none;
-  background-color: black;
-  position: absolute;
-  right: 0;
-  cursor: pointer;
-}
+  #gallery-close-btn {
+    display: none;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
 
-#gallery-close-btn span {
-  display: block;
-  font-size: 10px;
-  font-family: simsun, simkai, kaiti, simhei, serif;
-  color: #ccc;
-  padding: 12px;
-}
+  #gallery-close-btn span {
+    display: block;
+    font-size: 10px;
+    font-family: simsun, simkai, kaiti, simhei, serif;
+    color: #ccc;
+    padding: 12px;
+  }
 
-#gallery-close-btn span:hover {
-  color: white;
-}
+  #gallery-close-btn span:hover {
+    color: white;
+  }
 
-#gallery-body {
-  font-size: 0; /* remove the image gap */
-  overflow: hidden;
-}
+  #gallery-body {
+    font-size: 0; /* remove the image gap */
+    overflow: hidden;
+  }
 
-#gallery-body img {
-  width: 100%;
-}
+  #gallery-body img {
+    width: 100%;
+  }
 </style>
 <script>
-(function() {
-  var gallery = document.getElementById('gallery');
-  var body = document.getElementById('gallery-body');
-  var img = body.querySelector('img');
-  var closeBtn = document.getElementById('gallery-close-btn');
-  var loadingbar = document.getElementById('gallery-loadingbar');
-  
-  draggable(gallery);
-  
-  document.querySelectorAll('.gallery-open-btn')
-    .forEach(function(btn) {
-      btn.onclick = function(e) { 
-        var dataset = this.dataset;
-        
-        if (img.src) {
-          img.src = '';
-          img.alt = '';
-          gallery.style.display = 'none';
-          closeBtn.style.display = 'none';
-        }
+  (function() {
+    var gallery = document.getElementById('gallery');
+    var body = document.getElementById('gallery-body');
+    var img = body.querySelector('img');
+    var closeBtn = document.getElementById('gallery-close-btn');
+    var loadingbar = document.getElementById('gallery-loadingbar');
+    
+    draggable(gallery);
+    
+    document.querySelectorAll('.gallery-open-btn')
+      .forEach(function(btn) {
+        btn.onclick = function(e) { 
+          var dataset = this.dataset;
+          
+          if (img.src) {
+            img.src = '';
+            img.alt = '';
+            gallery.style.display = 'none';
+            closeBtn.style.display = 'none';
+          }
 
-        gallery.style.left = e.pageX + 'px';
-        gallery.style.top = e.pageY + 'px';
-        gallery.style.display = 'block';
-        
-        loadingbar.innerHTML = '加载中...';
-        
-        img.onload = function() {
-          loadingbar.innerHTML = '';
-          closeBtn.style.display = 'inline-block';
-        }
-       
-        img.src = dataset.src;
-        img.alt = dataset.alt;
-        img.style.width = dataset.width ? dataset.width : '100%';
-      };
-    });
-  
-  closeBtn.onclick = function() {
-    gallery.style.display = 'none';
-    closeBtn.style.display = 'none';
-    img.src = '';
-    img.alt = '';
-    img.style.width = '';
-  };
-})();
+          gallery.style.left = e.pageX + 'px';
+          gallery.style.top = e.pageY + 'px';
+          gallery.style.display = 'block';
+          
+          loadingbar.innerHTML = '加载中...';
+          
+          img.onload = function() {
+            loadingbar.innerHTML = '';
+            closeBtn.style.display = 'inline-block';
+          }
+         
+          img.src = dataset.src;
+          img.alt = dataset.alt;
+          img.style.width = dataset.width ? dataset.width : '100%';
+        };
+      });
+    
+    closeBtn.onclick = function() {
+      gallery.style.display = 'none';
+      closeBtn.style.display = 'none';
+      img.src = '';
+      img.alt = '';
+      img.style.width = '';
+    };
+  })();
 </script>

@@ -24,55 +24,55 @@ layout: default
   </div>
 </div>
 <style>
-#imagegallery {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  overflow-x: hidden;
-}
+  #imagegallery {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow-x: hidden;
+  }
 
-#imagegallery-body {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  top: 0;
-  animation: move 150s linear infinite;
-  -moz-animation-direction: left;
-}
+  #imagegallery-body {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    animation: move 150s linear infinite;
+    -moz-animation-direction: left;
+  }
 
-#imagegallery-body img {
-  align-self: center;
-  width: 200px;
-  height: auto;
-}
+  #imagegallery-body img {
+    align-self: center;
+    width: 200px;
+    height: auto;
+  }
 
-body.on-mobile #imagegallery-body {
-  top: auto;
-  bottom: 0;
-}
+  body.on-mobile #imagegallery-body {
+    top: auto;
+    bottom: 0;
+  }
 
-body.on-mobile #imagegallery img {
-  width: 120px;
-}
+  body.on-mobile #imagegallery img {
+    width: 120px;
+  }
 </style>
 <script>
-(function() {
-  var scroller = document.getElementById('imagegallery-body');
-  var scrollerWidth = scroller.offsetWidth;
-  var bodyWidth = document.body.offsetWidth;
-  
-  scroller.style.width = scrollerWidth + 'px';
-  scroller.style.right = -scrollerWidth + 'px';
-  
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  
-  style.innerText = '@keyframes move { 0% { right:' + (-scrollerWidth) + 'px; } 100% { right:' + bodyWidth + 'px; }}';
-  scroller.parentNode.appendChild(style);
-})();
+  (function() {
+    var scroller = document.getElementById('imagegallery-body');
+    var scrollerWidth = scroller.offsetWidth;
+    var bodyWidth = document.body.offsetWidth;
+    
+    scroller.style.width = scrollerWidth + 'px';
+    scroller.style.right = -scrollerWidth + 'px';
+    
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    
+    style.innerText = '@keyframes move { 0% { right:' + (-scrollerWidth) + 'px; } 100% { right:' + bodyWidth + 'px; }}';
+    scroller.parentNode.appendChild(style);
+  })();
 </script>
 
 <div class="tofu">
@@ -82,19 +82,19 @@ body.on-mobile #imagegallery img {
 {% include tofu/sales/index.html %}</pre>
 </div>
 <style>
-.tofu {
-  display: inline-block;
-  min-width: 400px;
-  padding: 20px 10px;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  opacity: .95;
-}
+  .tofu {
+    display: inline-block;
+    min-width: 400px;
+    padding: 20px 10px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    opacity: .95;
+  }
 
-.on-mobile .tofu {
-  min-width: 100%;
-}
+  .on-mobile .tofu {
+    min-width: 100%;
+  }
 </style>
 
 <div id="footer">
@@ -102,29 +102,29 @@ body.on-mobile #imagegallery img {
   <a href="/inn.html" target="_blank">家庭民宿↗</a>
 </div>
 <style>
-#footer {
-  padding: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+  #footer {
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
-#footer:after {
-  display: block;
-  content: "";
-  clear: both;
-}
+  #footer:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 
-#footer em,
-#footer a {
-  background-color: rgba(255, 255, 255, .95);
-}
+  #footer em,
+  #footer a {
+    background-color: rgba(255, 255, 255, .95);
+  }
 
-#footer a {
-  float: right;
-  text-decoration: underline;
-} 
+  #footer a {
+    float: right;
+    text-decoration: underline;
+  } 
 </style>
 
 <div id="notes">
@@ -133,46 +133,46 @@ body.on-mobile #imagegallery img {
   <div class="note"><span class="number">②</span><span style="font-weight: bold; border-bottom: 2px solid;">如果买到的产品已变质，请联系我们退款。</span>由于豆制品在<dfn title="常温：一般指15°C到25°C的温度。">常温</dfn>下也特别容易变质，加上我们不会添加防腐剂，所以即使在生产的过程中，一疏忽都会变质<sup>发酸等</sup>。对于因这种我们还不能完全防范的情况，导致您购买到的产品是变质的，请加我们的微信请求退款。</div>
 </div>
 <style>
-#notes {
-  font-size: 14px;
-  font-style: italic;
-  line-height: 1.485;
-  padding: 0 10px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 40px;
-}
+  #notes {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.485;
+    padding: 0 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+  }
 
-#notes:after {
-  display: block;
-  content: "";
-  clear: both;
-}
+  #notes:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 
-#notes .note {
-  width: 300px;
-  margin: 10px;
-  float: left;
-  background-color: yellow;
-}
+  #notes .note {
+    width: 300px;
+    margin: 10px;
+    float: left;
+    background-color: yellow;
+  }
 
-#notes .number {
-  font-size: 145%;
-  line-height: 1;
-  vertical-align: middle;
-  position: relative;
-  top: -3px;
-}
+  #notes .number {
+    font-size: 145%;
+    line-height: 1;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+  }
 
-.on-mobile #notes {
-  position: relative;
-  left: 0;
-  bottom: auto;
-}
+  .on-mobile #notes {
+    position: relative;
+    left: 0;
+    bottom: auto;
+  }
 
-.on-mobile #notes .note {
-  width: auto;
-  margin: 10px 5px;
-}
+  .on-mobile #notes .note {
+    width: auto;
+    margin: 10px 5px;
+  }
 </style>
