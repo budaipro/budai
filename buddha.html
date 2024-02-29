@@ -4,7 +4,7 @@ layout: default
 title: "布袋和尚简介"
 ---
 <div class="buddha">
-  <div class="imgbuddha"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 100%;"><span>布袋和尚像。</span></div>
+  <div class="imgbuddha"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 100%;"><span>布袋和尚像</span></div>
 
   <div id="post">
     {% for post in site.posts %}
@@ -22,13 +22,14 @@ title: "布袋和尚简介"
 </div>
 <style>
 .buddha {
+  font-size: 20px;
   font-family: simkai, kaiti, simsun, dengxian, simhei, serif;
   letter-spacing: -0.035em;
   max-width: 500px;
 }
 
 .imgbuddha {
-  width: 150px;
+  width: 140px;
 }
 
 .imgbuddha img {
@@ -45,6 +46,7 @@ button {
 }
 
 body.on-mobile .buddha {
+  font-size: 16px;
   max-width: 100%;
 }
 
