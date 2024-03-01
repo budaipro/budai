@@ -6,10 +6,10 @@ title: "家庭民宿"
 <div id="inngallery">
   <div><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"><div><span class="arrow">▲</span>院子</div></div>
   <div><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><div><span class="arrow">▲</span>203室 - 600元/月</div></div>
-  <div><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><div><span class="arrow">▲</span>204室 - 700元/月</div></div>
+  <div><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><div><span class="arrow">▲</span><del>204室</del><sup>已出租</sup> - 700元/月</div></div>
   <div class="sold"><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><div><span class="arrow">▲</span><del>301室</del><sup>已出租</sup> - 800元/月</div></div>
   <div><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><div><span class="arrow">▲</span>302室 - 600元/月</div></div>
-  <div><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><div><span class="arrow">▲</span>303室 - 700元/月</div></div>
+  <div><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><div><span class="arrow">▲</span><del>303室</del><sup>已出租</sup> - 700元/月</div></div>
   <div><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"><div><span class="arrow">▲</span>卫生间（外）</div></div>
   <div><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"><div><span class="arrow">▲</span>卫生间（内）</div></div>
   <div><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"><div><span class="arrow">▲</span>二楼公共区域（1）</div></div>
