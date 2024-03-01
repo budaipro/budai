@@ -4,18 +4,54 @@ layout: default
 title: "家庭民宿"
 ---
 <div id="inngallery">
-  <div><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"><div><span class="arrow">▲</span>院子</div></div>
-  <div><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><div><span class="arrow">▲</span>203室 - 600元/月</div></div>
-  <div class="sold"><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><div><span class="arrow">▲</span><del>204室</del><sup>已出租</sup> - 700元/月</div></div>
-  <div class="sold"><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><div><span class="arrow">▲</span><del>301室</del><sup>已出租</sup> - 800元/月</div></div>
-  <div><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><div><span class="arrow">▲</span>302室 - 600元/月</div></div>
-  <div class="sold"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><div><span class="arrow">▲</span><del>303室</del><sup>已出租</sup> - 700元/月</div></div>
-  <div><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"><div><span class="arrow">▲</span>卫生间（外）</div></div>
-  <div><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"><div><span class="arrow">▲</span>卫生间（内）</div></div>
-  <div><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"><div><span class="arrow">▲</span>二楼公共区域（1）</div></div>
-  <div><img src="/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg"><div><span class="arrow">▲</span>二楼公共区域（2）</div></div>
-  <div><img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg"><div><span class="arrow">▲</span>三楼公共区域</div></div>
-  <div><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"><div><span class="arrow">▲</span>三楼洗凉衣区域</div></div>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"></div>
+    <figcaption><span class="arrow">▲</span>院子</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>可租</span></div>
+    <figcaption><span class="arrow">▲</span>203室 - 600元/月</figcaption>
+  </figure>
+  <figure class="sold">
+    <div class="img"><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><span>已出租（长期）</span></div>
+    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del></figcaption>
+  </figure>
+  <figure class="sold">
+    <div class="img"><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><span>已出租（长期）</span></div>
+    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del></figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>可租</span></div>
+    <figcaption><span class="arrow">▲</span>302室 - 600元/月</figcaption>
+  </figure>
+  <figure class="sold">
+    <div class="img"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><span>已出租（大约至6月初）</span></div>
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del></figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"></div>
+    <figcaption><span class="arrow">▲</span>卫生间（外）</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"></div>
+    <figcaption><span class="arrow">▲</span>卫生间（内）</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"></div>
+    <figcaption><span class="arrow">▲</span>二楼公共区域（1）</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg"></div>
+    <figcaption><span class="arrow">▲</span>二楼公共区域（2）</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg"></div>
+    <figcaption><span class="arrow">▲</span>三楼公共区域</figcaption>
+  </figure>
+  <figure>
+    <div class="img"><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"></div>
+    <figcaption><span class="arrow">▲</span>三楼洗凉衣区域</figcaption>
+  </figure>
 </div>
 <style>
   #inngallery {
@@ -26,15 +62,34 @@ title: "家庭民宿"
     margin-top: 20px;
   }
 
-  #inngallery div {
+  #inngallery figure {
     align-self: center;
     width: 300px;
+    margin: 0;
   }
-
-  #inngallery .sold sup {
-    color: red;
+  
+  #inngallery .img {
+    position: relative;
+    display: block;
+    font-size: 0; /* remove img gap */
+  }
+  
+  #inngallery .img span {
+    color: white;
+    font-size: .85rem;
     font-weight: bold;
-    background-color: yellow;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #inngallery .sold .img span {
+    background-color: red;
+  }
+  
+  #inngallery figcaption {
+    padding: 3px 0;
   }
 
   #inngallery .arrow {
@@ -50,8 +105,8 @@ title: "家庭民宿"
     margin: 0 auto;
   }
 
-  .on-mobile #inngallery div,
-  .on-mobile #inngallery img {
+  .on-mobile #inngallery figure,
+  .on-mobile #inngallery .img img {
     width: 100%;
   }
 </style>
