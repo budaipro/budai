@@ -33,6 +33,8 @@ title: "家庭民宿"
 
   #inngallery .sold sup {
     color: red;
+    font-weight: bold;
+    background-color: yellow;
   }
 
   #inngallery .arrow {
