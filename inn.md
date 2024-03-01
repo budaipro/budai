@@ -30,11 +30,11 @@ title: "家庭民宿"
   </figure>
   <figure>
     <div class="img"><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"></div>
-    <figcaption><span class="arrow">▲</span>卫生间（外）</figcaption>
+    <figcaption><span class="arrow">▲</span>卫生间（外）<sub>x2</sub></figcaption>
   </figure>
   <figure>
     <div class="img"><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"></div>
-    <figcaption><span class="arrow">▲</span>卫生间（内）</figcaption>
+    <figcaption><span class="arrow">▲</span>卫生间（内）<sub>x2</sub></figcaption>
   </figure>
   <figure>
     <div class="img"><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"></div>
@@ -90,6 +90,10 @@ title: "家庭民宿"
   
   #inngallery figcaption {
     padding: 3px 0;
+  }
+  
+  #inngallery figcaption sub {
+    vertical-align: bottom;
   }
 
   #inngallery .arrow {
