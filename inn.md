@@ -20,9 +20,9 @@ title: "家庭民宿"
     <div class="img"><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><span>已出租（长期）</span></div>
     <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del></figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>可租</span></div>
-    <figcaption><span class="arrow">▲</span>302室 - 600元/月</figcaption>
+  <figure class="sold">
+    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>已出租</span></div>
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del></figcaption>
   </figure>
   <figure class="sold">
     <div class="img"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><span>已出租（大约至6月初）</span></div>
