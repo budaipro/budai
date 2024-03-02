@@ -21,7 +21,7 @@ title: "家庭民宿"
     <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del></figcaption>
   </figure>
   <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>已出租</span></div>
+    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>已出租（大约至6月中）</span></div>
     <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del></figcaption>
   </figure>
   <figure class="sold">
