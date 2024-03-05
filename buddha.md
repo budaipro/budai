@@ -23,6 +23,7 @@ title: "布袋和尚简介"
 <style>
   .buddha {
     font-family: simkai, kaiti, simsun, dengxian, simhei, serif;
+    line-height: 1.285;
     letter-spacing: -0.035em;
     max-width: 500px;
   }
