@@ -9,7 +9,7 @@ title: "家庭民宿"
     <figcaption><span class="arrow">▲</span>院子</figcaption>
   </figure>
   <figure>
-    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>可租</span></div>
+    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>已出租（租期未知）</span></div>
     <figcaption><span class="arrow">▲</span>203室 - 600元/月</figcaption>
   </figure>
   <figure class="sold">
@@ -25,7 +25,7 @@ title: "家庭民宿"
     <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del></figcaption>
   </figure>
   <figure>
-    <div class="img"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><span>可租</span></div>
+    <div class="img"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><span>已出租（大约至6月中）</span></div>
     <figcaption><span class="arrow">▲</span>303室 - 700元/月</figcaption>
   </figure>
   <figure>
