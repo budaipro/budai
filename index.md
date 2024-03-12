@@ -134,7 +134,7 @@ layout: default
 </div>
 <style>
   #notes {
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
     line-height: 1.485;
     padding: 0 10px;
