@@ -1,0 +1,302 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 15.4px/1.185 'dejavu sans mono', menlo, consolas, simsun, dengxian, simhei, serif;
+  margin: 0;
+  background-color: transparent;
+}
+
+a, a:hover, a:active, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+sup, sub {
+  font-size: 85%;
+  position: relative;
+}
+
+sup {
+  vertical-align: top;
+  top: -4px;
+}
+
+sub {
+  vertical-align: bottom;
+  bottom: -4px;
+}
+
+rt {
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+}
+  
+abbr {
+  cursor: help;
+}
+
+dfn {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+pre {
+  font: 15.4px/1.185 'dejavu sans mono', menlo, consolas, simsun, dengxian, simhei, serif;
+  white-space: pre;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  div {
+    display: inline;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.muted {
+  display: inline;
+  opacity: .4;
+}
+
+.recommend, .hot {
+  color: red;
+  position: relative;
+  top: -2px;
+}
+
+.wrapper {
+  width: inherit;
+  max-width: inherit;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.collapse {
+  display: inline;
+  
+  .collapse-toggler {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+    &.active {
+      font-weight: bold;
+    }
+    
+    + abbr {
+      font-size: 85%;
+    }
+  }
+  
+  .collapse-body {
+    display: none/* inline */;
+    &.active {
+      display: inline;
+    }
+  }
+}
+
+.site-header {
+  font-family: simsun, dengxian, simhei, serif;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  /* reset minima theme style */
+  min-height: auto;
+  border-top: none;
+  border-bottom: none;
+  /* end reset */
+  
+  .site-title {
+    font-size: inherit;
+    font-weight: 700;
+    line-height: inherit;
+    letter-spacing: 0;
+    float: none;
+  }
+}
+
+.page-content {
+  padding: 0;
+}
+
+.site-footer {
+  padding: inherit;
+  border-top: none;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  a {
+    float: right;
+    text-decoration: underline;
+  }
+}
+
+.tofu {
+  display: inline-block;
+  min-width: 400px;
+  padding: 20px 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  opacity: .95;
+}
+
+.bg-gallery {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow-x: hidden;
+  opacity: 0;
+
+  &-body {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    animation: move 150s linear infinite;
+    -moz-animation-direction: left;
+  }
+
+  img {
+    align-self: center;
+    width: 200px;
+    height: auto;
+  }
+}
+
+.notes {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  
+  &:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+ 
+  .note {
+    line-height: 1.585;
+    width: 330px;
+    padding: 6px;
+    margin-right: 10px;
+    float: left;
+    background-color: yellow;
+    
+    strong {
+      text-decoration: underline solid 2px;
+    }
+  }
+  
+  .number {
+    line-height: 1;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
+}
+
+.gallery-open-btn {
+  color: blue;
+  margin-left: 2px;
+  border-bottom: 1px dotted;
+  position: relative;
+  cursor: pointer;
+}
+
+.buddha {
+  line-height: 1.585;
+  letter-spacing: -0.0325em;
+  max-width: 600px;
+  padding: 10px;
+
+  .buddha-avatar {
+    width: 135px;
+  }
+
+  .buddha-avatar img {
+    display: inherit;
+  }
+
+  button {
+    display: inline-block;
+    color: blue;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body, pre {
+    font-size: 16px;
+  }
+  
+  .tofu {
+    min-width: 100%;
+  }
+  
+  .bg-gallery {
+    .bg-gallery-body {
+      top: auto;
+      bottom: 0;
+    }
+    
+    img {
+      width: 120px;
+    }
+  }
+  
+  .notes {
+    position: relative;
+    left: 0;
+    bottom: auto;
+    
+    .note {
+      width: auto;
+      margin: 10px 5px;
+    }
+  }
+  
+  .buddha {
+    font-size: 16px;
+    max-width: 100%;
+    .buddha-avatar {
+      width: 40%;
+    }
+  }
+}

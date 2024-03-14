@@ -19,20 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 布袋豆腐
-email: budai.pro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   大理市布袋食品加工坊,布袋食品加工坊,布袋食品,布袋豆腐,卤香干,香干,卤豆干,豆干,油炸豆腐,油豆腐,豆泡,卤水老豆腐,卤水豆腐,老豆腐,白豆腐,冻豆腐,毛豆腐,酶豆腐,豆腐乳,腐乳.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://budai.pro" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-sass:
-    style: compressed
+theme: minima
 markdown: kramdown
 permalink: /:categories/:title.html
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+sass:
+    style: compressed

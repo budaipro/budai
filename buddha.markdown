@@ -3,8 +3,9 @@ permalink: buddha.html
 layout: default
 title: "布袋和尚简介"
 ---
+
 <div class="buddha">
-  <div class="imgbuddha"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚，大英博物馆藏。" style="width: 100%;"><span style="font-size: 16px;">布袋和尚像</span></div>
+  <figure class="buddha-avatar"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚像" style="width: 100%;"><figcaption>布袋和尚像</figcaption></figure>
 
   <div id="post">
     {% for post in site.posts %}
@@ -20,43 +21,11 @@ title: "布袋和尚简介"
     </div>
   {% endunless %}
 </div>
-<style>
-  .buddha {
-    font-family: simsun, simkai, kaiti, dengxian, simhei, serif;
-    line-height: 1.585;
-    letter-spacing: -0.0325em;
-    max-width: 600px;
-    padding: 10px;
-  }
-
-  .imgbuddha {
-    width: 135px;
-  }
-
-  .imgbuddha img {
-    display: inherit;
-  }
-
-  button {
-    display: inline-block;
-    color: blue;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px dotted;
-    cursor: pointer;
-  }
-
-  body.on-mobile .buddha {
-    font-size: 16px;
-    max-width: 100%;
-  }
-
-  body.on-mobile .imgbuddha {
-    width: 40%;
-  }
-</style>
 <script>
-  document.querySelector('.brand').style.display = 'none';
+  window.addEventListener('load', function() {
+    document.querySelector('.site-header').style.display = 'none';
+    document.querySelector('.site-footer').style.display = 'none';
+  }, false);
 </script>
 <script>
   (function() {
@@ -97,7 +66,7 @@ title: "布袋和尚简介"
       e.preventDefault();
       
       isLastPost = currentPost === (postLength - 1);
-      currentPost = isLastPost ?  0 : (currentPost + 1) ;
+      currentPost = isLastPost ?  0 : (currentPost + 1);
       
       request({
         method: 'GET',

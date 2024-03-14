@@ -3,6 +3,7 @@ permalink: /inn.html
 layout: default
 title: "家庭民宿"
 ---
+
 <div id="inngallery">
   <figure>
     <div class="img"><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"></div>
@@ -438,4 +439,9 @@ title: "家庭民宿"
       img.style.width = '';
     };
   })();
+</script>
+<script>
+  window.addEventListener('load', function() {
+    document.querySelector('.site-footer').style.display = 'none';
+  }, false);
 </script>
