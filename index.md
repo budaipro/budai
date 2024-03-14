@@ -134,9 +134,7 @@ layout: default
 </div>
 <style>
   #notes {
-    font-size: 14px;
-    font-style: italic;
-    line-height: 1.485;
+    line-height: 1.585;
     padding: 0 10px;
     position: fixed;
     left: 0;
@@ -151,8 +149,9 @@ layout: default
   }
 
   #notes .note {
-    width: 300px;
-    margin: 10px;
+    width: 330px;
+    padding: 6px;
+    margin-right: 10px;
     float: left;
     background-color: yellow;
   }
