@@ -135,7 +135,6 @@ layout: default
 <style>
   #notes {
     line-height: 1.585;
-    padding: 0 10px;
     position: fixed;
     left: 0;
     right: 0;
