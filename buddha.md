@@ -22,14 +22,15 @@ title: "布袋和尚简介"
 </div>
 <style>
   .buddha {
-    font-family: simkai, kaiti, simsun, dengxian, simhei, serif;
-    line-height: 1.285;
-    letter-spacing: -0.035em;
-    max-width: 500px;
+    font-family: simsun, simkai, kaiti, dengxian, simhei, serif;
+    line-height: 1.585;
+    letter-spacing: -0.0325em;
+    max-width: 600px;
+    padding: 10px;
   }
 
   .imgbuddha {
-    width: 120px;
+    width: 135px;
   }
 
   .imgbuddha img {
