@@ -130,7 +130,7 @@ title: "家庭民宿"
 二、<span class="bottomborder2px-red">租金包基本的水电使用费</span>。
 三、<span class="bottomborder2px-red">无租房押金</span>。
 四、<span class="bottomborder2px-red">也没有钥匙押金</span>。
-五、<span class="bottomborder2px-red">入住后的第二天才算正式入住日</span>。
+五、<span class="bottomborder2px-red">正式入住日从入住后的第二天才开始算</span>，入住当天不算房租。
 六、<span class="bottomborder2px-red">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
 七、<span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下需要退租，多余租金全额退还。
 八、<span class="bottomborder2px-red">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。
@@ -165,7 +165,7 @@ title: "家庭民宿"
     │ ├ 镇中学
     │ ├ 镇公安局
     │ └ 镇政府</div></div>
-    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出乘车处</b></span><div class="collapse-body">
+    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">外出乘车处</span><div class="collapse-body">
       │ C7路公交车
       │ ├ 九孔桥
       │ ├ 鹤阳
@@ -197,14 +197,9 @@ title: "家庭民宿"
 <div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：19542586219，微信：同电话号。</div>
 
 <style>
-  .rooms, .about {
+  .about {
     width: 100%;
     margin: 20px 0;
-  }
-
-  .rooms {
-    margin-top: 40px;
-    overflow-y: hidden;
   }
 
   .rules {
@@ -225,108 +220,8 @@ title: "家庭民宿"
     color: red;
     border-bottom: 4px solid red;
   }
-
-  body.on-mobile .rooms {
-    margin-top: 50px;
-  }
 </style>
 
-<div id="gallery">
-  <div id="gallery-loadingbar" style="position: absolute; left: 0; top: 0; background-color: black; color: white; font-size: 85%; padding: 0 5px; width: 75px;"></div>
-  <div>
-    <span id="gallery-close-btn"><span>╳</span></span>
-  </div>
-  <div id="gallery-body"><img></div>
-</div>
-<style>
-  #gallery {
-    display: none;
-    width: auto;
-    max-width: 600px;
-    background-color: white;
-    box-shadow: 10px 10px 80px rgba(0,0,0, .4);
-    position: absolute;
-    z-index: 9998;
-    cursor: move;
-  }
-
-  #gallery-close-btn {
-    display: none;
-    background-color: black;
-    position: absolute;
-    right: 0;
-    cursor: pointer;
-  }
-
-  #gallery-close-btn span {
-    display: block;
-    font-size: 10px;
-    font-family: simsun, simkai, kaiti, simhei, serif;
-    color: #ccc;
-    padding: 12px;
-  }
-
-  #gallery-close-btn span:hover {
-    color: white;
-  }
-
-  #gallery-body {
-    font-size: 0; /* remove the image gap */
-    overflow: hidden;
-  }
-
-  #gallery-body img {
-    width: 100%;
-  }
-</style>
-<script>
-  (function() {
-    var gallery = document.getElementById('gallery');
-    var body = document.getElementById('gallery-body');
-    var img = body.querySelector('img');
-    var closeBtn = document.getElementById('gallery-close-btn');
-    var loadingbar = document.getElementById('gallery-loadingbar');
-    
-    draggable(gallery);
-    
-    document.querySelectorAll('.gallery-open-btn')
-      .forEach(function(btn) {
-        btn.onclick = function(e) { 
-          var dataset = this.dataset;
-          
-          if (img.src) {
-            img.src = '';
-            img.alt = '';
-            gallery.style.display = 'none';
-            closeBtn.style.display = 'none';
-          }
-
-          gallery.style.left = e.pageX + 'px';
-          gallery.style.top = e.pageY + 'px';
-          gallery.style.display = 'block';
-          
-          loadingbar.innerHTML = '加载中...';
-          
-          img.onload = function() {
-            loadingbar.innerHTML = '';
-            closeBtn.style.display = 'inline-block';
-          }
-         
-          img.src = dataset.src;
-          img.alt = dataset.alt;
-          img.style.width = dataset.width ? dataset.width : '100%';
-        };
-      });
-    
-    closeBtn.onclick = function() {
-      gallery.style.display = 'none';
-      closeBtn.style.display = 'none';
-      img.src = '';
-      img.alt = '';
-      img.style.width = '';
-    };
-  })();
-</script>
 <script>
   window.addEventListener('load', function() {
     document.querySelector('.site-footer').style.display = 'none';
