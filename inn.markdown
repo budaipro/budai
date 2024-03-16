@@ -318,6 +318,7 @@ title: "家庭民宿"
 
   .rooms {
     margin-top: 40px;
+    overflow-y: hidden;
   }
 
   .rules {
