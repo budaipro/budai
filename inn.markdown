@@ -165,7 +165,7 @@ title: "家庭民宿"
     │ ├ 镇中学
     │ ├ 镇公安局
     │ └ 镇政府</div></div>
-    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出</b></span><div class="collapse-body">
+    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出乘车处</b></span><div class="collapse-body">
       │ C7路公交车
       │ ├ 九孔桥
       │ ├ 鹤阳
