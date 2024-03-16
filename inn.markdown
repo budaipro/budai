@@ -142,171 +142,56 @@ title: "家庭民宿"
 一、不能养宠物。
 </pre>
 
-<pre class="rooms" style="margin-top: 20px;">
-<b>基本信息</b>
-├ <b>地点</b>
-│ └ 银桥镇头铺村
-├ <b>院子</b><span class="gallery-open-btn" data-src="/assets/img/inn/101.jpg" data-alt="院内图1" title="点击查看图片">图1</span><span class="gallery-open-btn" data-src="/assets/img/inn/102.jpg" data-alt="院内图2" title="点击查看图片">图2</span>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二楼</span><div class="collapse-body">
-│ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
-│ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/inn/bathroom1.jpg" data-alt="二楼卫生间1" title="点击查看图片"><em>参考三楼</em>图片1</span><span class="gallery-open-btn" data-src="/assets/img/inn/bathroom2.jpg" data-alt="二楼卫生间2" title="点击查看图片"><em>参考三楼</em>图片2</span><div class="collapse-body">
-│ │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">基础设施</span><div class="collapse-body">
-│ │ │   ├ 淋浴（热水）
-│ │ │   ├ 取暖器
-│ │ │   ├ 马桶
-│ │ │   ├ 洗脸池
-│ │ │   └ 化妆柜（含镜子）</div></div></div></div>
-│ │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">客厅</span><span class="gallery-open-btn" data-src="/assets/img/inn/200p1.jpg" data-alt="客厅" title="点击查看图片">图片</span><div class="collapse-body">
-│ │ │ └ 家具
-│ │ │   ├ 实木会议桌
-│ │ │   │ └ 凳子<sub>x6</sub>
-│ │ │   └ 沙发
-│ │ │</div></div>
-│ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">厨房</span><span>图片待补充</span><span class="gallery-open-btn hide" data-src="/assets/img/inn/kitchen.jpg" data-alt="厨房" title="点击查看图片">图片</span><div class="collapse-body">
-│ │   └ 家具
-│ │     ├ 油烟机
-│ │     ├ 整体橱柜
-│ │     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">冰箱</span><div class="collapse-body">
-│ │     │ ├ 冷藏：83升。
-│ │     │ └ 冷冻：52升。</div></div>
-│ │     ├ 燃气灶
-│ │     └ 实木餐桌
-│ │       └ 实木餐椅<sub>x4</sub></div></div>
-│ │</div></div>
-│ └ <b>房间</b>
-│   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">203室（600元/月）</span><span class="gallery-open-btn" data-src="/assets/img/inn/203.jpg" data-alt="203室" title="点击查看图片">图片</span><div class="collapse-body">
-│   │ ├ 租金
-│   │ │ └ 含基本水电的使用。
-│   │ └ 家具
-│   │   ├ 原木壁挂置物架（4钩）
-│   │   ├ 原木单人床<sup>无漆</sup>
-│   │   ├ 原木床头柜<sup>无漆</sup>
-│   │   └ 原木书桌<sup>无漆</sup>
-│   │     ├ 氛围台灯
-│   │     ├ 仿真植物
-│   │     └ 椅子
-│   │</div></div>
-│   └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">204室（700元/月）</span><span>图片待补充</span><span class="gallery-open-btn hide" data-src="/assets/img/inn/204.jpg" data-alt="204室" title="点击查看图片">图片</span><div class="collapse-body">
-│     ├ 租金
-│     │ └ 含基本水电的使用。
-│     └ 家具
-│       ├ 原木壁挂置物架（6钩）
-│       ├ 原木衣架<sup>无漆</sup>
-│       ├ 原木双人床<sup>无漆</sup>
-│       ├ 原木床头柜<sup>无漆</sup>
-│       └ 原木书桌<sup>无漆</sup>
-│         ├ 氛围台灯
-│         ├ 仿真植物
-│         └ 椅子</div></div>
-│</div></div>
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三楼</span><div class="collapse-body">
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公共区域</span><div class="collapse-body">
-  │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">卫生间</span><span class="gallery-open-btn" data-src="/assets/img/inn/bathroom1.jpg" data-alt="三楼卫生间" title="点击查看图片">图片1</span><span class="gallery-open-btn" data-src="/assets/img/inn/bathroom2.jpg" data-alt="三楼卫生间" title="点击查看图片">图片2</span><div class="collapse-body">
-  │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">基础设施</span><div class="collapse-body">
-  │ │   ├ 淋浴（热水）
-  │ │   ├ 取暖器
-  │ │   ├ 马桶
-  │ │   ├ 洗脸池
-  │ │   └ 化妆柜（含镜子）</div></div></div></div>
-  │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">阳台</span><span class="gallery-open-btn" data-src="/assets/img/inn/300p1.jpg" data-alt="阳台" title="点击查看图片">图片</span><div class="collapse-body">
-  │ │ └ 家具
-  │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">原木沙发<sup>无漆</sup></span><div class="collapse-body">
-  │ │   │ ├ 3人座<sub>x1</sub>
-  │ │   │ ├ 2人座<sub>x1</sub>
-  │ │   │ └ 1人座<sub>x1</sub></div></div>
-  │ │   └ 茶几<sup>无漆</sup></div></div>
-  │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">晾衣区</span><span class="gallery-open-btn" data-src="/assets/img/inn/300p2.jpg" data-alt="晾衣区" title="点击查看图片">图片</span><div class="collapse-body">
-  │   └ 家具
-  │     ├ 晾衣绳
-  │     └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">洗衣机</span><div class="collapse-body">
-  │       └ 10KG容量</div></div></div></div>
-  │</div></div>
-  └ <b>房间</b>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">301室（800元/月）</span><span class="gallery-open-btn" data-src="/assets/img/inn/301.jpg" data-alt="301室" title="点击查看图片">图片</span><div class="collapse-body">
-    │ ├ 租金
-    │ │ └ 含基本水电的使用。
-    │ └ 家具
-    │   ├ 原木壁挂置物架（6钩）
-    │   ├ 原木衣架<sup>无漆</sup>
-    │   ├ 原木双人床<sup>无漆</sup>
-    │   ├ 原木床头柜<sup>无漆</sup>
-    │   └ 原木书桌<sup>无漆</sup>
-    │     ├ 氛围台灯
-    │     ├ 仿真植物
-    │     └ 椅子
-    │</div></div>
-    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">302室（600元/月）</span><span class="gallery-open-btn" data-src="/assets/img/inn/302.jpg" data-alt="302室" title="点击查看图片">图片</span><div class="collapse-body">
-    │ ├ 租金
-    │ │ └ 含基本水电的使用。
-    │ └ 家具
-    │   ├ 原木壁挂置物架（4钩）
-    │   ├ 原木单人床<sup>无漆</sup>
-    │   ├ 原木床头柜<sup>无漆</sup>
-    │   └ 原木书桌<sup>无漆</sup>
-    │     ├ 氛围台灯
-    │     ├ 仿真植物
-    │     └ 椅子
-    │</div></div>
-    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">303室（700元/月）</span><span class="gallery-open-btn" data-src="/assets/img/inn/303.jpg" data-alt="303室" title="点击查看图片">图片</span><div class="collapse-body">
-      ├ 租金
-      │ └ 含基本水电的使用。
-      └ 家具
-        ├ 原木壁挂置物架（6钩）
-        ├ 原木衣架<sup>无漆</sup>
-        ├ 原木双人床<sup>无漆</sup>
-        └ 原木书桌<sup>无漆</sup>
-          ├ 氛围台灯
-          ├ 仿真植物
-          └ 椅子</div></div></div></div>
-</pre>
 <pre class="about">
-500米内生活圈
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
-│ ├ 山泉水取水处
-│ ├ 早餐店
-│ ├ 餐饮店
-│ ├ 便利生活超市
-│ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
-│ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
-│ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
-│ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
-│ ├ 咖啡馆
-│ ├ <b>很多旅居的邻居</b>
-│ ├ 云南农村信用银行
-│ ├ 中国邮政
-│ └ 镇卫生院</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">学校/行政</span><div class="collapse-body">
-│ ├ 幼儿园
-│ ├ 镇中学
-│ ├ 镇公安局
-│ └ 镇政府</div></div>
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出</b></span><div class="collapse-body">
-  │ C7路公交车
-  │ ├ 九孔桥
-  │ ├ 鹤阳
-  └─┼ <b>银桥镇政府（本站公交车站）</b>
-    ↓
-    ├ 银桥幼儿园
-    ├ 磻曲
-    ├ 银桥村
-    ├ 阳波
-    ├ 阳乡
- 3KM├ 无为寺
-    ├ 双阳
-    ├ 北五里桥
-    ├ 绿桃村
-≈6KM├ 三塔路口
-≈6KM├ 北门桥头
-    ├ 水碓村
-≈8KM├ 三月街口
-≈8KM├ 人民路口
-≈8KM├ 红龙井
-    ├ 一塔路口
-    ├ 玉局路口
-    ├ 学府路口
-    ├ 弘圣路口
-    ├ 山水间
-    └ 大理财校</div></div>
+<b>地点</b>
+  ├ 银桥镇头铺村
+  └ 500米内生活圈
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
+    │ ├ 山泉水取水处
+    │ ├ 早餐店
+    │ ├ 餐饮店
+    │ ├ 便利生活超市
+    │ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
+    │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
+    │ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
+    │ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
+    │ ├ 咖啡馆
+    │ ├ <b>很多旅居的邻居</b>
+    │ ├ 云南农村信用银行
+    │ ├ 中国邮政
+    │ └ 镇卫生院</div></div>
+    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">学校/行政</span><div class="collapse-body">
+    │ ├ 幼儿园
+    │ ├ 镇中学
+    │ ├ 镇公安局
+    │ └ 镇政府</div></div>
+    └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>外出</b></span><div class="collapse-body">
+      │ C7路公交车
+      │ ├ 九孔桥
+      │ ├ 鹤阳
+      └─┼ <b>银桥镇政府（本站公交车站）</b>
+        ↓
+        ├ 银桥幼儿园
+        ├ 磻曲
+        ├ 银桥村
+        ├ 阳波
+        ├ 阳乡
+     3KM├ 无为寺
+        ├ 双阳
+        ├ 北五里桥
+        ├ 绿桃村
+    ≈6KM├ 三塔路口
+    ≈6KM├ 北门桥头
+        ├ 水碓村
+    ≈8KM├ 三月街口
+    ≈8KM├ 人民路口
+    ≈8KM├ 红龙井
+        ├ 一塔路口
+        ├ 玉局路口
+        ├ 学府路口
+        ├ 弘圣路口
+        ├ 山水间
+        └ 大理财校</div></div>
 </pre>
   
 <div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：19542586219，微信：同电话号。</div>
