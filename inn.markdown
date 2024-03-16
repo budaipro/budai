@@ -1,5 +1,5 @@
 ---
-permalink: /inn.html
+permalink: /inn
 layout: default
 title: "家庭民宿"
 ---
