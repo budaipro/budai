@@ -130,7 +130,7 @@ title: "家庭民宿"
 二、<span class="bottomborder2px-red">租金包基本的水电使用费</span>。
 三、<span class="bottomborder2px-red">无租房押金</span>。
 四、<span class="bottomborder2px-red">也没有钥匙押金</span>。
-五、<span class="bottomborder2px-red">正式入住日从入住后的第二天才开始算</span>，入住当天不算房租。
+五、<span class="bottomborder2px-red">入住后的第二天才算入住日</span>，入住当天不算房租。
 六、<span class="bottomborder2px-red">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
 七、<span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下需要退租，多余租金全额退还。
 八、<span class="bottomborder2px-red">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。
