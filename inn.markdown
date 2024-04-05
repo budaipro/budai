@@ -59,6 +59,7 @@ title: "家庭民宿"
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 10px;
     margin-top: 20px;
   }
