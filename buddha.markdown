@@ -5,7 +5,6 @@ title: "布袋和尚简介"
 ---
 
 <div class="buddha">
-  <figure class="buddha-avatar"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚像" style="width: 100%;"><figcaption>布袋和尚像</figcaption></figure>
 
   <div id="post">
     {% for post in site.posts %}
