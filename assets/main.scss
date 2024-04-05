@@ -54,7 +54,7 @@ dfn {
 }
 
 pre {
-  font: 15px/1.185 'dejavu sans mono', menlo, consolas, simsun, dengxian, simhei, serif;
+  font: 15px/1.185 'dejavu sans mono', dengxian, simsun, simhei, serif;
   white-space: pre;
   width: 100%;
   padding: 0;
@@ -68,17 +68,6 @@ pre {
 
 .hide {
   display: none;
-}
-
-.muted {
-  display: inline;
-  opacity: .4;
-}
-
-.recommend, .hot {
-  color: red;
-  position: relative;
-  top: -2px;
 }
 
 .wrapper {
@@ -181,7 +170,7 @@ pre {
 
   img {
     align-self: center;
-    width: 210px;
+    width: 23.5%;
     height: auto;
   }
 }
@@ -200,14 +189,6 @@ pre {
   letter-spacing: -0.0325em;
   padding: 10px;
 
-  .buddha-avatar {
-    width: 235px;
-  }
-
-  .buddha-avatar img {
-    display: inherit;
-  }
-
   button {
     display: inline-block;
     color: blue;
@@ -219,4 +200,7 @@ pre {
 }
 
 @media screen and (max-width: 800px) {
+  .bg-gallery img {
+    width: 45%;
+  }
 }

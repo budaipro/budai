@@ -4,7 +4,7 @@ layout: home
 
 <div class="bg-gallery">
   <div class="bg-gallery-body">
-    <a href="/buddha"><img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚像"></a>
+    <img src="/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚像">
     <img src="/assets/img/tofu/gallery/buddha.jpg" alt="/assets/img/tofu/gallery/buddha.jpg">
     <img src="/assets/img/tofu/gallery/00.jpg" alt="/assets/img/tofu/gallery/00.jpg">
     <img src="/assets/img/tofu/gallery/01.jpg" alt="/assets/img/tofu/gallery/01.jpg">
@@ -26,9 +26,3 @@ layout: home
   </div>
 </div>
 
-<div class="tofu" style="display: none;">
-<pre>
-{% include tofu/about.html %}
-{% include tofu/product/index.html %}
-{% include tofu/sales/index.html %}</pre>
-</div>
