@@ -115,7 +115,6 @@ pre {
 .site-header {
   font-family: simsun, dengxian, simhei, serif;
   width: 100%;
-  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -132,6 +131,7 @@ pre {
     line-height: inherit;
     letter-spacing: 0;
     float: none;
+    background-color: white;
   }
 }
 
@@ -162,72 +162,27 @@ pre {
 }
 
 .tofu {
-  display: inline-block;
-  min-width: 400px;
-  padding: 20px 10px;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  opacity: .95;
 }
 
 .bg-gallery {
   width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: -1;
   overflow-x: hidden;
-  opacity: 0;
 
   &-body {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 10px;
-    position: absolute;
-    top: 0;
-    animation: move 150s linear infinite;
-    -moz-animation-direction: left;
+  }
+  
+  a {
   }
 
   img {
     align-self: center;
-    width: 200px;
+    width: 210px;
     height: auto;
-  }
-}
-
-.notes {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 25px;
-  z-index: 0;
-  
-  &:after {
-    display: block;
-    content: "";
-    clear: both;
-  }
- 
-  .note {
-    line-height: 1.585;
-    width: 330px;
-    padding: 6px;
-    margin-right: 10px;
-    float: left;
-    background-color: yellow;
-    
-    strong {
-      text-decoration: underline solid 2px;
-    }
-  }
-  
-  .number {
-    line-height: 1;
-    vertical-align: middle;
-    position: relative;
-    top: -2px;
   }
 }
 
@@ -240,13 +195,13 @@ pre {
 }
 
 .buddha {
+  font-size: 18px;
   line-height: 1.585;
   letter-spacing: -0.0325em;
-  max-width: 600px;
   padding: 10px;
 
   .buddha-avatar {
-    width: 135px;
+    width: 235px;
   }
 
   .buddha-avatar img {
@@ -264,40 +219,4 @@ pre {
 }
 
 @media screen and (max-width: 800px) {
-  body, pre {
-    font-size: 12px;
-  }
-  
-  .tofu {
-    min-width: 100%;
-  }
-  
-  .bg-gallery {
-    .bg-gallery-body {
-      top: auto;
-      bottom: 0;
-    }
-    
-    img {
-      width: 120px;
-    }
-  }
-  
-  .notes {
-    position: relative;
-    left: 0;
-    bottom: auto;
-    
-    .note {
-      width: auto;
-      margin: 10px 5px;
-    }
-  }
-  
-  .buddha {
-    max-width: 100%;
-    .buddha-avatar {
-      width: 40%;
-    }
-  }
 }
