@@ -103,11 +103,9 @@ pre {
 
 .site-header {
   font-family: dengxian, simsun, simhei, serif;
+  text-align: center;
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
+  padding: 20px 0;
   /* reset minima theme style */
   min-height: auto;
   border-top: none;
@@ -115,12 +113,13 @@ pre {
   /* end reset */
   
   .site-title {
-    font-size: inherit;
+    display: block;
+    font-size: 1.375rem;
     font-weight: 700;
     line-height: inherit;
     letter-spacing: 0;
     float: none;
-    background-color: white;
+    margin-bottom: 10px;
   }
 }
 
@@ -129,23 +128,11 @@ pre {
 }
 
 .site-footer {
-  padding: inherit;
+  text-align: center;
+  padding: 20px 0;
   border-top: none;
-  padding: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10000;
-  
-  &:after {
-    display: block;
-    content: "";
-    clear: both;
-  }
   
   a {
-    float: right;
     text-decoration: underline;
   }
 }
@@ -170,7 +157,7 @@ pre {
 
   img {
     align-self: center;
-    width: 18%;
+    width: 20%;
     height: auto;
   }
 }
