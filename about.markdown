@@ -1,0 +1,13 @@
+---
+permalink: /about
+layout: default
+title: "关于"
+---
+
+# 关于
+
+<ul>
+  <li><b>生产商</b>：大理市布袋食品加工坊。</li>
+  <li><b>地址</b>：大理市银桥镇头铺村。</li>
+  <li><b>电话/微信</b>：19542586219。</li>
+</ul>

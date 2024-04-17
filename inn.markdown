@@ -4,6 +4,10 @@ layout: default
 title: "家庭民宿"
 ---
 
+# 家庭民宿
+
+<div class="balloon">由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳<span>素食者</span>，或者能发心吃素的人入住。</div>
+
 <div id="inngallery">
   <figure>
     <div class="img"><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"></div>
@@ -56,29 +60,27 @@ title: "家庭民宿"
 </div>
 <style>
   #inngallery {
-    text-align: center;
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 10px;*/
     margin-top: 20px;
   }
 
   #inngallery figure {
     align-self: center;
-    width: 300px;
     margin: 0;
   }
   
   #inngallery .img {
     position: relative;
-    display: block;
+    display: inline-block;
     font-size: 0; /* remove img gap */
   }
   
   #inngallery .img span {
     color: white;
-    font-size: .85rem;
+    font-size: 11px;
     font-weight: bold;
     background-color: green;
     position: absolute;
@@ -106,42 +108,35 @@ title: "家庭民宿"
   }
 
   #inngallery img {
-    width: 300px;
+    width: 360px;
     height: auto;
     margin: 0 auto;
   }
-
-  .on-mobile #inngallery figure,
-  .on-mobile #inngallery .img img {
-    width: 100%;
-  }
 </style>
 
-<pre class="rules">
-<div style="white-space: pre-wrap;">
-<mark style="font-size: 115%; font-weight: bold;">由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳<span style="border-bottom: 4px solid;">素食者</span>，或者能发心吃素的人入住。</mark>
+<p><em>房间只添置了最基本的家具，所采购的家具很多都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
 
-<em>房间只添置了最基本的家具，所采购的家具很多都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</div>
+### 一些规则：
 
-一些规则：
-一、<span class="bottomborder2px-red">统一的月租金</span>。
-   ├ 短租、长租；        
-   ├ 淡季、旺季；
-   └ 月付、季付、半年付、年付。
-二、<span class="bottomborder2px-red">租金包基本的水电使用费</span>。
-三、<span class="bottomborder2px-red">无租房押金</span>。
-四、<span class="bottomborder2px-red">也没有钥匙押金</span>。
-五、<span class="bottomborder2px-red">入住的当天不算房租</span>，入住后的第二天再开始算房租。
-六、<span class="bottomborder2px-red">不提前要求续交房租</span>，包括提前半个月乃至提前一天。
-七、<span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下需要退租，多余租金全额退还。
-八、<span class="bottomborder2px-red">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。
-九、如居住期彼此间产生矛盾。
-   ├ 1、按照以上规则公事公办。
-   └ 2、超出以上规则的，依着诚心和公平来协商处理。
+<ol>
+<li><span class="bottomborder2px-red">统一的月租金</span>。<pre>
+├ 短租、长租；        
+├ 淡季、旺季；
+└ 月付、季付、半年付、年付。</pre></li>
+<li><span class="bottomborder2px-red">租金包基本的水电使用费</span>。</li>
+<li><span class="bottomborder2px-red">无租房押金</span>。</li>
+<li><span class="bottomborder2px-red">也没有钥匙押金</span>。</li>
+<li><span class="bottomborder2px-red">入住的当天不算房租</span>，入住后的第二天再开始算房租。</li>
+<li><span class="bottomborder2px-red">不提前要求续交房租</span>，包括提前半个月乃至提前一天。</li>
+<li><span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下需要退租，多余租金全额退还。</li>
+<li><span class="bottomborder2px-red">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。</li>
+<li>如居住期彼此间产生矛盾。<pre>
+├ 按照以上规则公事公办。
+└ 超出以上规则的，依着诚心和公平来协商处理。</pre></li>
+</ol>
 
-暂时想到的一个要求：
-一、不能养宠物。
-</pre>
+### 暂时想到的一个要求：
+<ul><li>不能养宠物。</li></ul>
 
 <pre class="about">
 <b>地点</b>

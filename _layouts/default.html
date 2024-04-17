@@ -4,16 +4,28 @@
   {%- include head.html -%}
 
   <body>
-
-    {%- if page.url == '/' -%}{%- include header.html -%}{%- endif -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    
+    <div class="container">
+      <div class="window" aria-label="Content">
+        <div class="title-bar">
+          <a class="title-bar-text" rel="author" href="{{ "/" | relative_url }}"><strong>{{ site.title | escape }}</strong></a>
+        </div>
+        <div class="window-body">
+          {%- include nav.html -%}
+          <div class="document-container">
+            <div class="document-cell">
+              <div class="inset">
+                <div class="document">
+                  <div class="document-content">
+                    {{ content }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
-
-    {%- if page.url == '/' -%}{%- include footer.html -%}{%- endif -%}
+    </div>
 
   </body>
 
