@@ -14,7 +14,7 @@ title: "家庭民宿"
     <figcaption><span class="arrow">▲</span>院子</figcaption>
   </figure>
   <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>已出租（长租）</span></div>
+    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>已出租（长期）</span></div>
     <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del></figcaption>
   </figure>
   <figure class="sold">
