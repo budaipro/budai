@@ -840,7 +840,7 @@ ul.tree-view details[open]>summary:before {
 .document-content {
     padding: 10px;
     padding-block-start:8px;
-    max-height: calc(100vh - 100px)
+    max-height: calc(100vh - 97px)
 }
 
 .document-content img {
@@ -1497,6 +1497,6 @@ figure img {
     }
 
     .document-content {
-      max-height: calc(100vh - 203px);
+      max-height: calc(100vh - 193px);
     }
 }
