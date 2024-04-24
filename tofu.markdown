@@ -1,10 +1,10 @@
 ---
 permalink: /tofu
 layout: default
-title: "豆腐"
+title: "产品"
 ---
 
-# 豆制品
+# 产品
 
 <div class="balloon">
   <div class="bolloon-header">
