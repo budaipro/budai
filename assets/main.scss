@@ -309,6 +309,7 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     font-size: 11px;
     background: silver;
     padding: 3px;
+    width: 12in;
     margin: 0 auto
 }
 
@@ -832,17 +833,6 @@ ul.tree-view details[open]>summary:before {
     padding: 2px
 }
 
-.container {
-    width: 100%;
-    padding: 1px;
-    margin: 0 auto;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
 .document-cell {
     width: 100%
 }
@@ -850,7 +840,7 @@ ul.tree-view details[open]>summary:before {
 .document-content {
     padding: 10px;
     padding-block-start:8px;
-    max-height: calc(100vh - 83px)
+    max-height: calc(100vh - 173px)
 }
 
 .document-content img {
@@ -1105,7 +1095,7 @@ body {
     padding: 2px
 }
 
-.center-container {
+.container {
     height: 600px;
     max-height: 100%;
     margin: auto
