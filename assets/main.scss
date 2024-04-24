@@ -988,8 +988,9 @@ details[open] .start-button {
     padding: 2px
 }
 
-.navigation-icons a,.navigation-icons a:link {
-    color: #000;
+.navigation-icons a,
+.navigation-icons a:link {
+    color: #000!important;
     text-decoration: none
 }
 
