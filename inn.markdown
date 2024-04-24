@@ -217,9 +217,3 @@ title: "家庭民宿"
     border-bottom: 4px solid red;
   }
 </style>
-
-<script>
-  window.addEventListener('load', function() {
-    document.querySelector('.site-footer').style.display = 'none';
-  }, false);
-</script>

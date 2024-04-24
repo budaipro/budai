@@ -28,12 +28,6 @@ title: "布袋和尚简介"
   {% endunless %}
 </div>
 <script>
-  window.addEventListener('load', function() {
-    document.querySelector('.site-header').style.display = 'none';
-    document.querySelector('.site-footer').style.display = 'none';
-  }, false);
-</script>
-<script>
   (function() {
     var btnPrev = document.getElementById('btn-prev');
     var btnNext = document.getElementById('btn-next');
