@@ -8,7 +8,7 @@ title: "豆腐"
 
 <div class="balloon">
   <div class="bolloon-header">
-    <img class="balloon-icon" src="/assets/img/tofu/bulb_16.png" width="16" height="16">
+    <img class="balloon-icon" src="/assets/img/ico/bulb_16.png" width="16" height="16">
     <span class="bolloon-title">选择老工艺制作，亦无化学添加剂。</span>
   </div>
   <div>我们老实地按照“小时候，村里做豆腐的工艺”来做豆腐。此外，所有豆制品使用卤水点制，制作过程中也不加消泡剂及任何化学添加剂。</div>
