@@ -309,7 +309,6 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     font-size: 11px;
     background: silver;
     padding: 3px;
-    max-width: 12in;
     margin: 0 auto
 }
 
@@ -834,10 +833,14 @@ ul.tree-view details[open]>summary:before {
 }
 
 .container {
-    width: 95%;
-    max-width: 650px;
+    width: 100%;
     padding: 1px;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .document-cell {
@@ -846,7 +849,8 @@ ul.tree-view details[open]>summary:before {
 
 .document-content {
     padding: 10px;
-    padding-block-start:8px;max-height: calc(100vh - 173px)
+    padding-block-start:8px;
+    max-height: calc(100vh - 83px)
 }
 
 .document-content img {
@@ -1091,7 +1095,6 @@ body {
     font-family: "MS Sans Serif",sans-serif;
     font-size: 8pt;
     background: #008282;
-    margin: 12px
 }
 
 .inset {
@@ -1354,7 +1357,6 @@ figure.highlight {
 
 body {
   font: 12px/1.45 simsun, simhei, dengxian, serif;
-  margin: 12px;
   background-color: #3A6EA5;
 }
 
@@ -1484,4 +1486,25 @@ figure img {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .window {
+        max-width: 100%;
+    }
+
+    .document-content {
+      max-height: calc(100vh - 83px);
+    }
 }
