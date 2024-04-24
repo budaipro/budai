@@ -7,10 +7,10 @@ layout: default
 </div>
 
 <figure class="figure">
-  <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png" style="width: 300px;">
+  <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png" style="width: 235px;">
   <figcaption><small>▲</small>Logo</figcaption>
 </figure>
 <figure class="figure">
-  <img src="/assets/img/cover.jpg" alt="/assets/img/cover.jpg" style="width: 350px;">
+  <img src="/assets/img/cover.jpg" alt="/assets/img/cover.jpg" style="width: 235px;">
   <figcaption><small>▲</small>插画</figcaption>
 </figure>
