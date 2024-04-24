@@ -7,6 +7,8 @@ layout: default
 
 <cite>布袋和尚偈</cite>
 
+<hr>
+
 <figure class="figure">
   <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png" style="width: 235px;">
   <figcaption>▲Logo</figcaption>
