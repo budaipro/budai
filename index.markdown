@@ -6,7 +6,7 @@ layout: default
   <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png">
 </figure>
 
-### 《布袋豆腐偈》
+### 《布袋豆腐歌》
 
 用老工艺，不求效率；不为增产，加添加剂；<br>
 布袋豆腐，无黑科技；老实做事，不随恶欲。
