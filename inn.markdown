@@ -140,7 +140,7 @@ title: "住在大理"
         ├ 弘圣路口
         ├ 山水间
         └ 大理财校</div></div>
-</pre>
+    </pre>
 
 <script>    
   window.addEventListener('load', function() {
