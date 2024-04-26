@@ -92,8 +92,9 @@ title: "住在大理"
 
 ### 基本情况
 
-  * 位于银桥镇头铺村
-  * <pre>500米内生活圈
+<ul>
+  <li>位于银桥镇头铺村</li>
+  <li><pre>500米内生活圈
     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
     │ ├ 山泉水取水处
     │ ├ 早餐店
@@ -140,7 +141,7 @@ title: "住在大理"
         ├ 弘圣路口
         ├ 山水间
         └ 大理财校</div></div>
-    </pre>
+  </pre></li>
 
 <script>    
   window.addEventListener('load', function() {
