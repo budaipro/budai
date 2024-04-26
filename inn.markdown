@@ -70,17 +70,17 @@ title: "住在大理"
 ### 一些规则：
 
 <ol>
-<li><span class="bottomborder2px-red">统一的月租金</span>。<pre>
-├ 短租、长租；        
+<li><span class="bottomborder2px-red">统一的费用</span>。<pre>
+├ 短住、长住；
 ├ 淡季、旺季；
 └ 月付、季付、半年付、年付。</pre></li>
-<li><span class="bottomborder2px-red">租金包基本的水电使用费</span>。</li>
-<li><span class="bottomborder2px-red">无租房押金</span>。</li>
-<li><span class="bottomborder2px-red">也没有钥匙押金</span>。</li>
-<li><span class="bottomborder2px-red">入住的当天不算房租</span>，入住后的第二天再开始算房租。</li>
-<li><span class="bottomborder2px-red">不提前要求续交房租</span>，包括提前半个月乃至提前一天。</li>
-<li><span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下需要退租，多余租金全额退还。</li>
-<li><span class="bottomborder2px-red">提供3天的免租时间</span>，对于要搬走又赶上房租到期的人。</li>
+<li><span class="bottomborder2px-red">费用包基本的水电使用</span>。</li>
+<li><span class="bottomborder2px-red">入住无押金</span>。</li>
+<li><span class="bottomborder2px-red">也没有巧立名目的其他押金</span>。</li>
+<li><span class="bottomborder2px-red">入住当天不计费用</span>，入住后的第二天再开始算。</li>
+<li><span class="bottomborder2px-red">不提前要求续交费用</span>，包括提前半个月乃至提前一天。</li>
+<li><span class="bottomborder2px-red">按天算费用</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
+<li><span class="bottomborder2px-red">提供3天免费时间</span>，对于要搬走又赶上费用到期的人。</li>
 <li>如居住期彼此间产生矛盾。<pre>
 ├ 按照以上规则公事公办。
 └ 超出以上规则的，依着诚心和公平来协商处理。</pre></li>
