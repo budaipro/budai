@@ -299,6 +299,37 @@ figure img {
   }
 }
 
+.inn-pictures .sold em {
+  color: red;
+  font-weight: bold;
+}
+
+.inn-pictures figcaption sub {
+  vertical-align: bottom;
+}
+
+.inn-pictures .arrow {
+  font-size: 85%;
+  margin-right: 2px;
+  position: relative;
+  top: -1px;
+}
+
+.bottomborder2px-red {
+  display: inline-block;
+  border-bottom: 2px solid red;
+}
+
+.bottomborder4px-green {
+  color: green;
+  border-bottom: 4px solid green;
+}
+
+.bottomborder4px-red {
+  color: red;
+  border-bottom: 4px solid red;
+}
+
 @media screen and (max-width: 800px) {
     body {
         zoom: 110%;

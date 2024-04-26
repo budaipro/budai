@@ -14,111 +14,56 @@ title: "家庭民宿"
   <div>由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳<span>素食者</span>，或者能发心素食的人入住。</div>
 </div>
 
-<div id="inngallery">
-  <figure>
-    <div class="img"><img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg"></div>
+<div class="inn-pictures">
+  <figure class="figure">
+    <img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
     <figcaption><span class="arrow">▲</span>院子</figcaption>
   </figure>
-  <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg"><span>已出租（长期）</span></div>
-    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del></figcaption>
+  <figure class="figure sold">
+    <img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
+    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em>已出租（长期）</em></figcaption>
   </figure>
-  <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg"><span>已出租（长期）</span></div>
-    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del></figcaption>
+  <figure class="figure sold">
+    <img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
+    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em>已出租（长期）</em></figcaption>
   </figure>
-  <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg"><span>已出租（长期）</span></div>
-    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del></figcaption>
+  <figure class="figure sold">
+    <img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
+    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em>已出租（长期）</em></figcaption>
   </figure>
-  <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg"><span>已出租（大约至6月中）</span></div>
-    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del></figcaption>
+  <figure class="figure sold">
+    <img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已出租（大约至6月中）</em></figcaption>
   </figure>
-  <figure class="sold">
-    <div class="img"><img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg"><span>已出租（大约至6月中）</span></div>
-    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del></figcaption>
+  <figure class="figure sold">
+    <img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已出租（大约至6月中）</em></figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
     <figcaption><span class="arrow">▲</span>卫生间（外）<sub>x2</sub></figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg">
     <figcaption><span class="arrow">▲</span>卫生间（内）<sub>x2</sub></figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg">
     <figcaption><span class="arrow">▲</span>二楼公共区域（1）</figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg">
     <figcaption><span class="arrow">▲</span>二楼公共区域（2）</figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg">
     <figcaption><span class="arrow">▲</span>三楼公共区域</figcaption>
   </figure>
-  <figure>
-    <div class="img"><img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg"></div>
+  <figure class="figure">
+    <img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg">
     <figcaption><span class="arrow">▲</span>三楼洗凉衣区域</figcaption>
   </figure>
 </div>
-<style>
-  #inngallery {
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;*/
-    margin-top: 20px;
-  }
-
-  #inngallery figure {
-    align-self: center;
-    margin: 0;
-  }
-  
-  #inngallery .img {
-    position: relative;
-    display: inline-block;
-    font-size: 0; /* remove img gap */
-  }
-  
-  #inngallery .img span {
-    color: white;
-    font-size: 11px;
-    font-weight: bold;
-    background-color: green;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-  
-  #inngallery .sold .img span {
-    background-color: red;
-  }
-  
-  #inngallery figcaption {
-    padding: 3px 0;
-  }
-  
-  #inngallery figcaption sub {
-    vertical-align: bottom;
-  }
-
-  #inngallery .arrow {
-    font-size: 85%;
-    margin-right: 2px;
-    position: relative;
-    top: -1px;
-  }
-
-  #inngallery img {
-    width: 360px;
-    height: auto;
-    margin: 0 auto;
-  }
-</style>
 
 <p><em>房间只添置了最基本的家具，所采购的家具很多都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
 
@@ -142,9 +87,10 @@ title: "家庭民宿"
 </ol>
 
 ### 暂时想到的一个要求：
-<ul><li>不能养宠物。</li></ul>
 
-<pre class="about">
+* 不能养宠物。
+
+<pre>
 <b>地点</b>
   ├ 银桥镇头铺村
   └ 500米内生活圈
@@ -195,31 +141,20 @@ title: "家庭民宿"
         ├ 山水间
         └ 大理财校</div></div>
 </pre>
+
+<script>    
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.collapse')
+      .forEach(function(collapse) {
+        var toggler = collapse.querySelector('.collapse-toggler');
+        var body = collapse.querySelector('.collapse-body');
+        
+        toggler.onclick = function() {
+          toggler.classList.toggle('active');
+          body.classList.toggle('active');
+        };
+      });
+  }, false);
+</script>
   
 <div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：19542586219，微信：同电话号。</div>
-
-<style>
-  .about {
-    width: 100%;
-    margin: 20px 0;
-  }
-
-  .rules {
-    /*clear: both;*/
-  }
-
-  .bottomborder2px-red {
-    display: inline-block;
-    border-bottom: 2px solid red;
-  }
-
-  .bottomborder4px-green {
-    color: green;
-    border-bottom: 4px solid green;
-  }
-
-  .bottomborder4px-red {
-    color: red;
-    border-bottom: 4px solid red;
-  }
-</style>

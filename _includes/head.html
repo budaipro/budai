@@ -9,33 +9,4 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  <script>
-    window.request = function(options, onRequest, onSuccess) {
-      var xhttp = new XMLHttpRequest();
-      
-      onRequest();
-      
-      xhttp.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-          onSuccess(this.responseText);
-        }
-      };
-      
-      xhttp.open(options.method, options.url, true);
-      xhttp.send();
-    };
-    
-    window.addEventListener('load', function() {
-      document.querySelectorAll('.collapse')
-        .forEach(function(collapse) {
-          var toggler = collapse.querySelector('.collapse-toggler');
-          var body = collapse.querySelector('.collapse-body');
-          
-          toggler.onclick = function() {
-            toggler.classList.toggle('active');
-            body.classList.toggle('active');
-          };
-        });
-    }, false);
-  </script>
 </head>
