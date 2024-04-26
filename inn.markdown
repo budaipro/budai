@@ -90,8 +90,9 @@ title: "住在大理"
 
 * 不能养宠物。
 
+### 地点
+
 <pre>
-<h3>地点</h3>
   ├ 银桥镇头铺村
   └ 500米内生活圈
     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
