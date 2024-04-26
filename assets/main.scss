@@ -304,14 +304,7 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     transform: translateY(0) scaleX(-1)
 }
 
-.window {
-    box-shadow: inset -1px -1px #000,inset 1px 1px silver,inset -2px -2px gray,inset 2px 2px #fff;
-    font-size: 11px;
-    background: silver;
-    padding: 3px;
-    max-width: 12in;
-    margin: 0 auto
-}
+
 
 .window fieldset {
     margin-bottom: 9px
@@ -346,10 +339,6 @@ input[type=range].has-box-indicator::-moz-range-thumb {
 
 .title-bar-controls button:focus {
     outline: none
-}
-
-.window-body {
-    margin: 8px
 }
 
 fieldset {
@@ -430,15 +419,6 @@ menu[role=tablist].justified button {
     position: relative;
     z-index: 2;
     margin-bottom: 9px
-}
-
-body {
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: grayscale;
-    font-family: "MS Sans Serif",sans-serif;
-    font-size: 8pt;
-    color: #000
 }
 
 @media (false) {
@@ -1088,17 +1068,7 @@ body {
     background: #008282;
 }
 
-.inset {
-    box-shadow: inset -1px -1px #fff,inset 1px 1px gray,inset -2px -2px silver,inset 2px 2px #000;
-    border: none;
-    margin: 0;
-    background: #fff;
-    padding: 2px
-}
-
 .container {
-    max-width: 650px;
-    margin: auto
 }
 
 .window-body {
@@ -1346,9 +1316,14 @@ figure.highlight {
 }
 
 body {
-  font: 12px/1.45 simsun, simhei, dengxian, serif;
-  background-color: #3A6EA5;
-  overflow: hidden;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: grayscale;
+  font-family: "MS Sans Serif",simsun, simhei, dengxian, sans-serif;
+  font-size: 8pt;
+  color: #000;
+  margin: 0;
+  /*background-color: #3A6EA5;*/
 }
 
 a, a:hover, a:active, a:visited {
@@ -1423,6 +1398,30 @@ pre {
   background-color: transparent;
 }
 
+.container {
+
+}
+
+.window {
+    /*box-shadow: inset -1px -1px #000,inset 1px 1px silver,inset -2px -2px gray,inset 2px 2px #fff;*/
+    font-size: 11px;
+    background: silver;
+}
+
+.window-body {
+    margin: 1px;
+}
+
+.inset {
+    border: none;
+    margin: 0;
+    background: #fff;
+}
+
+.document-content {
+    padding: 10px;
+}
+
 .collapse {
   display: inline;
   
@@ -1477,25 +1476,4 @@ figure img {
 }
 
 @media screen and (max-width: 800px) {
-    body {
-        margin: 0;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 100%;
-        position: fixed;
-        top: 1px;
-        right: 1px;
-        bottom: 1px;
-        left: 1px;
-    }
-
-    .window {
-        max-width: 100%;
-    }
-
-    .document-content {
-      max-height: calc(100vh - 195px);
-    }
 }
