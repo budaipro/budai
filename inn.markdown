@@ -11,7 +11,7 @@ title: "住在大理"
     <img class="balloon-icon" src="/assets/img/ico/bulb_16.png" width="16" height="16">
     <span class="balloon-title">只接纳“素食者，或能发心素食者”！</span>
   </div>
-  <div>由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳“<span>素食者</span>或者能发心素食的人”入住。</div>
+  <div>由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳“<span>素食者</span>，或能发心素食者”入住。</div>
 </div>
 
 <div class="inn-pictures">
