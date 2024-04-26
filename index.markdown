@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<figure class="figure">
+  <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png" style="width: 235px;">
+</figure>
+
 ### 《布袋豆腐偈》
 
 承老工艺，不求效率；不为增产，加添加剂；<br>
@@ -24,9 +28,3 @@ layout: default
 
 所作世业，不为世乐；念所善行，道资粮行。<br>
 如鸟飞空，影则相随；若行圣行，必到安隐。
-
-<hr>
-
-<figure class="figure">
-  <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png" style="width: 235px;">
-</figure>
