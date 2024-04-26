@@ -21,23 +21,23 @@ title: "住在大理"
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
-    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em>已出租（长期）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
-    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em>已出租（长期）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
-    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em>已出租（长期）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
-    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已出租（大约至6月中）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已入住（大约至6月中）</em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
-    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已出租（大约至6月中）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已入住（大约至6月中）</em></figcaption>
   </figure>
   <figure class="figure">
     <img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
