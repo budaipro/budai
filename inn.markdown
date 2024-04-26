@@ -95,52 +95,52 @@ title: "住在大理"
 <ul>
   <li>位于银桥镇头铺村</li>
   <li><pre>500米内生活圈
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
-  │ ├ 山泉水取水处
-  │ ├ 早餐店
-  │ ├ 餐饮店
-  │ ├ 便利生活超市
-  │ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
-  │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
-  │ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
-  │ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
-  │ ├ 咖啡馆
-  │ ├ <b>很多旅居的邻居</b>
-  │ ├ 云南农村信用银行
-  │ ├ 中国邮政
-  │ └ 镇卫生院</div></div>
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">学校/行政</span><div class="collapse-body">
-  │ ├ 幼儿园
-  │ ├ 镇中学
-  │ ├ 镇公安局
-  │ └ 镇政府</div></div>
-  └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">外出（交通）</span><div class="collapse-body">
-    │ C7路公交车
-    │ ├ 九孔桥
-    │ ├ 鹤阳
-    └─┼ <b>银桥镇政府（本站公交车站）</b>
-      ↓
-      ├ 银桥幼儿园
-      ├ 磻曲
-      ├ 银桥村
-      ├ 阳波
-      ├ 阳乡
-   3KM├ 无为寺
-      ├ 双阳
-      ├ 北五里桥
-      ├ 绿桃村
-  ≈6KM├ 三塔路口
-  ≈6KM├ 北门桥头
-      ├ 水碓村
-  ≈8KM├ 三月街口
-  ≈8KM├ 人民路口
-  ≈8KM├ 红龙井
-      ├ 一塔路口
-      ├ 玉局路口
-      ├ 学府路口
-      ├ 弘圣路口
-      ├ 山水间
-      └ 大理财校</div></div>
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
+│ ├ 山泉水取水处
+│ ├ 早餐店
+│ ├ 餐饮店
+│ ├ 便利生活超市
+│ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
+│ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
+│ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
+│ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
+│ ├ 咖啡馆
+│ ├ <b>很多旅居的邻居</b>
+│ ├ 云南农村信用银行
+│ ├ 中国邮政
+│ └ 镇卫生院</div></div>
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">学校/行政</span><div class="collapse-body">
+│ ├ 幼儿园
+│ ├ 镇中学
+│ ├ 镇公安局
+│ └ 镇政府</div></div>
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">外出（交通）</span><div class="collapse-body">
+  │ C7路公交车
+  │ ├ 九孔桥
+  │ ├ 鹤阳
+  └─┼ <b>银桥镇政府（本站公交车站）</b>
+    ↓
+    ├ 银桥幼儿园
+    ├ 磻曲
+    ├ 银桥村
+    ├ 阳波
+    ├ 阳乡
+ 3KM├ 无为寺
+    ├ 双阳
+    ├ 北五里桥
+    ├ 绿桃村
+≈6KM├ 三塔路口
+≈6KM├ 北门桥头
+    ├ 水碓村
+≈8KM├ 三月街口
+≈8KM├ 人民路口
+≈8KM├ 红龙井
+    ├ 一塔路口
+    ├ 玉局路口
+    ├ 学府路口
+    ├ 弘圣路口
+    ├ 山水间
+    └ 大理财校</div></div>
   </pre></li>
 </ul>
 
