@@ -9,9 +9,9 @@ title: "产品"
 <div class="balloon">
   <div class="bolloon-header">
     <img class="balloon-icon" src="/assets/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">选择老工艺制作，亦无化学添加剂。</span>
+    <span class="balloon-title">用老工艺制作，也不加任何添加剂。</span>
   </div>
-  <div>我们老实地按照“小时候，村里做豆腐的工艺”来做豆腐。此外，所有豆制品使用卤水点制，制作过程中也不加消泡剂及任何化学添加剂。</div>
+  <div>我们老实地按照“小时候，村里老一辈人做豆腐的工艺”来做豆腐；不为追求效益而选择简单高效的现代工艺。所有豆制品也使用卤水点制，制作过程中也不加任何化学添加剂。只为还原“本该有色香味”的豆腐。</div>
 </div>
 
 <h2>白豆腐（又名“老豆腐、卤水老豆腐”）</h2>
