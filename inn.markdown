@@ -1,10 +1,10 @@
 ---
 permalink: /inn
 layout: default
-title: "家庭民宿"
+title: "住在这里"
 ---
 
-# 家庭民宿
+# 住在这里
 
 <div class="balloon">
   <div class="balloon-header">
