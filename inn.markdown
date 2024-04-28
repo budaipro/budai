@@ -93,7 +93,7 @@ title: "住在大理"
 ### 基本情况
 
 <ul>
-  <li>位于银桥镇头铺村</li>
+  <li>小院位于银桥镇头铺村</li>
   <li><pre>500米内生活圈
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
 │ ├ 山泉水取水处
