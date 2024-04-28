@@ -268,12 +268,22 @@ pre {
 .tofu {
 }
 
+.flex-figure {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  .figure {
+    margin: 0;
+  }
+}
+
 .figure {
-    margin: 1em;
+  margin: 1em;
 }
 
 figure img {
-  width: 230px;
+  width: 200px;
   max-width: 100%;
 }
 

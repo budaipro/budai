@@ -20,10 +20,13 @@ title: "产品"
   <li><b>保质期</b>：4～2℃冷藏约10天。</li>
   <li><b>售价</b>：6元/500克。</li>
 </ul>
-<figure class="figure">
-  <img src="/assets/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
-  <figcaption>▲白豆腐</figcaption>
-</figure>
+<div class="flex-figure">
+  <figure class="figure">
+    <img src="/assets/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
+    <figcaption>▲白豆腐</figcaption>
+  </figure>
+</div>
+
 <hr>
 
 <h2>豆干（又名“香干、豆腐干”）</h2>
@@ -33,22 +36,25 @@ title: "产品"
   <li><b>保质期</b>：4～2℃冷藏约10天。</li>
   <li><b>售价</b>：12元/500克。</li>
 </ul>
-<figure class="figure">
-  <img src="/assets/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
-  <figcaption>▲豆干</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/b02.jpg" alt="/assets/img/tofu/b02.jpg">
-  <figcaption>▲豆干</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/b03.jpg" alt="/assets/img/tofu/b03.jpg">
-  <figcaption>▲豆干</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/b04.jpg" alt="/assets/img/tofu/b04.jpg">
-  <figcaption>▲豆干</figcaption>
-</figure>
+<div class="flex-figure">
+  <figure class="figure">
+    <img src="/assets/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
+    <figcaption>▲豆干</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/b02.jpg" alt="/assets/img/tofu/b02.jpg">
+    <figcaption>▲豆干</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/b03.jpg" alt="/assets/img/tofu/b03.jpg">
+    <figcaption>▲豆干</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/b04.jpg" alt="/assets/img/tofu/b04.jpg">
+    <figcaption>▲豆干</figcaption>
+  </figure>
+</div>
+
 <hr>
 
 <h2>油豆腐</h2>
@@ -58,23 +64,25 @@ title: "产品"
   <li><b>保质期</b>：4～2℃冷藏约10天。</li>
   <li><b>售价</b>：14元/500克。</li>
 </ul>
-<figure class="figure">
-  <img src="/assets/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
-  <figcaption>▲油豆腐</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/c02.jpg" alt="/assets/img/tofu/c02.jpg">
-  <figcaption>▲油豆腐</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/c03.jpg" alt="/assets/img/tofu/c03.jpg">
-  <figcaption>▲油豆腐</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/c04.jpg" alt="/assets/img/tofu/c04.jpg">
-  <figcaption>▲油豆腐</figcaption>
-</figure>
-<figure class="figure">
-  <img src="/assets/img/tofu/c05.jpg" alt="/assets/img/tofu/c05.jpg">
-  <figcaption>▲油豆腐</figcaption>
-</figure>
+<div class="flex-figure">
+  <figure class="figure">
+    <img src="/assets/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
+    <figcaption>▲油豆腐</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/c02.jpg" alt="/assets/img/tofu/c02.jpg">
+    <figcaption>▲油豆腐</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/c03.jpg" alt="/assets/img/tofu/c03.jpg">
+    <figcaption>▲油豆腐</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/c04.jpg" alt="/assets/img/tofu/c04.jpg">
+    <figcaption>▲油豆腐</figcaption>
+  </figure>
+  <figure class="figure">
+    <img src="/assets/img/tofu/c05.jpg" alt="/assets/img/tofu/c05.jpg">
+    <figcaption>▲油豆腐</figcaption>
+  </figure>
+</div>
