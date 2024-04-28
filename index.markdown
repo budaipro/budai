@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<figure class="figure">
-  <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/logo_orignal.png" alt="/assets/img/logo_orignal.png">
-</figure>
-
 ### 《布袋豆腐歌》
 
 用老工艺，无高科技；不为增产，加添加剂；<br>
