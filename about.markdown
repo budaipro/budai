@@ -11,7 +11,7 @@ title: "关于"
 * <b>电话/微信</b>：195 4258 6219。
 
 <figure class="figure">
-  <img src="/assets/img/cover.jpg" alt="/assets/img/cover.jpg" style="width: 235px;">
+  <img src="/assets/img/cover.jpg" alt="/assets/img/cover.jpg">
 </figure>
 
 <p>我们的自住房也<a href="/inn">招纳入住者</a>。</p>

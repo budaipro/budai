@@ -14,7 +14,7 @@ title: "住在大理"
   <div>由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳“<span>素食者</span>，或能发心素食者”入住。</div>
 </div>
 
-<div class="inn-pictures">
+<div class="flex-figure innpic">
   <figure class="figure">
     <img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
     <figcaption><span class="arrow">▲</span>院子</figcaption>
@@ -33,11 +33,11 @@ title: "住在大理"
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
-    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已入住（大约至6月中）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已入住（约至6月）</em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
-    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已入住（大约至6月中）</em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已入住（约至6月）</em></figcaption>
   </figure>
   <figure class="figure">
     <img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
