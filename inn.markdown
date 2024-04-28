@@ -9,9 +9,9 @@ title: "住在大理"
 <div class="balloon">
   <div class="balloon-header">
     <img class="balloon-icon" src="/assets/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">只接纳“素食者，或能发心素食者”！</span>
+    <span class="balloon-title">只接纳素食者（或能发心素食者）入住！</span>
   </div>
-  <div>由于我们自己，及目前已入住的伙伴都是素食者。我们商量过后，决定只接纳“<span>素食者</span>，或能发心素食者”入住。</div>
+  <div>由于，我们自己及目前已入住的伙伴，基本都是素食者。我们商量过后，决定以后只接纳<span>素食者（或能发心素食者）</span>入住。</div>
 </div>
 
 <div class="flex-figure innpic">
@@ -65,7 +65,7 @@ title: "住在大理"
   </figure>
 </div>
 
-<p><em>房间只添置了最基本的家具，所采购的家具很多都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
+<p><em>房间内只添置了最基本的家具，这些家具也基本都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
 
 ### 一些规则：
 
