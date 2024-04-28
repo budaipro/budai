@@ -3,7 +3,7 @@ layout: default
 ---
 
 <figure class="figure">
-  <img src="/assets/img/logo_orignal.png" alt="/assets/img/logo_orignal.png">
+  <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/logo_orignal.png" alt="/assets/img/logo_orignal.png">
 </figure>
 
 ### 《布袋豆腐歌》
