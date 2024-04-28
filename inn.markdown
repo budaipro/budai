@@ -4,6 +4,8 @@ layout: default
 title: "住在大理"
 ---
 
+<div class="font-size: 12pt;"><a href="/about">&lt;&lt;返回</a></div>
+
 # 住在大理
 
 <div class="balloon">
