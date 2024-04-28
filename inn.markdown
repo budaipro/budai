@@ -11,9 +11,9 @@ title: "住在大理"
 <div class="balloon">
   <div class="balloon-header">
     <img class="balloon-icon" src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">只接纳素食者（或能发心素食者）入住！</span>
+    <span class="balloon-title">只接纳素食（及发心素食）者入住！</span>
   </div>
-  <div>由于，我们自己及已入住的伙伴，基本都是素食者。我们商量过后，决定以后只接纳<span>素食者（或能发心素食者）</span>入住。</div>
+  <div>由于，我们自己及已入住的伙伴，基本都是素食者。我们商量过后，决定只接纳<span>素食（及发心素食）者</span>入住。</div>
 </div>
 
 <div class="flex-figure innpic">
