@@ -8,7 +8,7 @@ title: "住在大理"
 
 <div class="balloon">
   <div class="balloon-header">
-    <img class="balloon-icon" src="/assets/img/ico/bulb_16.png" width="16" height="16">
+    <img class="balloon-icon" src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/ico/bulb_16.png" width="16" height="16">
     <span class="balloon-title">只接纳素食者（或能发心素食者）入住！</span>
   </div>
   <div>由于，我们自己及目前已入住的伙伴，基本都是素食者。我们商量过后，决定以后只接纳<span>素食者（或能发心素食者）</span>入住。</div>
@@ -16,51 +16,51 @@ title: "住在大理"
 
 <div class="flex-figure innpic">
   <figure class="figure">
-    <img src="/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
     <figcaption><span class="arrow">▲</span>院子</figcaption>
   </figure>
   <figure class="figure sold">
-    <img src="/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
     <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
-    <img src="/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
     <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
-    <img src="/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
     <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em>已入住（长期）</em></figcaption>
   </figure>
   <figure class="figure sold">
-    <img src="/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
     <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em>已入住（约至6月）</em></figcaption>
   </figure>
   <figure class="figure sold">
-    <img src="/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
     <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em>已入住（约至6月）</em></figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
     <figcaption><span class="arrow">▲</span>卫生间（外）<sub>x2</sub></figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg">
     <figcaption><span class="arrow">▲</span>卫生间（内）<sub>x2</sub></figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg">
     <figcaption><span class="arrow">▲</span>二楼公共区域（1）</figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg">
     <figcaption><span class="arrow">▲</span>二楼公共区域（2）</figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg">
     <figcaption><span class="arrow">▲</span>三楼公共区域</figcaption>
   </figure>
   <figure class="figure">
-    <img src="/assets/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/inn/300p2.jpg" alt="/assets/img/inn/300p2.jpg">
     <figcaption><span class="arrow">▲</span>三楼洗凉衣区域</figcaption>
   </figure>
 </div>
