@@ -22,7 +22,6 @@ title: "产品"
   <li><b>保质期</b>：10天。</li>
   <li><b>执行标准</b>：GB7099-2015。</li>
   <li><b>小作坊证编号</b>：YNXZF2901100552。</li>
-  <li><b>售价</b>：6元/500克。</li>
 </ul>
 <div class="flex-figure">
   <figure class="figure">
