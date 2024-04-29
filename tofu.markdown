@@ -20,8 +20,8 @@ title: "产品"
   <li><b>成分</b>：黄豆、饮用水。</li>
   <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
   <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB7099-2015。</li>
-  <li><b>小作坊证编号</b>：YNXZF2901100552。</li>
+  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
 </ul>
 <div class="flex-figure">
   <figure class="figure">
@@ -38,8 +38,8 @@ title: "产品"
   <li><b>成分</b>：黄豆、饮用水、卤料（酱油、八角、食用盐<sub>无碘</sub>、白砂糖、味精）。</li>
   <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
   <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB7099-2015。</li>
-  <li><b>小作坊证编号</b>：YNXZF2901100552。</li>
+  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
 </ul>
 <div class="flex-figure">
   <figure class="figure">
@@ -68,8 +68,8 @@ title: "产品"
   <li><b>成分</b>：黄豆、饮用水、菜籽油<sub>非转基因</sub>、食用盐<sub>无碘</sub>。</li>
   <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
   <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB7099-2015。</li>
-  <li><b>小作坊证编号</b>：YNXZF2901100552。</li>
+  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
 </ul>
 <div class="flex-figure">
   <figure class="figure">
