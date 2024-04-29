@@ -3,8 +3,8 @@ layout: null
 title: "标签（产品）"
 ---
 
-<div class="labels" style="font-size: kaiti, simkai, simhei, dengxian, sans-serif;">
-<pre>
+<div class="labels">
+<pre style="font-family: kaiti, simkai, simhei, dengxian, sans-serif;">
 名称：豆腐。
 成分：黄豆、饮用水。
 生产日期：见包装。
