@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "主页"
 ---
 
 ### 《布袋豆腐歌》
