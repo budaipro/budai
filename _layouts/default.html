@@ -7,11 +7,13 @@
     
     <div class="container">
       <div class="window" aria-label="Content">
+        {%- unless page.url == "/inn" -%}
         <div class="title-bar">
           <strong class="title-bar-text">{{ site.title | escape }}</strong>
         </div>
+        {%- endunless -%}
         <div class="window-body">
-          {%- include nav.html -%}
+          {%- unless page.url == "/inn" -%}{%- include nav.html -%}{%- endunless -%}
           <div class="document-container">
             <div class="document-cell">
               <div class="inset">
