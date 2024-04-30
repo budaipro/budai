@@ -161,4 +161,4 @@ title: "住在大理"
   }, false);
 </script>
   
-<div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：19542586219，微信：同电话号。</div>
+<div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：195 4258 6219。（也可通过电话号添加微信）</div>
