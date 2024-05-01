@@ -140,14 +140,14 @@ Amplitude.init({
 			"artist": "SUNO AI",
 			"album": "布袋豆腐歌",
 			"url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/audio/%E5%B8%83%E8%A2%8B%E8%B1%86%E8%85%90%E6%AD%8C_trance.mp3",
-			"cover_art_url": "/assets/images/cover.png"
+			"cover_art_url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/cover.png"
 		},
 		{
 			"name": "布袋豆腐歌 rock版",
 			"artist": "SUNO AI",
 			"album": "布袋豆腐歌",
 			"url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/audio/%E5%B8%83%E8%A2%8B%E8%B1%86%E8%85%90%E6%AD%8C_rock.mp3",
-			"cover_art_url": "/assets/images/cover.png"
+			"cover_art_url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/cover.png"
 		}
   ],
   
@@ -239,12 +239,12 @@ div#amplitude-right {
         margin-top: 15px; }
     div#amplitude-right div.song div.play-button-container {
       display: none;
-      background: url("/assets/images/list-play-light.png") no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/list-play-light.png") no-repeat;
       width: 22px;
       height: 22px;
       margin-top: 10px; }
     div#amplitude-right div.song div.play-button-container:hover {
-      background: url("/assets/images/list-play-hover.png") no-repeat; }
+      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/list-play-hover.png") no-repeat; }
     div#amplitude-right div.song.amplitude-active-song-container div.song-now-playing-icon-container img.now-playing {
       display: block; }
     div#amplitude-right div.song.amplitude-active-song-container:hover div.play-button-container {
@@ -501,18 +501,18 @@ div#control-container {
       height: 19px;
       cursor: pointer; }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-off {
-        background: url("/assets/images/repeat-off.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/repeat-off.svg"); }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
-        background: url("/assets/images/repeat-on.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/repeat-on.svg"); }
     div#control-container div#repeat-container div#shuffle {
       width: 23px;
       height: 19px;
       cursor: pointer;
       float: right; }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
-        background: url("/assets/images/shuffle-off.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/shuffle-off.svg"); }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-on {
-        background: url("/assets/images/shuffle-on.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/shuffle-on.svg"); }
   @media all and (-ms-high-contrast: none) {
     div#control-container *::-ms-backdrop, div#control-container div#control-container {
       margin-top: 40px;
@@ -528,7 +528,7 @@ div#control-container {
         width: 40px;
         height: 40px;
         cursor: pointer;
-        background: url("/assets/images/prev.svg");
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/prev.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
@@ -540,15 +540,15 @@ div#control-container {
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("/assets/images/play.svg"); }
+          background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/play.svg"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-          background: url("/assets/images/pause.svg"); }
+          background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/pause.svg"); }
       div#control-container div#central-control-container div#central-controls div#next {
         display: inline-block;
         width: 40px;
         height: 40px;
         cursor: pointer;
-        background: url("/assets/images/next.svg");
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/next.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
@@ -563,19 +563,19 @@ div#control-container {
       cursor: pointer;
       margin: auto; }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
-        background: url("/assets/images/shuffle-off.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/shuffle-off.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
-        background: url("/assets/images/shuffle-on.svg"); }
+        background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/shuffle-on.svg"); }
   div#control-container div.amplitude-mute {
     cursor: pointer;
     width: 25px;
     height: 19px;
     float: left; }
     div#control-container div.amplitude-mute.amplitude-not-muted {
-      background: url("/assets/images/volume.svg");
+      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/volume.svg");
       background-repeat: no-repeat; }
     div#control-container div.amplitude-mute.amplitude-muted {
-      background: url("/assets/images/mute.svg");
+      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/mute.svg");
       background-repeat: no-repeat; }
 
 div#control-container:after {
