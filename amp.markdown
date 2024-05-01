@@ -171,7 +171,8 @@ div#amplitude-left {
   div#amplitude-left img.album-art {
     width: 50%;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto; 
+    display: none; }
   div#amplitude-left div#player-left-bottom {
     flex: 1;
     background-color: #F1F1F1;
