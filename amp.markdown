@@ -7,69 +7,6 @@ title: "主页"
 
 {%- include amplitude.html -%}
 
-<script>
-let songElements = document.getElementsByClassName('song');
-
-for( var i = 0; i < songElements.length; i++ ) {
-	songElements[i].addEventListener('mouseover', function(){
-		this.style.backgroundColor = '#00A0FF';
-		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#FFFFFF';
-		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#FFFFFF';
-		if( !this.classList.contains('amplitude-active-song-container') ){
-			this.querySelectorAll('.play-button-container')[0].style.display = 'block';
-		}
-		this.querySelectorAll('.song-duration')[0].style.color = '#FFFFFF';
-	});
-
-	songElements[i].addEventListener('mouseout', function(){
-		this.style.backgroundColor = '#FFFFFF';
-		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#272726';
-		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#607D8B';
-		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
-		this.querySelectorAll('.song-duration')[0].style.color = '#607D8B';
-	});
-
-	songElements[i].addEventListener('click', function(){
-		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
-	});
-}
-
-Amplitude.init({
-  "songs": [
-		{
-			"name": "布袋豆腐歌 trance版",
-			"artist": "SUNO AI",
-			"album": "布袋豆腐歌",
-			"url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/audio/%E5%B8%83%E8%A2%8B%E8%B1%86%E8%85%90%E6%AD%8C_trance.mp3",
-			"cover_art_url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/cover.png"
-		},
-		{
-			"name": "布袋豆腐歌 rock版",
-			"artist": "SUNO AI",
-			"album": "布袋豆腐歌",
-			"url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/audio/%E5%B8%83%E8%A2%8B%E8%B1%86%E8%85%90%E6%AD%8C_rock.mp3",
-			"cover_art_url": "https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/cover.png"
-		}
-  ],
-  
-  "callbacks": {
-    'play': function() {
-        document.getElementById('album-art').style.visibility = 'hidden';
-        document.getElementById('large-visualization').style.visibility = 'visible';
-    },
-
-    'pause': function() {
-        document.getElementById('album-art').style.visibility = 'visible';
-        document.getElementById('large-visualization').style.visibility = 'hidden';
-    }
-  },
-
-  waveforms: {
-    sample_rate: 50
-  }
-});
-</script>
-
 用老工艺，无高科技；不为增产，加添加剂；<br>
 布袋豆腐，按照规矩，老老实实，不随恶欲。
 
