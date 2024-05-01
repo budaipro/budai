@@ -7,8 +7,6 @@ title: "主页"
 
 <!-- Amplitude Player -->
   <div id="amplitude-player">
-
-    <!-- Left Side Player -->
     <div id="amplitude-left">
       <img data-amplitude-song-info="cover_art_url" class="album-art"/>
       <div class="amplitude-visualization" id="large-visualization"></div>
@@ -27,13 +25,11 @@ title: "主页"
             <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
           </span>
         </div>
-
         <div id="control-container">
           <div id="repeat-container">
             <div class="amplitude-repeat" id="repeat"></div>
             <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
           </div>
-
           <div id="central-control-container">
             <div id="central-controls">
               <div class="amplitude-prev" id="previous"></div>
@@ -41,7 +37,6 @@ title: "主页"
               <div class="amplitude-next" id="next"></div>
             </div>
           </div>
-
           <div id="volume-container">
             <div class="volume-controls">
               <div class="amplitude-mute amplitude-not-muted"></div>
@@ -51,10 +46,8 @@ title: "主页"
             <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle-right"></div>
           </div>
         </div>
-
         <div id="meta-container">
           <span data-amplitude-song-info="name" class="song-name"></span>
-
           <div class="song-artist-album">
             <span data-amplitude-song-info="artist"></span>
             <span data-amplitude-song-info="album"></span>
@@ -62,9 +55,7 @@ title: "主页"
         </div>
       </div>
     </div>
-    <!-- End Left Side Player -->
 </div>
-
 
 
 用老工艺，无高科技；不为增产，加添加剂；<br>
@@ -88,31 +79,21 @@ title: "主页"
 虽世业行，不世乐行；念所善行，为道粮行。<br>
 如鸟飞空，影则相随；若行圣行，得真乐行。
 
-
 <script src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude.min.js"></script>
 <script>
 let songElements = document.getElementsByClassName('song');
 
 for( var i = 0; i < songElements.length; i++ ){
-	/*
-		Ensure that on mouseover, CSS styles don't get messed up for active songs.
-	*/
 	songElements[i].addEventListener('mouseover', function(){
 		this.style.backgroundColor = '#00A0FF';
-
 		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#FFFFFF';
 		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#FFFFFF';
-
 		if( !this.classList.contains('amplitude-active-song-container') ){
 			this.querySelectorAll('.play-button-container')[0].style.display = 'block';
 		}
-
 		this.querySelectorAll('.song-duration')[0].style.color = '#FFFFFF';
 	});
 
-	/*
-		Ensure that on mouseout, CSS styles don't get messed up for active songs.
-	*/
 	songElements[i].addEventListener('mouseout', function(){
 		this.style.backgroundColor = '#FFFFFF';
 		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#272726';
@@ -121,9 +102,6 @@ for( var i = 0; i < songElements.length; i++ ){
 		this.querySelectorAll('.song-duration')[0].style.color = '#607D8B';
 	});
 
-	/*
-		Show and hide the play button container on the song when the song is clicked.
-	*/
 	songElements[i].addEventListener('click', function(){
 		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
 	});
@@ -132,7 +110,6 @@ for( var i = 0; i < songElements.length; i++ ){
 /*
 	Initializes AmplitudeJS
 */
-
 Amplitude.init({
   "songs": [
 		{
@@ -152,58 +129,49 @@ Amplitude.init({
   ],
   
   "callbacks": {
-        'play': function(){
-            document.getElementById('album-art').style.visibility = 'hidden';
-            document.getElementById('large-visualization').style.visibility = 'visible';
-        },
-
-        'pause': function(){
-            document.getElementById('album-art').style.visibility = 'visible';
-            document.getElementById('large-visualization').style.visibility = 'hidden';
-        }
+    'play': function() {
+        document.getElementById('album-art').style.visibility = 'hidden';
+        document.getElementById('large-visualization').style.visibility = 'visible';
     },
+
+    'pause': function() {
+        document.getElementById('album-art').style.visibility = 'visible';
+        document.getElementById('large-visualization').style.visibility = 'hidden';
+    }
+  },
+
   waveforms: {
     sample_rate: 50
   }
 });
 </script>
 <style>
-    /*
-  1. Base
-*/
-
 /*
   2. Components
 */
 div#amplitude-player {
   background: #FFFFFF;
   box-shadow: 0 2px 12px 8px rgba(0, 0, 0, 0.1);
-  margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
-  max-width: 900px; }
-
-/* Small only */
+  max-width: 330px;
+  scale: .65; }
 @media screen and (max-width: 39.9375em) {
-  div#amplitude-player {
-    flex-direction: column; } }
+  div#amplitude-player {} }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  div#amplitude-player {
-    max-height: 715px; } }
+  div#amplitude-player {} }
 /* Large and up */
 @media screen and (min-width: 64em) {
-  div#amplitude-player {
-    max-height: 715px; } }
+  div#amplitude-player {} }
 div#amplitude-left {
   padding: 0px;
   border-right: 1px solid #CFD8DC;
-  width: 50%;
-  display: flex;
-  flex-direction: column; }
+  width: 100%;}
   div#amplitude-left img.album-art {
-    width: 100%; }
+    width: 50%;
+    display: block;
+    margin: 0 auto; }
   div#amplitude-left div#player-left-bottom {
     flex: 1;
     background-color: #F1F1F1;
@@ -212,7 +180,6 @@ div#amplitude-left {
       content: "";
       display: table;
       clear: both; }
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   div#amplitude-player div#amplitude-left {
@@ -220,80 +187,7 @@ div#amplitude-left {
     div#amplitude-player div#amplitude-left img[amplitude-song-info="cover_art_url"] {
       width: auto;
       height: auto; } }
-div#amplitude-right {
-  padding: 0px;
-  overflow-y: scroll;
-  width: 50%;
-  display: flex;
-  flex-direction: column; }
-  div#amplitude-right div.song {
-    cursor: pointer;
-    padding: 10px; }
-    div#amplitude-right div.song div.song-now-playing-icon-container {
-      float: left;
-      width: 20px;
-      height: 20px;
-      margin-right: 10px; }
-      div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
-        display: none;
-        margin-top: 15px; }
-    div#amplitude-right div.song div.play-button-container {
-      display: none;
-      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/list-play-light.png") no-repeat;
-      width: 22px;
-      height: 22px;
-      margin-top: 10px; }
-    div#amplitude-right div.song div.play-button-container:hover {
-      background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/list-play-hover.png") no-repeat; }
-    div#amplitude-right div.song.amplitude-active-song-container div.song-now-playing-icon-container img.now-playing {
-      display: block; }
-    div#amplitude-right div.song.amplitude-active-song-container:hover div.play-button-container {
-      display: none; }
-    div#amplitude-right div.song div.song-meta-data {
-      float: left;
-      width: calc( 100% - 110px ); }
-      div#amplitude-right div.song div.song-meta-data span.song-title {
-        color: #272726;
-        font-size: 16px;
-        display: block;
-        font-weight: 300;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-      div#amplitude-right div.song div.song-meta-data span.song-artist {
-        color: #607D8B;
-        font-size: 14px;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-    div#amplitude-right div.song img.bandcamp-grey {
-      float: left;
-      display: block;
-      margin-top: 10px; }
-    div#amplitude-right div.song img.bandcamp-white {
-      float: left;
-      display: none;
-      margin-top: 10px; }
-    div#amplitude-right div.song span.song-duration {
-      float: left;
-      width: 55px;
-      text-align: center;
-      line-height: 45px;
-      color: #607D8B;
-      font-size: 16px;
-      font-weight: 500; }
-  div#amplitude-right div.song:after {
-    content: "";
-    display: table;
-    clear: both; }
-
 /* Small only */
-@media screen and (max-width: 39.9375em) {
-  div#amplitude-player div#amplitude-right {
-    width: 100%; } }
 div#progress-container {
   width: 70%;
   float: left;
@@ -488,7 +382,6 @@ div#progress-container {
     background: #0075a9; }
   div#progress-container input[type=range]:focus::-ms-fill-upper {
     background: #00adfb; }
-
 div#control-container {
   margin-top: 25px;
   margin-top: 20px; }
@@ -577,12 +470,10 @@ div#control-container {
     div#control-container div.amplitude-mute.amplitude-muted {
       background: url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/amplitude/mute.svg");
       background-repeat: no-repeat; }
-
 div#control-container:after {
   content: "";
   display: table;
   clear: both; }
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   div#amplitude-player div#repeat-container div#repeat {
@@ -621,7 +512,6 @@ input[type=range].amplitude-volume-slider {
   float: left;
   margin-top: 10px;
   margin-left: 5px; }
-
 @-moz-document url-prefix() {
   input[type=range].amplitude-volume-slider {
     margin-top: 0px; } }
@@ -632,7 +522,6 @@ input[type=range].amplitude-volume-slider {
     background-color: rgba(255, 255, 255, 0) !important;
     z-index: 999;
     position: relative; }
-
   div.ms-range-fix {
     height: 1px;
     background-color: #A9A9A9;
@@ -647,14 +536,12 @@ input[type=range].amplitude-volume-slider {
     background-color: rgba(255, 255, 255, 0) !important; } }
 input[type=range].amplitude-volume-slider:focus {
   outline: none; }
-
 input[type=range].amplitude-volume-slider::-webkit-slider-runnable-track {
   width: 75%;
   height: 1px;
   cursor: pointer;
   animate: 0.2s;
   background: #CFD8DC; }
-
 input[type=range].amplitude-volume-slider::-webkit-slider-thumb {
   height: 10px;
   width: 10px;
@@ -663,17 +550,14 @@ input[type=range].amplitude-volume-slider::-webkit-slider-thumb {
   cursor: pointer;
   margin-top: -4px;
   -webkit-appearance: none; }
-
 input[type=range].amplitude-volume-slider:focus::-webkit-slider-runnable-track {
   background: #CFD8DC; }
-
 input[type=range].amplitude-volume-slider::-moz-range-track {
   width: 100%;
   height: 1px;
   cursor: pointer;
   animate: 0.2s;
   background: #CFD8DC; }
-
 input[type=range].amplitude-volume-slider::-moz-range-thumb {
   height: 10px;
   width: 10px;
@@ -681,7 +565,6 @@ input[type=range].amplitude-volume-slider::-moz-range-thumb {
   background: #00A0FF;
   cursor: pointer;
   margin-top: -4px; }
-
 input[type=range].amplitude-volume-slider::-ms-track {
   width: 100%;
   height: 1px;
@@ -693,15 +576,12 @@ input[type=range].amplitude-volume-slider::-ms-track {
   border-width: 15px 0;
   /*remove default tick marks*/
   color: transparent; }
-
 input[type=range].amplitude-volume-slider::-ms-fill-lower {
   background: #CFD8DC;
   border-radius: 10px; }
-
 input[type=range].amplitude-volume-slider::-ms-fill-upper {
   background: #CFD8DC;
   border-radius: 10px; }
-
 input[type=range].amplitude-volume-slider::-ms-thumb {
   height: 10px;
   width: 10px;
@@ -709,16 +589,12 @@ input[type=range].amplitude-volume-slider::-ms-thumb {
   background: #00A0FF;
   cursor: pointer;
   margin-top: 2px; }
-
 input[type=range].amplitude-volume-slider:focus::-ms-fill-lower {
   background: #CFD8DC; }
-
 input[type=range].amplitude-volume-slider:focus::-ms-fill-upper {
   background: #CFD8DC; }
-
 input[type=range].amplitude-volume-slider::-ms-tooltip {
   display: none; }
-
 div#time-container span.current-time {
   color: #607D8B;
   font-size: 14px;
@@ -733,12 +609,10 @@ div#time-container span.duration {
   float: left;
   width: 15%;
   text-align: center; }
-
 div#time-container:after {
   content: "";
   display: table;
   clear: both; }
-
 div#meta-container {
   text-align: center;
   margin-top: 5px; }
@@ -761,7 +635,6 @@ div#meta-container {
     text-overflow: ellipsis; }
     div#meta-container div.song-artist-album span {
       display: block; }
-
 /*
   3. Layout
 */
@@ -775,8 +648,7 @@ body {
 div.amplitude-wave-form{
     display: none;
     margin-top: -14px;
-}
-      
+}    
  div.amplitude-wave-form svg{
       stroke: #00a0ff;
       height: 50px;
@@ -793,7 +665,6 @@ div.amplitude-wave-form{
    height: 50px;
    width: 100%;
 }
-
 div#large-visualization{
     width: 100%;
     background-color: black;
