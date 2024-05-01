@@ -6,83 +6,60 @@ title: "主页"
 ### 《布袋豆腐歌》
 
 <!-- Amplitude Player -->
-  <div id="amplitude-player">
+<div id="amplitude-player">
     <div id="amplitude-left">
-      <img data-amplitude-song-info="cover_art_url" class="album-art"/>
-      <div class="amplitude-visualization" id="large-visualization"></div>
-      <div id="player-left-bottom">
+        <img data-amplitude-song-info="cover_art_url" class="album-art"/>
+        <div class="amplitude-visualization" id="large-visualization"></div>
+        <div id="player-left-bottom">
         <div id="time-container">
-          <span class="current-time">
+            <span class="current-time">
             <span class="amplitude-current-minutes" ></span>:<span class="amplitude-current-seconds"></span>
-          </span>
-          <div id="progress-container">
+            </span>
+            <div id="progress-container">
             <div class="amplitude-wave-form"></div>
             <input type="range" class="amplitude-song-slider"/>
             <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
             <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
-          </div>
-          <span class="duration">
+            </div>
+            <span class="duration">
             <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
-          </span>
+            </span>
         </div>
         <div id="control-container">
-          <div id="repeat-container">
+            <div id="repeat-container">
             <div class="amplitude-repeat" id="repeat"></div>
             <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
-          </div>
-          <div id="central-control-container">
-            <div id="central-controls">
-              <div class="amplitude-prev" id="previous"></div>
-              <div class="amplitude-play-pause" id="play-pause"></div>
-              <div class="amplitude-next" id="next"></div>
             </div>
-          </div>
-          <div id="volume-container">
+            <div id="central-control-container">
+            <div id="central-controls">
+                <div class="amplitude-prev" id="previous"></div>
+                <div class="amplitude-play-pause" id="play-pause"></div>
+                <div class="amplitude-next" id="next"></div>
+            </div>
+            </div>
+            <div id="volume-container">
             <div class="volume-controls">
-              <div class="amplitude-mute amplitude-not-muted"></div>
-              <input type="range" class="amplitude-volume-slider"/>
-              <div class="ms-range-fix"></div>
+                <div class="amplitude-mute amplitude-not-muted"></div>
+                <input type="range" class="amplitude-volume-slider"/>
+                <div class="ms-range-fix"></div>
             </div>
             <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle-right"></div>
-          </div>
+            </div>
         </div>
         <div id="meta-container">
-          <span data-amplitude-song-info="name" class="song-name"></span>
-          <div class="song-artist-album">
+            <span data-amplitude-song-info="name" class="song-name"></span>
+            <div class="song-artist-album">
             <span data-amplitude-song-info="artist"></span>
             <span data-amplitude-song-info="album"></span>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
 </div>
-
-
-用老工艺，无高科技；不为增产，加添加剂；<br>
-布袋豆腐，按照规矩，老老实实，不随恶欲。
-
-好不骄慢，不非实赞；恶不覆藏，直示人知。<br>
-卖不轻称，端心不欺；应行多行，常念布施。
-
-虽谋世利，不无厌行。念他如己，财不如意；<br>
-不悕厚利，忍知足行。亦不贪心，窃他财行。
-
-虽自有苦，当正观行；过去痴心，作诸恶行，<br>
-是苦因生，如是受行；不应纵痴，复苦业行。
-
-念圣忍行，忍如地行；念苦因行，不放逸行，<br>
-勿懈退行，苦尽道行；观法性行，唯空寂性。
-
-正念慧剑，常斩恶行；生惭愧行，是为善行；<br>
-悟过恶行，慎行不行；调身意行，归大乘行。
-
-虽世业行，不世乐行；念所善行，为道粮行。<br>
-如鸟飞空，影则相随；若行圣行，得真乐行。
-
 <script>
 let songElements = document.getElementsByClassName('song');
 
-for( var i = 0; i < songElements.length; i++ ){
+for( var i = 0; i < songElements.length; i++ ) {
 	songElements[i].addEventListener('mouseover', function(){
 		this.style.backgroundColor = '#00A0FF';
 		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#FFFFFF';
@@ -106,9 +83,6 @@ for( var i = 0; i < songElements.length; i++ ){
 	});
 }
 
-/*
-	Initializes AmplitudeJS
-*/
 Amplitude.init({
   "songs": [
 		{
@@ -144,3 +118,25 @@ Amplitude.init({
   }
 });
 </script>
+
+
+用老工艺，无高科技；不为增产，加添加剂；<br>
+布袋豆腐，按照规矩，老老实实，不随恶欲。
+
+好不骄慢，不非实赞；恶不覆藏，直示人知。<br>
+卖不轻称，端心不欺；应行多行，常念布施。
+
+虽谋世利，不无厌行。念他如己，财不如意；<br>
+不悕厚利，忍知足行。亦不贪心，窃他财行。
+
+虽自有苦，当正观行；过去痴心，作诸恶行，<br>
+是苦因生，如是受行；不应纵痴，复苦业行。
+
+念圣忍行，忍如地行；念苦因行，不放逸行，<br>
+勿懈退行，苦尽道行；观法性行，唯空寂性。
+
+正念慧剑，常斩恶行；生惭愧行，是为善行；<br>
+悟过恶行，慎行不行；调身意行，归大乘行。
+
+虽世业行，不世乐行；念所善行，为道粮行。<br>
+如鸟飞空，影则相随；若行圣行，得真乐行。
