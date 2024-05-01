@@ -633,7 +633,8 @@ div#meta-container {
     font-family: 'Open Sans', sans-serif;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; }
+    text-overflow: ellipsis; 
+    display: none; }
     div#meta-container div.song-artist-album span {
       display: block; }
 /*
