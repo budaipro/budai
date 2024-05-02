@@ -7,7 +7,7 @@ title: "布袋和尚简介"
 # 布袋和尚简介
 
 <figure class="figure">
-  <img src="https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/Budai,_British_Museum.jpg" alt="布袋和尚像">
+  <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/Budai,_British_Museum.jpg" alt="布袋和尚像">
   <figcaption>布袋和尚像</figcaption>
 </figure>
 
