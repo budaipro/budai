@@ -8,7 +8,7 @@ title: "产品"
 
 <div class="balloon">
   <div class="bolloon-header">
-    <img class="balloon-icon" src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/ico/bulb_16.png" width="16" height="16">
+    <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/ico/bulb_16.png" width="16" height="16">
     <span class="balloon-title">承用老工艺制作，也不加任何<abbr title="常用豆制品添加剂：消泡剂、增白剂、固水剂、增筋剂、膨松剂、起泡剂等，以及防腐剂。">添加剂</abbr>。</span>
   </div>
   <div>我们老实地，按照老一辈人做豆腐的工艺来做豆腐；不为追求经济效益，选择简单高效的现代工艺。所有豆制品，使用<sub>非转基因</sub>黄豆及卤水点制，也不加任何化学添加剂。只为还原具有【以前的豆腐“本该有的色、香、味”】的豆腐，让有些人还能方便吃到这样的豆腐。</div>
@@ -25,7 +25,7 @@ title: "产品"
 </ul>
 <div class="flex-figure">
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
     <figcaption>▲白豆腐</figcaption>
   </figure>
 </div>
@@ -43,19 +43,19 @@ title: "产品"
 </ul>
 <div class="flex-figure">
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
     <figcaption>▲豆干</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b02.jpg" alt="/assets/img/tofu/b02.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b02.jpg" alt="/assets/img/tofu/b02.jpg">
     <figcaption>▲豆干</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b03.jpg" alt="/assets/img/tofu/b03.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b03.jpg" alt="/assets/img/tofu/b03.jpg">
     <figcaption>▲豆干</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b04.jpg" alt="/assets/img/tofu/b04.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/b04.jpg" alt="/assets/img/tofu/b04.jpg">
     <figcaption>▲豆干</figcaption>
   </figure>
 </div>
@@ -73,23 +73,23 @@ title: "产品"
 </ul>
 <div class="flex-figure">
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
     <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c02.jpg" alt="/assets/img/tofu/c02.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c02.jpg" alt="/assets/img/tofu/c02.jpg">
     <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c03.jpg" alt="/assets/img/tofu/c03.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c03.jpg" alt="/assets/img/tofu/c03.jpg">
     <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c04.jpg" alt="/assets/img/tofu/c04.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c04.jpg" alt="/assets/img/tofu/c04.jpg">
     <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
-    <img src="https://fastly.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c05.jpg" alt="/assets/img/tofu/c05.jpg">
+    <img src="https://gcore.jsdelivr.net/gh/budaipro/assets@latest/img/tofu/c05.jpg" alt="/assets/img/tofu/c05.jpg">
     <figcaption>▲油豆腐</figcaption>
   </figure>
 </div>
