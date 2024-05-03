@@ -8,14 +8,6 @@ title: "住在大理"
 
 # 住在大理
 
-<div class="balloon">
-  <div class="balloon-header">
-    <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">只接纳素食者入住！</span>
-  </div>
-  <div>小院只接纳<span>素食（或能发心素食）者</span>入住。</div>
-</div>
-
 <div class="flex-figure innpic">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
@@ -88,6 +80,7 @@ title: "住在大理"
 
 ## 其他要求：
 
+* <span style="font-weight: bold; color: green;">入住者，需要食素！</span><em>（我们这有很好的素食氛围）</em>
 * 不能养宠物。
 
 ## 基本情况
