@@ -11,7 +11,7 @@ title: "产品"
     <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
     <span class="balloon-title">承用老工艺，也无任何<abbr title="常用豆制品添加剂：消泡剂、增白剂、固水剂、增筋剂、膨松剂、起泡剂等，以及防腐剂。">添加剂</abbr>。</span>
   </div>
-  <div>我们老实地，按照<b>农村里老一辈人做豆腐的工艺</b>来做豆腐。只为让有些人，还能方便吃到美味的豆腐。</div>
+  <div>我们老实地，按照<b>我们老家老一辈人做豆腐的工艺</b>来做豆腐。只为让有些人，还能方便吃到美味的豆腐。</div>
 </div>
 
 <h2>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
