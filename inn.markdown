@@ -67,7 +67,7 @@ title: "住在大理"
   </figure>
 </div>
 
-<p><em>房间内添置的最基本家具，也基本都是<b>原木</b>、<b>无漆</b>的。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
+<p>房间内添置的最基本家具，基本都是<em>原木</em>、<em>无漆</em>的。<em style="color: red; font-weight: bold;"><strong>有意愿</strong>长住的人优先。</em></p>
 
 ## 我们的规则：
 
