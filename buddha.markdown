@@ -6,11 +6,6 @@ title: "布袋和尚简介"
 
 # 布袋和尚简介
 
-<figure class="figure">
-  <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/Budai,_British_Museum.jpg" alt="布袋和尚像">
-  <figcaption>布袋和尚像</figcaption>
-</figure>
-
 <div class="buddha">
 
   <div id="post">
