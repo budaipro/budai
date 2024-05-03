@@ -71,7 +71,7 @@ title: "住在大理"
 <li><span class="bottomborder2px-red">包基本的水电费</span>。</li>
 <li><span class="bottomborder2px-red">无任何押金</span>。</li>
 <li><span class="bottomborder2px-red">入住当天不收费</span>，第二天再开始算。</li>
-<li><span class="bottomborder2px-red">不要求提前续交费用</span>。</li>
+<li><span class="bottomborder2px-red">不会要求提前续交费用</span>。</li>
 <li><span class="bottomborder2px-red">按天算费用</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
 <li><span class="bottomborder2px-red">延长3天免费日</span>，对于费用到期要搬走的人。</li>
 <li>如居住期间产生矛盾。<pre>
