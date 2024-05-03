@@ -15,23 +15,23 @@ title: "住在大理"
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
-    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em><abbr title="长期">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em><abbr title="时间：长期">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
-    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em><abbr title="长期">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em><abbr title="时间：长期">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
-    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em><abbr title="长期">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em><abbr title="时间：长期">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
-    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em><abbr title="大约至6月中旬">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em><abbr title="时间：大约至6月中旬">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
-    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em><abbr title="大约至6月中旬">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em><abbr title="时间：大约至6月中旬">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
