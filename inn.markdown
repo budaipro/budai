@@ -11,9 +11,9 @@ title: "住在大理"
 <div class="balloon">
   <div class="balloon-header">
     <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">只接纳素食（及发心素食）者入住！</span>
+    <span class="balloon-title">只接纳素食者入住！</span>
   </div>
-  <div>由于，我们自己及已入住的伙伴，基本都是素食者。我们商量过后，决定只接纳<span>素食（及发心素食）者</span>入住。</div>
+  <div>小院只接纳<span>素食（或能发心素食）者</span>入住。</div>
 </div>
 
 <div class="flex-figure innpic">
@@ -67,35 +67,33 @@ title: "住在大理"
   </figure>
 </div>
 
-<p><em>房间内只添置了最基本的家具，这些家具也基本都是<b>原木</b>、<b>无漆</b>的。其实健康、简朴、实用性的理念也挺好的，剩下的空间可以自由DIY。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
+<p><em>房间内添置的最基本家具，也基本都是<b>原木</b>、<b>无漆</b>的。</em><b><strong>有计划</strong>长住的人优先</b>。</p>
 
-### 一些规则：
+## 我们的规则：
 
 <ol>
 <li><span class="bottomborder2px-red">统一的费用</span>。<pre>
 ├ 短住、长住；
 ├ 淡季、旺季；
 └ 月付、季付、半年付、年付。</pre></li>
-<li><span class="bottomborder2px-red">费用包基本的水电使用</span>。</li>
-<li><span class="bottomborder2px-red">入住无押金</span>。</li>
-<li><span class="bottomborder2px-red">也没有巧立名目的其他押金</span>。</li>
-<li><span class="bottomborder2px-red">入住当天不计费用</span>，入住后的第二天再开始算。</li>
-<li><span class="bottomborder2px-red">不提前要求续交费用</span>，包括提前半个月乃至提前一天。</li>
+<li><span class="bottomborder2px-red">包基本的水电费</span>。</li>
+<li><span class="bottomborder2px-red">无任何押金</span>。</li>
+<li><span class="bottomborder2px-red">入住当天不收费</span>，第二天再开始算。</li>
+<li><span class="bottomborder2px-red">不要求提前续交费用</span>。</li>
 <li><span class="bottomborder2px-red">按天算费用</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
-<li><span class="bottomborder2px-red">提供3天免费时间</span>，对于要搬走又赶上费用到期的人。</li>
-<li>如居住期彼此间产生矛盾。<pre>
-├ 按照以上规则公事公办。
-└ 超出以上规则的，依着诚心和公平来协商处理。</pre></li>
+<li><span class="bottomborder2px-red">延长3天免费日</span>，对于费用到期要搬走的人。</li>
+<li>如居住期间产生矛盾。<pre>
+└ 按照以上规则公事公办。</pre></li>
 </ol>
 
-### 暂时想到的一个要求：
+## 其他要求：
 
 * 不能养宠物。
 
-### 基本情况
+## 基本情况
 
 <ul>
-  <li>小院位于银桥镇头铺村</li>
+  <li>地点位于银桥镇（头铺村）</li>
   <li><pre>500米内生活圈
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">生活</span><div class="collapse-body">
 │ ├ 山泉水取水处
