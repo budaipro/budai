@@ -15,7 +15,7 @@ title: "测试页面"
 <hr>
 
 <ul>
-  {%- for tag in site.tags}
+  {%- for tag in site.tags -%}
     <li>
       <h3>{{ tag[0] }}</h3>
       <ul>
