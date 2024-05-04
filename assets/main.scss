@@ -52,7 +52,7 @@ body {
   font-smoothing: grayscale;
   color: #000;
   font-family: "MS Sans Serif", arial, simsun, dengxian, sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   margin: 0;
   /*background-color: #3A6EA5;*/
 }
@@ -68,18 +68,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 14pt;
+  font-size: 15pt;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 13pt;
   font-weight: bold;
   font-style: italic;
 }
 
 h3 {
-  font-size: 12pt;
+  font-size: 13pt;
   font-weight: normal;
 }
 
@@ -127,7 +127,7 @@ dfn {
 }
 
 pre {
-  font: 10pt/1.185 "dejavu sans mono", menlo, consolas, arial, simsun, dengxian, sans-serif;
+  font: 11pt/1.185 "dejavu sans mono", menlo, consolas, arial, simsun, dengxian, sans-serif;
   white-space: pre;
   width: 100%;
   padding: 0;
@@ -203,12 +203,12 @@ pre {
 
 .window {
   /*box-shadow: inset -1px -1px #000,inset 1px 1px silver,inset -2px -2px gray,inset 2px 2px #fff;*/
-  font-size: 10pt;
+  font-size: 11pt;
   background: silver;
 }
 
 .title-bar {
-  font-size: 10pt;
+  font-size: 11pt;
   background: linear-gradient(90deg, navy, #1084d0);
   padding: 3px 2px 3px 3px;
   display: flex;
@@ -270,7 +270,7 @@ pre {
 }
 
 .document {
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .document-content {
@@ -317,7 +317,7 @@ pre {
 }
 
 .innpic figcaption {
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 .innpic figcaption sub {
