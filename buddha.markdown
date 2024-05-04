@@ -1,5 +1,5 @@
 ---
-permalink: buddha
+permalink: /buddha
 layout: default
 title: "布袋和尚简介"
 ---
