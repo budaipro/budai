@@ -10,14 +10,19 @@
             font: 11pt/1.185 arial, simsun, dengxian, sans-serif;
         }
 
+        a, a:hover, a:active, a:visited {
+            color: blue;
+            text-decoration: underline;
+        }
+
         .container {
-            max-width: 700px;
+            max-width: 650px;
         }
     </style>
   </head>
   <body>
     <div class="container">
-        <div><a href="/mytests">&gt;&gt;返回</a></div>
+        <div><a href="/mytests">&lt;&lt;返回</a></div>
         {{ content }}
     </div>
   </body>
