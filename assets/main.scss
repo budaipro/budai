@@ -310,25 +310,29 @@ pre {
 .inn {
 }
 
-.innpic .sold em {
+.inn .sold em {
   color: red;
   font-size: 9pt;
   font-weight: bold;
 }
 
-.innpic figcaption {
+.inn figcaption {
   font-size: 11pt;
 }
 
-.innpic figcaption sub {
+.inn figcaption sub {
   vertical-align: bottom;
 }
 
-.innpic .arrow {
+.inn .arrow {
   font-size: 85%;
   margin-right: 2px;
   position: relative;
   top: -1px;
+}
+
+.inn pre {
+  margin: 0;
 }
 
 .bottomborder2px-red {
