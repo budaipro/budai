@@ -6,9 +6,11 @@ title: "住在大理"
 
 <div class="font-size: 12pt;"><a href="/about">&lt;&lt;返回</a></div>
 
+<div class="inn">
+
 # 住在大理
 
-<div class="flex-figure innpic">
+<div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/101.jpg" alt="/assets/img/inn/101.jpg">
     <figcaption><span class="arrow">▲</span>院子</figcaption>
@@ -64,7 +66,7 @@ title: "住在大理"
 ## 我们的规则：
 
 <ol>
-<li><span class="bottomborder2px-red">统一的费用</span>。<pre>
+<li><pre><span class="bottomborder2px-red">统一的费用</span>。
 ├ 短住、长住；
 ├ 淡季、旺季；
 └ 月付、季付、半年付、年付。</pre></li>
@@ -74,7 +76,7 @@ title: "住在大理"
 <li><span class="bottomborder2px-red">不会要求提前续交费用</span>。</li>
 <li><span class="bottomborder2px-red">按天算费用</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
 <li><span class="bottomborder2px-red">延长3天免费日</span>，对于费用到期要搬走的人。</li>
-<li>如居住期间产生矛盾。<pre>
+<li><pre>如居住期间产生矛盾。
 └ 按照以上规则公事公办。</pre></li>
 </ol>
 
@@ -153,3 +155,5 @@ title: "住在大理"
 </script>
   
 <div style="margin: 20px 0; font-weight: bold; text-align: center;">联系电话：195 4258 6219。（也可通过电话号添加微信）</div>
+
+</div>
