@@ -8,7 +8,7 @@ title: "住在大理"
 
 <div class="inn">
 
-# 住在大理
+<h1>住在大理</h1>
 
 <div class="flex-figure">
   <figure class="figure">
@@ -63,9 +63,8 @@ title: "住在大理"
 
 <p>房间内添置的最基本家具，基本都是<em>原木</em>、<em>无漆</em>的。<em style="color: red; font-weight: bold;"><strong>有意愿</strong>长住的人优先。</em></p>
 
-## 我们的规则：
-
-<ol>
+<h2>我们的规则：</h2>
+<ul>
 <li><pre><span class="bottomborder2px-red">统一的费用</span>。
 ├ 短住、长住；
 ├ 淡季、旺季；
@@ -78,15 +77,15 @@ title: "住在大理"
 <li><span class="bottomborder2px-red">延长3天免费日</span>，对于费用到期要搬走的人。</li>
 <li><pre>如居住期间产生矛盾。
 └ 按照以上规则公事公办。</pre></li>
-</ol>
+</ul>
 
-## 其他要求：
+<h2>其他要求：</h2>
+<ul>
+  <li><span style="font-weight: bold; color: green;">入住者，需要食素！</span><em>（我们这有很好的素食氛围）</em></li>
+  <li>不能养宠物。</li>
+</ul>
 
-* <span style="font-weight: bold; color: green;">入住者，需要食素！</span><em>（我们这有很好的素食氛围）</em>
-* 不能养宠物。
-
-## 基本情况
-
+<h2>基本情况：</h2>
 <ul>
   <li>地点位于银桥镇（头铺村）</li>
   <li><pre>500米内生活圈
