@@ -248,6 +248,12 @@ pre {
   box-shadow: inset -1px -1px #000,inset 1px 1px #fff;
 }
 
+.navigation-icon.active {
+  font-weight: bold;
+  box-shadow: inset -1px -1px #000,inset 1px 1px #fff;
+}
+
+
 .navigation-icon:active {
   box-shadow: inset -1px -1px #fff,inset 1px 1px gray;
 }
@@ -257,6 +263,10 @@ pre {
   width: 16px;
   height: 16px;
   margin: 0 auto 4px auto;
+}
+
+.navigation-icon.active img {
+  filter: grayscale(0);
 }
 
 .navigation-icon:not(:hover) img {
