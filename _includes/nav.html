@@ -1,5 +1,5 @@
 <nav class="navigation-icons">
-  <a class="navigation-icon {%- if page.url == '/' -%}&nbsp;active{%- endif -%}" href="/">
+  <a {%- if page.url == '/' -%}class="navigation-icon active"{%- else -%}class="navigation-icon"{%- endif -%} href="/">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/home_16.png" alt="">
     <span>主页</span>
   </a>
