@@ -265,12 +265,12 @@ pre {
   margin: 0 auto 4px auto;
 }
 
-.navigation-icon.active img {
-  filter: grayscale(0);
-}
-
 .navigation-icon:not(:hover) img {
   filter: grayscale(1);
+}
+
+.navigation-icon.active:not(:hover) img {
+  filter: grayscale(0);
 }
 
 .inset {
