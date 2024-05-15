@@ -14,7 +14,7 @@ title: "产品"
   <div>我们老实地，按照<b>我们老家老一辈人做豆腐的工艺</b>来做豆腐。只为让有些人，还能方便吃到美味的豆腐。</div>
 </div>
 
-<h2>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
+<h2><span class="arrow">▶</span>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
 <ul>
   <li><b>名称</b>：豆腐。</li>
   <li><b>成分</b>：黄豆、饮用水。</li>
@@ -32,7 +32,7 @@ title: "产品"
 
 <hr>
 
-<h2>豆腐干（又名“豆干、香干”）<sup class="text-alert">零售价：12元/500克。</sup></h2>
+<h2><span class="arrow">▶</span>豆腐干（又名“豆干、香干”）<sup class="text-alert">零售价：12元/500克。</sup></h2>
 <ul>
   <li><b>名称</b>：豆干。</li>
   <li><b>成分</b>：黄豆、饮用水、卤料（酱油、八角、食用盐、白砂糖、味精）。</li>
@@ -62,7 +62,7 @@ title: "产品"
 
 <hr>
 
-<h2>油豆腐<sup class="text-alert">零售价：14元/500克。</sup></h2>
+<h2><span class="arrow">▶</span>油豆腐<sup class="text-alert">零售价：14元/500克。</sup></h2>
 <ul>
   <li><b>名称</b>：油豆腐。</li>
   <li><b>成分</b>：黄豆、饮用水、菜籽油、食用盐。</li>
