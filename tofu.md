@@ -26,7 +26,6 @@ title: "产品"
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
-    <figcaption>▲白豆腐</figcaption>
   </figure>
 </div>
 
@@ -44,19 +43,15 @@ title: "产品"
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
-    <figcaption>▲豆腐干</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/b02.jpg" alt="/assets/img/tofu/b02.jpg">
-    <figcaption>▲豆腐干</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/b03.jpg" alt="/assets/img/tofu/b03.jpg">
-    <figcaption>▲豆腐干</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/b04.jpg" alt="/assets/img/tofu/b04.jpg">
-    <figcaption>▲豆腐干</figcaption>
   </figure>
 </div>
 
@@ -74,22 +69,17 @@ title: "产品"
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
-    <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c02.jpg" alt="/assets/img/tofu/c02.jpg">
-    <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c03.jpg" alt="/assets/img/tofu/c03.jpg">
-    <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c04.jpg" alt="/assets/img/tofu/c04.jpg">
-    <figcaption>▲油豆腐</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c05.jpg" alt="/assets/img/tofu/c05.jpg">
-    <figcaption>▲油豆腐</figcaption>
   </figure>
 </div>
