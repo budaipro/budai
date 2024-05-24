@@ -25,9 +25,9 @@ title: "启动"
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
 │ │ └ 银桥镇鹤阳村委会一社</div></div>
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">自营店</span><div class="collapse-body">
-│    ├ 大关邑（下关）
-│    ├ 龙溪路（下关）
-│    └ 银仓路（古城）</div></div></div></div>
+│   ├ 大关邑（下关）
+│   ├ 龙溪路（下关）
+│   └ 银仓路（古城）</div></div></div></div>
 │
 ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">云南</span><div class="collapse-body">
 │ ├ <span>大理<small><em>（见上实例）</em></small></span>
