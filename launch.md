@@ -24,7 +24,7 @@ title: "启动"
 │ │ └ 食品经营许可证</div></div>
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
 │ │ └ 银桥镇鹤阳村委会一社</div></div>
-│ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">自营店</span><div class="collapse-body">
+│ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
 │   ├ 大关邑（下关）
 │   ├ 龙溪路（下关）
 │   └ 银仓路（古城）</div></div></div></div>
