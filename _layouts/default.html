@@ -13,7 +13,7 @@
         </div>
         {%- endunless -%}
         <div class="window-body">
-          {%- unless page.url == ("/inn" || "/launch") -%}
+          {%- unless page.url == "/inn" or page.url == "/launch" -%}
             {%- include nav.html -%}
           {%- endunless -%}
           <div class="document-container">
