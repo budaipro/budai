@@ -17,23 +17,23 @@ title: "住在大理"
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
-    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em><abbr title="时间：长期。">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>203室 - 600元/月</del><em><abbr title="租期：长期。">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
-    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em><abbr title="时间：长期。">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>204室 - 700元/月</del><em><abbr title="租期：长期。">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
-    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em><abbr title="时间：长期。">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>301室 - 800元/月</del><em><abbr title="租期：长期。">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
-    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em><abbr title="时间：大约至6月中旬。">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>302室 - 600元/月</del><em><abbr title="租期：长期">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
-    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em><abbr title="时间：大约至6月中旬。">已入住</abbr></em></figcaption>
+    <figcaption><del><span class="arrow">▲</span>303室 - 700元/月</del><em><abbr title="租期：大约至6月中旬。">已入住</abbr></em></figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
@@ -65,16 +65,16 @@ title: "住在大理"
 
 <h2>我们的规则：</h2>
 <ul>
-<li><pre><span class="bottomborder2px-red">统一的费用</span>。
+<li><pre><span class="bottomborder2px-red">稳定、统一的租金</span>。
 ├ 短住、长住；
 ├ 淡季、旺季；
 └ 月付、季付、半年付、年付。</pre></li>
 <li><span class="bottomborder2px-red">包基本的水电费</span>。</li>
 <li><span class="bottomborder2px-red">无任何押金</span>。</li>
 <li><span class="bottomborder2px-red">入住当天不收费</span>，第二天再开始算。</li>
-<li><span class="bottomborder2px-red">不会要求提前续交费用</span>。</li>
-<li><span class="bottomborder2px-red">按天算费用</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
-<li><span class="bottomborder2px-red">延长3天免费日</span>，对于费用到期要搬走的人。</li>
+<li><span class="bottomborder2px-red">不会提前要求续交租金</span>。</li>
+<li><span class="bottomborder2px-red">按天算租金</span>；如原计划外的情况下要离开，多余费用全额退还。</li>
+<li><span class="bottomborder2px-red">提供3天免费搬家时间</span>，对于费用到期要搬走的人。</li>
 <li><pre>如居住期间产生矛盾。
 └ 按照以上规则公事公办。</pre></li>
 </ul>
