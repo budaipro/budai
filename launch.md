@@ -1,5 +1,5 @@
 ---
-permalink: /1714820740858
+permalink: /launch
 layout: default
 title: "启动"
 ---
