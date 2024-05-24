@@ -12,7 +12,7 @@ title: "启动"
 │ ├ 豆腐
 │ ├ 豆腐干
 │ ├ 油豆腐
-│ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">其他</span><div class="collapse-body">
+│ └ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">其他</span><div class="collapse-body">
 │   ├ 嫩豆腐
 │   ├ 毛豆腐
 │   ├ 臭豆腐
@@ -29,39 +29,39 @@ title: "启动"
 │    ├ 龙溪路（下关）
 │    └ 银仓路（古城）</div></div>
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
-│ ├ 大理<small><em>（见上实例）</em></small>
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
+│ ├ <span style="opacity: 1;">大理<small><em>（见上实例）</em></small></span>
 │ └ 昆明
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">四川</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">四川</span><div class="collapse-body">
 │ └ 成都
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">重庆</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">重庆</span><div class="collapse-body">
 │ └ 重庆
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">广东</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">广东</span><div class="collapse-body">
 │ ├ 广州
 │ ├ 深圳
 │ └ 珠海
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">湖北</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">湖北</span><div class="collapse-body">
 │ └ 武汉
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">湖南</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">湖南</span><div class="collapse-body">
 │ └ 长沙
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">江西</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">江西</span><div class="collapse-body">
 │ └ 南昌
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">浙江</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">浙江</span><div class="collapse-body">
 │ ├ 杭州
 │ ├ 宁波
 │ └ 温州
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">上海</span><div class="collapse-body">
+├ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">上海</span><div class="collapse-body">
 │ └ 上海
 │</div></div>
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">江苏</span><div class="collapse-body">
+└ <div class="collapse muted"><span class="collapse-toggler" data-toggle="collapse">江苏</span><div class="collapse-body">
   ├ 南京
   └ 苏州</div></div>
 </div></div></pre>
