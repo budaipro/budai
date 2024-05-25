@@ -16,7 +16,7 @@ title: "启动"
 │   ├ <span class="muted">嫩豆腐</span>
 │   ├ <span class="muted">毛豆腐</span>
 │   ├ <span class="muted">臭豆腐</span>
-│   └ <span class="muted">豆腐乳</span></div></div>
+│   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
 ├ <div class="collapse"><strong class="collapse-toggler" data-toggle="collapse">实例<small><em>（种子）</em></small></strong><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
