@@ -108,8 +108,8 @@ title: "住在大理"
 │ ├ 镇中学
 │ ├ 镇公安局
 │ └ 镇政府</div></div>
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">外出（交通）</span><div class="collapse-body">
-  │ C7路公交车
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">公交车（外出）</span><div class="collapse-body">
+  │ C7路
   │ ├ 九孔桥
   │ ├ 鹤阳
   └─┼ <b>银桥镇政府（本站）</b>
