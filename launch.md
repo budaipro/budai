@@ -124,7 +124,7 @@ title: "启动"
 │   ├ <span class="muted">臭豆腐</span>
 │   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em>（以大理为例）</em></span><div class="collapse-body">
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small>（以大理的为例）</small></em></span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
 │ │ ├ 营业执照
 │ │ └ 食品经营许可证</div></div>
@@ -137,7 +137,7 @@ title: "启动"
 │</div></div>
 └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
-  │ ├ <span>大理<small><em>（见上实例）</em></small></span>
+  │ ├ <span>大理</span>
   │ └ <span class="muted">昆明</span>
   │</div></div>
   ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">四川</span><div class="collapse-body">
