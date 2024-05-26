@@ -22,7 +22,7 @@ title: "启动"
 我们现阶段只有以“豆腐、豆腐干、油豆腐”为主的产品和生产作坊，欠缺相关人员和直营店。
 
 <pre>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">产品</span><div class="collapse-body">
+├ <strong>产品</strong>
 │ ├ 豆腐
 │ ├ 豆腐干
 │ ├ 油豆腐
@@ -31,15 +31,15 @@ title: "启动"
 │   ├ <span class="muted">毛豆腐</span>
 │   ├ <span class="muted">臭豆腐</span>
 │   └ <span class="muted">腐乳</span></div></div>
-│</div></div>
-└ <div class="collapse"><strong class="collapse-toggler" data-toggle="collapse">实体</strong><div class="collapse-body">
+│
+└ <strong>实体</strong>
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
   │ ├ 营业执照
   │ └ 食品经营许可证</div></div>
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
   │ └ 银桥镇鹤阳村委会一社</div></div>
   └ 直营店
-    └ 暂无</div></div>
+    └ 暂无
 </pre>
 
 <h2>2、规划</h2>
@@ -51,16 +51,16 @@ title: "启动"
 开设大理古城1个、下关2个直营店，并且招聘相关人员，以启动首个在大理的完整实体。统计具体运作的情况，并实现自我盈利。
 
 <pre>
-<div class="collapse"><strong class="collapse-toggler" data-toggle="collapse">实体</strong><div class="collapse-body">
+<strong>实体</strong>
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
  │ ├ 营业执照
  │ └ 食品经营许可证</div></div>
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
  │ └ 银桥镇鹤阳村委会一社</div></div>
- └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
-   ├ 下关（大关邑）
-   ├ 下关（龙溪路）
-   └ 大理古城</div></div></div></div>
+ └ <strong>直营店</strong>
+   ├ <em><b>下关（大关邑）</b></em>
+   ├ <em><b>下关（龙溪路）</b></em>
+   └ <em><b>大理古城</b></em>
 </pre>
 
 <h3>2.2、第二阶段</h3>
@@ -106,10 +106,12 @@ title: "启动"
    └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
 
+<hr>
+
 <h2>总览</h2>
 
 <pre>
-<span class="collapse-toggler">布袋<sup>&reg;</sup>豆腐</span>
+<span class="collapse-toggler">布袋<sup>&trade;</sup>豆腐</span>
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">产品</span><div class="collapse-body">
 │ ├ 豆腐
 │ ├ 豆腐干
