@@ -133,8 +133,8 @@ title: "启动"
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
 │   ├ 大关邑（下关）
 │   ├ 龙溪路（下关）
-│   └ 银仓路（古城）</div></div></div></div>
-│
+│   └ 银仓路（古城）</div></div>
+│</div></div>
 └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
   │ ├ <span>大理<small><em>（见上实例）</em></small></span>
