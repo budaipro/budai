@@ -8,14 +8,14 @@ title: "启动"
 
 经过一年多的实践，我们已确定了三种产品的品质标准。而且生产这几种标准的技术，也趋向于稳定。除此外，经过市场的检验，可以看到我们的产品是很受欢迎的。
 
-经过对实体如何运作及未来规划的思维、整理。我们抉择了一种自己认可的模式。但目前，离该模式的一个完整实体，都还差一点。所欠缺的一个大的因缘，是资金的缺乏。经过几番思考，为提前启动完整的运作，及出于经过考量的以下几个原因，我们决定公开筹集这部分初始资金。
+经过对实体如何运作及未来规划的思维、整理。我们抉择了一种自己认可的模式。但目前，离该模式的一个完整实体还差一点<em>（后面有详细介绍）</em>，其主要因缘是缺乏一定的资金。经过几番思考，为提前启动完整的运作，及出于经过考量的以下几个原因，我们决定公开筹集部分初始资金。
 
 几个原因：
 
 1、初心，为了让更多人能吃上本该美味的豆腐。
 2、因缘已经具足，促使我们开展完整的运作。
 3、让一部分人也参与进来。
-4、和大家一起，赚取世间财的同时，修集布施行。
+4、和大家一起，赚取世间财的同时，多修布施行。
 
 <h2>规划</h2>
 
@@ -124,7 +124,7 @@ title: "启动"
 │   ├ <span class="muted">臭豆腐</span>
 │   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small>（以大理的为例）</small></em></span><div class="collapse-body">
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small style="color: black;">（以大理的为例）</small></em></span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
 │ │ ├ 营业执照
 │ │ └ 食品经营许可证</div></div>
