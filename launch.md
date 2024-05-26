@@ -18,7 +18,7 @@ title: "启动"
 4、和大家一起，赚取世间财的同时，多修布施行。
 5、回馈社会。
 
-<h2>规划</h2>
+<h2 style="border-bottom: 1px solid;">规划</h2>
 
 运作方式以“实体”为单元，一个实体由“必要证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店；每个直营店既负责线下的销售，也负责其周边的美团线上业务。
 
@@ -108,9 +108,7 @@ title: "启动"
    └ <span class="muted">苏州</span></div></div>
 </pre>
 
-<hr style="border-bottom: 1px solid;">
-
-<h2>总览</h2>
+<h2 style="border-bottom: 1px solid;">总览</h2>
 
 <pre>
 <strong class="collapse-toggler">布袋豆腐</strong>
