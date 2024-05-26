@@ -20,7 +20,7 @@ title: "启动"
 
 <h2>规划</h2>
 
-运作方式以“实体”为单元，一个实体由“相关证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店；每个直营店既负责线下的销售，也负责其周边的美团线上业务。
+运作方式以“实体”为单元，一个实体由“必要证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店；每个直营店既负责线下的销售，也负责其周边的美团线上业务。
 
 <h3><b>现阶段</b></h3>
 
@@ -39,7 +39,7 @@ title: "启动"
 │   └ <span class="muted">腐乳</span></div></div>
 │
 └ <strong>实体</strong>
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
+  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
   │ ├ 营业执照
   │ └ 食品经营许可证</div></div>
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
@@ -54,7 +54,7 @@ title: "启动"
 
 <pre>
 <strong>实体1</strong>
- ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
+ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
  │ ├ 营业执照
  │ └ 食品经营许可证</div></div>
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
@@ -126,7 +126,7 @@ title: "启动"
 │   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small style="color: black;">（当前例子）</small></em></span><div class="collapse-body">
-│ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
+│ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
 │ │ ├ 营业执照
 │ │ └ 食品经营许可证</div></div>
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
