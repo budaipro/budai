@@ -124,7 +124,7 @@ title: "启动"
 │   ├ <span class="muted">臭豆腐</span>
 │   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small style="color: black;">（以大理的为例）</small></em></span><div class="collapse-body">
+├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small style="color: black;">（当前例子）</small></em></span><div class="collapse-body">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
 │ │ ├ 营业执照
 │ │ └ 食品经营许可证</div></div>
