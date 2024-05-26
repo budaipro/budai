@@ -22,7 +22,6 @@ title: "启动"
 我们现阶段只有以“豆腐、豆腐干、油豆腐”为主的产品和生产作坊，欠缺相关人员和直营店。
 
 <pre>
-<span class="collapse-toggler">布袋<sup>&reg;</sup>豆腐</span>
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">产品</span><div class="collapse-body">
 │ ├ 豆腐
 │ ├ 豆腐干
