@@ -52,7 +52,7 @@ title: "启动"
 开设大理古城1个、下关2个直营店，并且招聘相关人员，以启动首个在大理的完整实体。统计具体运作的情况，并实现自我盈利。
 
 <pre>
-<strong>实体</strong>
+<strong>实体1</strong>
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">相关证件</span><div class="collapse-body">
  │ ├ 营业执照
  │ └ 食品经营许可证</div></div>
