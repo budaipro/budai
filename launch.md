@@ -69,7 +69,7 @@ title: "启动"
 以自有资金在其他一二线城市复制“实体”。或引入合理的，更大的外部投资，帮助我们更快地开拓到更多的一二线城市去。
 
 <pre>
-<div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
+<strong>市场</strong>
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
  │ ├ <span>大理</span>
  │ └ <span class="muted">昆明</span>
@@ -104,15 +104,15 @@ title: "启动"
  │</div></div>
  └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
    ├ <span class="muted">南京</span>
-   └ <span class="muted">苏州</span></div></div></div></div>
+   └ <span class="muted">苏州</span></div></div>
 </pre>
 
-<hr>
+<hr style="border-bottom: 1px solid;">
 
 <h2>总览</h2>
 
 <pre>
-<span class="collapse-toggler">布袋<sup>&trade;</sup>豆腐</span>
+<strong class="collapse-toggler">布袋豆腐</strong>
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">产品</span><div class="collapse-body">
 │ ├ 豆腐
 │ ├ 豆腐干
