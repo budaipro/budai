@@ -23,7 +23,9 @@
                   <div class="document-content">
                     {{ content }}
                   </div>
-                  <div style="padding: 0 10px;">&copy; 布袋豆腐</div>
+                  {%- unless page.url == "/launch" -%}
+                    <div style="padding: 0 10px;">&copy; 布袋豆腐</div>
+                  {%- endunless -%}
                 </div>
               </div>
             </div>
