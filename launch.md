@@ -27,6 +27,7 @@ title: "启动"
 │ ├ 豆腐干
 │ ├ 油豆腐
 │ └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">其他</span><div class="collapse-body">
+│   ├ <span class="muted">豆浆</span>
 │   ├ <span class="muted">嫩豆腐</span>
 │   ├ <span class="muted">毛豆腐</span>
 │   ├ <span class="muted">臭豆腐</span>
@@ -117,6 +118,7 @@ title: "启动"
 │ ├ 豆腐干
 │ ├ 油豆腐
 │ └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">其他</span><div class="collapse-body">
+│   ├ <span class="muted">豆浆</span>
 │   ├ <span class="muted">嫩豆腐</span>
 │   ├ <span class="muted">毛豆腐</span>
 │   ├ <span class="muted">臭豆腐</span>
