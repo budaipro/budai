@@ -135,7 +135,7 @@ title: "启动"
 │   ├ 龙溪路（下关）
 │   └ 银仓路（古城）</div></div></div></div>
 │
-└ 市场
+└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
   │ ├ <span>大理<small><em>（见上实例）</em></small></span>
   │ └ <span class="muted">昆明</span>
@@ -170,7 +170,7 @@ title: "启动"
   │</div></div>
   └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
     ├ <span class="muted">南京</span>
-    └ <span class="muted">苏州</span></div></div>
+    └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
 
 <script>    
