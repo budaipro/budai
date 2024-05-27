@@ -54,9 +54,9 @@ title: "启动"
  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
  │ └ 银桥镇鹤阳村委会一社</div></div>
  └ <strong>直营店</strong>
-   ├ <em class="muted"><b>下关（大关邑）</b></em>
-   ├ <em class="muted"><b>下关（龙溪路）</b></em>
-   └ <em class="muted"><b>大理古城</b></em>
+   ├ <em><b>下关（大关邑）</b></em>
+   ├ <em><b>下关（龙溪路）</b></em>
+   └ <em><b>大理古城</b></em>
 </pre>
 
 <h3><b>第二阶段</b></h3>
