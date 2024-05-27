@@ -30,13 +30,7 @@ title: "启动"
 ├ <strong>产品</strong>
 │ ├ 豆腐
 │ ├ 豆腐干
-│ ├ 油豆腐
-│ └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">其他</span><div class="collapse-body">
-│   ├ <span class="muted">豆浆</span>
-│   ├ <span class="muted">嫩豆腐</span>
-│   ├ <span class="muted">毛豆腐</span>
-│   ├ <span class="muted">臭豆腐</span>
-│   └ <span class="muted">腐乳</span></div></div>
+│ └ 油豆腐
 │
 └ <strong>实体</strong>
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
@@ -130,9 +124,9 @@ title: "启动"
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
 │ │ └ 银桥镇鹤阳村委会一社</div></div>
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
-│   ├ <span  class="muted">大关邑（下关）</span>
-│   ├ <span  class="muted">龙溪路（下关）</span>
-│   └ <span  class="muted">银仓路（古城）</span></div></div>
+│   ├ <span  class="muted">下关（大关邑）</span>
+│   ├ <span  class="muted">下关（龙溪路）</span>
+│   └ <span  class="muted">大理古城</span></div></div>
 │</div></div>
 └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
