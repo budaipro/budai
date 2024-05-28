@@ -20,24 +20,24 @@ title: "启动"
 
 <h2 style="border-bottom: 1px solid;">规划</h2>
 
-运作方式以“实体”为单元，一个实体由“必要证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店；每个直营店既负责线下的销售，也负责其周边的美团线上业务。
+运作方式以“实体”为单元，一个实体由“必要证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店。每个直营店既负责线下的销售，也负责其周边的美团线上业务。
 
 <h3><b>现阶段</b></h3>
 
 只有以“豆腐、豆腐干、油豆腐”为主的产品和作坊，欠缺直营店。
 
 <pre>
-├ <strong>产品</strong>
+├ 产品
 │ ├ 豆腐
 │ ├ 豆腐干
 │ └ 油豆腐
 │
-└ <strong>实体</strong>
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
+└ 实体
+  ├ 必要证件
   │ ├ 营业执照
-  │ └ 食品经营许可证</div></div>
-  ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
-  │ └ 银桥镇鹤阳村委会一社</div></div>
+  │ └ 食品经营许可证
+  ├ 作坊
+  │ └ 银桥镇鹤阳村委会一社
   └ 直营店
     └ <em><b>暂无</b></em>
 </pre>
@@ -47,16 +47,16 @@ title: "启动"
 开设大理古城1个、下关2个直营店，并且招聘相关人员，以启动<em>首个</em>完整实体。实现自我盈利，统计相关数据。
 
 <pre>
-<strong>实体（1）</strong>
- ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
+实体（1）
+ ├ 必要证件
  │ ├ 营业执照
- │ └ 食品经营许可证</div></div>
- ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">作坊</span><div class="collapse-body">
- │ └ 银桥镇鹤阳村委会一社</div></div>
- └ <strong>直营店</strong>
-   ├ <em><b>下关（大关邑）</b></em>
-   ├ <em><b>下关（龙溪路）</b></em>
-   └ <em><b>大理古城</b></em>
+ │ └ 食品经营许可证
+ ├ 作坊
+ │ └ 银桥镇鹤阳村委会一社
+ └ 直营店
+   ├ <em>下关（大关邑）</em>
+   ├ <em>下关（龙溪路）</em>
+   └ <em>大理古城</em>
 </pre>
 
 <h3><b>第二阶段</b></h3>
@@ -65,10 +65,10 @@ title: "启动"
 
 <pre>
 <strong>市场</strong>
- ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
+ ├ 云南
  │ ├ <span>大理</span>
  │ └ <span class="muted">昆明</span>
- │</div></div>
+ │
  ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">四川</span><div class="collapse-body">
  │ └ <span class="muted">成都</span>
  │</div></div>
