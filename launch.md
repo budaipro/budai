@@ -102,7 +102,7 @@ title: "启动"
    └ <span class="muted">苏州</span></div></div>
 </pre>
 
-<h2 style="border-bottom: 1px solid;">这次筹资情况</h2>
+<h2 style="border-bottom: 1px solid;">本次筹资情况</h2>
 
 <h3><b>金额和股权</b></h3>
 
