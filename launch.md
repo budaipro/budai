@@ -166,6 +166,31 @@ title: "启动"
     └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
 
+<h2>筹资情况</h2>
+
+<h3>金额和股权</h3>
+
+<ul>
+<li>总额：20万元。</li>
+<li>出让股权：10%。</li>
+</ul>
+
+<h3>资金主要用途</h3>
+
+<ul>
+<li>招聘必要人员</li>
+<li>购置配送车辆</li>
+<li>开设直营店铺</li>
+</ul>
+
+<h3>参与规则</h3>
+
+每个人最低参与额度5000元，最高20000元。
+
+<h3>风险和回报</h3>
+
+需自行承担100%损失的风险。
+
 <script>    
   window.addEventListener('load', function() {
     document.querySelectorAll('.collapse')
