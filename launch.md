@@ -133,7 +133,7 @@ title: "启动"
 
 <pre>
 <strong class="collapse-toggler">布袋豆腐</strong>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">产品</span><div class="collapse-body">
+├ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">产品</span><div class="collapse-body active">
 │ ├ 豆腐
 │ ├ 豆腐干
 │ ├ 油豆腐
@@ -144,7 +144,7 @@ title: "启动"
 │   ├ <span class="muted">臭豆腐</span>
 │   └ <span class="muted">腐乳</span></div></div>
 │</div></div>
-├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">实体<em><small style="color: black;">（当前例子）</small></em></span><div class="collapse-body">
+├ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">实体<em><small style="color: black;">（当前例子）</small></em></span><div class="collapse-body active">
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">必要证件</span><div class="collapse-body">
 │ │ ├ 营业执照
 │ │ └ 食品经营许可证</div></div>
@@ -155,7 +155,7 @@ title: "启动"
 │   ├ <span  class="muted">下关（龙溪路）</span>
 │   └ <span  class="muted">大理古城</span></div></div>
 │</div></div>
-└ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">市场</span><div class="collapse-body">
+└ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">市场</span><div class="collapse-body active">
   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">云南</span><div class="collapse-body">
   │ ├ <span>大理</span>
   │ └ <span class="muted">昆明</span>
