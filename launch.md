@@ -193,8 +193,6 @@ title: "启动"
     └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
 
-<strong>因缘会遇时</strong> ，果报还自受。
-
 <script>    
   window.addEventListener('load', function() {
     document.querySelectorAll('.collapse')
