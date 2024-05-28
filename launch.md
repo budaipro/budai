@@ -193,7 +193,7 @@ title: "启动"
     └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
 
-<h2><mark><strong>佛经有言：“因缘会遇时，果报还自受。”</strong>我们守因静待，等待是否有缘会遇。</mark></h2>
+<h2><mark><strong>佛经有言：“因缘会遇时，果报还自受。”</strong>我相信做事赚钱都是靠因缘福报，所以我们守因静待，等待志和的顺缘会遇。</mark></h2>
 
 <script>    
   window.addEventListener('load', function() {
