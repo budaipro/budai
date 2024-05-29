@@ -131,10 +131,6 @@ title: "启动"
 
 <h2>总览</h2>
 
-<h3><b>关于竞争力</b></h3>
-
-这个不是我们的出发点。作为做事的初衷，只是返本还原，老老实实遵循传统的工艺来制作豆腐。作为经营，那就规规矩矩做买卖，不搞投机取巧、坑蒙拐骗。不动歪脑筋、不搞歪门邪道的竞争力，就是以品质和诚心熏四方来客，“接引”有缘人。
-
 <pre>
 <strong class="collapse-toggler">布袋豆腐</strong>
 ├ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">产品</span><div class="collapse-body active">
