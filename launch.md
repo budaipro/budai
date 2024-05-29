@@ -127,8 +127,6 @@ title: "启动"
 
 需自行承担资金最多100%损失的风险，根据所占股权的比例参与每年的总净收入分红。
 
-<em>有意向者，请电话联系：19542586219，也可通过该手机号添加微信。</em>
-
 <hr style="border-bottom: 1px solid;">
 
 <h2>总览</h2>
@@ -194,6 +192,8 @@ title: "启动"
     ├ <span class="muted">南京</span>
     └ <span class="muted">苏州</span></div></div></div></div>
 </pre>
+
+<mark><em>有意向者，请电话联系：19542586219，也可通过该手机号添加微信。</em></mark>
 
 <script>    
   window.addEventListener('load', function() {
