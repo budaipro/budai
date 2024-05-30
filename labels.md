@@ -3,6 +3,20 @@ layout: null
 title: "标签（豆腐制品）"
 ---
 
+<h1>产品标签</h1>
+
+<h2>打印设置</h2>
+
+<ul>
+  <li>1、下载打印机驱动。下载地址：https://www.nbdeli.com/products/productinfo/24524.html， 路径：资料下载 &gt; 驱动。</li>
+  <li>2、安装所下载的驱动。</li>
+  <li>3、设置打印机纸张大小为：code>80mm x 60mm</code> .</li>
+</ul>
+
+<em>在连续打印多张标签之前，请<strong>务必先打印1张测试一下打印效果</strong></em>。确认无误后再连续打印，不然可能会造成纸张浪费。另外，通过Windows的记事本打印，请<strong>设置字体为10号大小的楷体</strong>。
+
+<hr>
+
 <div class="labels">
 <pre style="font-family: simsun, dengxian, sans-serif; font-size: 12pt; margin: 0;">
 <div>名称：豆腐。
