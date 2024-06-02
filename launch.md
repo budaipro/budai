@@ -127,7 +127,7 @@ title: "启动"
 
 需自行承担资金最多100%损失的风险，根据所占股权的比例参与每年的总净收入分红。
 
-<hr style="border-bottom: 1px solid;">
+<hr style="border-bottom: 1px solid; margin: 20px 0 50px;">
 
 <h2>总览</h2>
 
