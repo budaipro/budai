@@ -97,9 +97,10 @@ title: "启动"
  ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">上海</span><div class="collapse-body">
  │ └ <span class="muted">上海</span>
  │</div></div>
- └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
-   ├ <span class="muted">南京</span>
-   └ <span class="muted">苏州</span></div></div>
+ ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
+ │ ├ <span class="muted">南京</span>
+ │ └ <span class="muted">苏州</span></div></div>
+ └ ...
 </pre>
 
 <h2 style="border-bottom: 1px solid;">本次筹资情况</h2>
@@ -188,9 +189,10 @@ title: "启动"
   ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">上海</span><div class="collapse-body">
   │ └ <span class="muted">上海</span>
   │</div></div>
-  └ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
-    ├ <span class="muted">南京</span>
-    └ <span class="muted">苏州</span></div></div></div></div>
+  ├ <div class="collapse"><span class="collapse-toggler muted" data-toggle="collapse">江苏</span><div class="collapse-body">
+  │ ├ <span class="muted">南京</span>
+  │ └ <span class="muted">苏州</span></div></div>
+  └ ...
 </pre>
 
 <mark><em>有意向者，请电话联系：19542586219，也可通过该手机号添加微信。</em></mark>
