@@ -13,7 +13,7 @@ title: "标签（豆腐制品）"
   <li>3、设置打印机纸张大小为：<code>80mm x 60mm</code> .</li>
 </ul>
 
-<em>在连续打印多张标签之前，请<strong>务必先打印1张测试一下打印效果</strong></em>。确认无误后再连续打印，不然可能会造成纸张浪费。另外，通过Windows的记事本打印，请<strong>设置字体为10号大小的楷体</strong>。
+<em>在连续打印多张标签之前，请<strong>务必先打印1张测试一下打印效果</strong></em>。确认无误后再连续打印，不然可能会造成纸张浪费。另外，建议通过[Notepad++](https://notepad-plus-plus.org/downloads/)打印，请<strong>设置字体为10号大小的楷体，并且务必在<b><em>首选项 &gt; 打印</b> 设置项里面取消勾选<b>打印行号</b></em></strong>。
 
 <hr>
 
