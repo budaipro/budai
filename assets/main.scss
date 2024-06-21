@@ -334,7 +334,12 @@ pre {
 
 .tofu-item:after {
   content: "";
+  display: block;
   clear: both;
+}
+
+.tofu-item .unstyled-list {
+  float: left;
 }
 
 .about {
