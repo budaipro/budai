@@ -159,6 +159,10 @@ pre {
   opacity: .375;
 }
 
+.unstyled-list {
+  list-style: none;
+}
+
 .balloon {
   background-color: #ffffe1;
   border: black 1px solid;
@@ -326,6 +330,11 @@ pre {
 }
 
 .tofu {
+}
+
+.tofu-item:after {
+  content: "";
+  clear: both;
 }
 
 .about {
