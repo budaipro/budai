@@ -319,6 +319,10 @@ pre {
 .tofu {
 }
 
+.tofu-item {
+  margin: 1em 0;
+}
+
 .tofu-item:after {
   content: "";
   display: block;
@@ -326,6 +330,7 @@ pre {
 }
 
 .tofu-item ul {
+  margin: 0 auto;
   float: left;
 }
 
