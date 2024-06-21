@@ -5,35 +5,25 @@
 
   <body>
     
-    <div class="container">
-      <div class="window" aria-label="Content">
-        {%- unless page.url == "/inn" -%}
+    <div class="container" aria-label="Content">
+      {%- unless page.url == "/inn" -%}
         <div class="title-bar">
           <a href="/" style="color: white; text-decoration: none;"><strong class="title-bar-text">{{ site.title | escape }}</strong></a>
         </div>
-        {%- endunless -%}
-        <div class="window-body">
-          {%- unless page.url == "/inn" or page.url == "/launch" -%}
-            {%- include nav.html -%}
-          {%- endunless -%}
-          <div class="document-container">
-            <div class="document-cell">
-              <div class="inset">
-                <div class="document">
-                  <div class="document-content">
-                    {{ content }}
-                  </div>
-                  {%- unless page.url == "/launch" -%}
-                    <div style="padding: 0 10px;">&copy; 布袋豆腐</div>
-                  {%- endunless -%}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      {%- endunless -%}
+ 
+      {%- unless page.url == "/inn" or page.url == "/launch" -%}
+        {%- include nav.html -%}
+      {%- endunless -%}
 
+      <div class="content">
+        {{ content }}
+      </div>
+
+      {%- unless page.url == "/launch" -%}
+        <div style="padding: 0 10px;">&copy; 布袋豆腐</div>
+      {%- endunless -%}
+    </div>
   </body>
 
 </html>
