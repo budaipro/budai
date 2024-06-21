@@ -9,7 +9,7 @@ title: "豆腐制品"
 <div class="balloon">
   <div class="bolloon-header">
     <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
-    <span class="balloon-title">承用老工艺，也无任何<abbr title="常用豆制品添加剂：消泡剂、增白剂、固水剂、增筋剂、膨松剂、起泡剂等，以及防腐剂。">添加剂</abbr>。</span>
+    <span class="balloon-title">承用老工艺，也不加任何化学添加剂。</span>
   </div>
   <div>我们老实地，按照<b>我们老家老一辈人的工艺</b>来做豆腐。为让有些人，还能吃到本该美味的豆腐。</div>
 </div>
