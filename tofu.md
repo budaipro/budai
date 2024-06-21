@@ -15,6 +15,7 @@ title: "豆腐制品"
 </div>
 
 <h2><span class="arrow">▶</span>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
+<div class="tofu-item">
 <ul>
   <li><b>名称</b>：豆腐。</li>
   <li><b>成分</b>：黄豆、饮用水。</li>
@@ -23,6 +24,13 @@ title: "豆腐制品"
   <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
   <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
 </ul>
+<ul class="unstyled">
+  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
+  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无增白剂</li>
+  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+</ul>
+</div>
+
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/a01.jpg" alt="/assets/img/tofu/a01.jpg">
