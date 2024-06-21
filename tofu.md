@@ -26,9 +26,9 @@ title: "豆腐制品"
   </ul>
   <ul class="unstyled-list">
     <li><strong style="color: green;">零添加剂：</strong></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无固水剂<sup><em>豆腐专用</em></sup></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>消泡剂</em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>固水剂<sup>豆腐专用</sup></em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>防腐剂</em></li>
   </ul>
 </div>
 
@@ -52,10 +52,10 @@ title: "豆腐制品"
   </ul>
   <ul class="unstyled-list">
     <li><strong style="color: green;">零添加剂：</strong></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无增筋剂<sup><em>豆干专用</em></sup></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无香精<sup><em>豆干专用</em></sup></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>消泡剂</em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>增筋剂<sup>豆干专用</sup></em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>香精<sup>豆干专用</sup></em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>防腐剂</em></li>
   </ul>
 </div>
 
@@ -88,9 +88,9 @@ title: "豆腐制品"
   </ul>
   <ul class="unstyled-list">
     <li><strong style="color: green;">零添加剂：</strong></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无膨松剂<sup><em>油豆腐专用</em></sup></li>
-    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>消泡剂</em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>膨松剂<sup>油豆腐专用</sup></em></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="/assets/img/ico/check_circle_16.png">无<em>防腐剂</em></li>
   </ul>
 </div>
 <div class="flex-figure">
