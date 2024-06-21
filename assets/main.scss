@@ -223,12 +223,8 @@ pre {
 }
 
 .container {
-}
-
-.window {
   /*box-shadow: inset -1px -1px #000,inset 1px 1px silver,inset -2px -2px gray,inset 2px 2px #fff;*/
   font-size: 11pt;
-  background: silver;
 }
 
 .title-bar {
@@ -250,6 +246,7 @@ pre {
 .navigation-icons {
   display: flex;
   padding: 2px;
+  background: silver;
 }
 
 .navigation-icons a,
@@ -297,19 +294,10 @@ pre {
   filter: grayscale(0);
 }
 
-.inset {
-  border: none;
-  margin: 0;
-  background: #fff;
-}
-
-.document {
-  font-size: 11pt;
-}
-
-.document-content {
+.content {
   padding: 10px;
   max-width: 750px;
+  background: #fff;
 }
 
 .flex-figure {
