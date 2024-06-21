@@ -16,19 +16,20 @@ title: "豆腐制品"
 
 <h2><span class="arrow">▶</span>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
 <div class="tofu-item">
-<ul>
-  <li><b>名称</b>：豆腐。</li>
-  <li><b>成分</b>：黄豆、饮用水。</li>
-  <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
-  <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
-  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
-</ul>
-<ul class="unstyled">
-  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
-  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无增白剂</li>
-  <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
-</ul>
+  <ul>
+    <li><b>名称</b>：豆腐。</li>
+    <li><b>成分</b>：黄豆、饮用水。</li>
+    <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
+    <li><b>保质期</b>：10天。</li>
+    <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+    <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
+  </ul>
+  <ul class="unstyled-list">
+    <li><strong style="color: green;">零添加剂：</strong></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无固水剂<sup><em>豆腐专用</em></sup></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+  </ul>
 </div>
 
 <div class="flex-figure">
@@ -40,14 +41,24 @@ title: "豆腐制品"
 <hr>
 
 <h2><span class="arrow">▶</span>豆腐干（又名“豆干、香干”）<sup class="text-alert">零售价：12元/500克。</sup></h2>
-<ul>
-  <li><b>名称</b>：豆腐干。</li>
-  <li><b>成分</b>：黄豆、饮用水、卤料（酱油、八角、食用盐、白砂糖、味精）。</li>
-  <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
-  <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
-  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
-</ul>
+<div class="tofu-item">
+  <ul>
+    <li><b>名称</b>：豆腐干。</li>
+    <li><b>成分</b>：黄豆、饮用水、卤料（酱油、八角、食用盐、白砂糖、味精）。</li>
+    <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
+    <li><b>保质期</b>：10天。</li>
+    <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+    <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
+  </ul>
+  <ul class="unstyled-list">
+    <li><strong style="color: green;">零添加剂：</strong></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无增筋剂<sup><em>豆干专用</em></sup></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无香精<sup><em>豆干专用</em></sup></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+  </ul>
+</div>
+
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/b01.jpg" alt="/assets/img/tofu/b01.jpg">
@@ -66,14 +77,22 @@ title: "豆腐制品"
 <hr>
 
 <h2><span class="arrow">▶</span>油豆腐<sup class="text-alert">零售价：14元/500克。</sup></h2>
-<ul>
-  <li><b>名称</b>：油豆腐。</li>
-  <li><b>成分</b>：黄豆、饮用水、菜籽油、食用盐。</li>
-  <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
-  <li><b>保质期</b>：10天。</li>
-  <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
-  <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
-</ul>
+<div class="tofu-item">
+  <ul>
+    <li><b>名称</b>：油豆腐。</li>
+    <li><b>成分</b>：黄豆、饮用水、菜籽油、食用盐。</li>
+    <li><b>贮存条件</b>：冷藏（4～2℃）。</li>
+    <li><b>保质期</b>：10天。</li>
+    <li><b>执行标准</b>：GB2712-2014、GB2760-2014。</li>
+    <li><b>小作坊登记证编号</b>：YNXZF2901100552。</li>
+  </ul>
+  <ul class="unstyled-list">
+    <li><strong style="color: green;">零添加剂：</strong></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无消泡剂</li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无膨松剂<sup><em>油豆腐专用</em></sup></li>
+    <li><img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/check_circle_16.png" alt="">无防腐剂</li>
+  </ul>
+</div>
 <div class="flex-figure">
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/tofu/c01.jpg" alt="/assets/img/tofu/c01.jpg">
