@@ -4,6 +4,8 @@ layout: default
 title: "布袋豆腐因缘小记"
 ---
 
+<div><a href="/about">关于</a> &gt; <span>布袋豆腐因缘小记</span></div>
+
 # 布袋豆腐因缘小记
 
 悟文亲闻或忆念：
