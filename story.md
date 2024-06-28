@@ -1,10 +1,10 @@
 ---
 permalink: /story
 layout: default
-title: "布袋豆腐小记"
+title: "布袋豆腐因缘小记"
 ---
 
-# 布袋豆腐小记
+# 布袋豆腐因缘小记
 
 悟文亲闻或忆念：
 
