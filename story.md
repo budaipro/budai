@@ -1,4 +1,4 @@
-    3---
+---
 permalink: /story
 layout: default
 title: "布袋豆腐因缘小记"
