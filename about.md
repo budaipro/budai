@@ -6,7 +6,7 @@ title: "关于"
 
 # 关于
 
-<div>查看<a href="/story">布袋豆腐因缘小记</a></div>
+<div><a href="/story">布袋豆腐因缘小记</a></div>
 
 <figure class="figure">
   <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/cover.jpg" alt="布袋豆腐">
