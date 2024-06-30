@@ -8,7 +8,7 @@ title: "关于"
 
 <figure class="figure">
   <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/cover.jpg" alt="布袋豆腐">
-  <div><a href="/story">布袋豆腐因缘小记</a></div>
+  <div style="font-style: italic; font-weight: bold; margin-top: 5px;"><a href="/story">布袋豆腐因缘小记</a></div>
 </figure>
 
 * <b>小作坊名称</b>：大理市布袋食品加工坊。
