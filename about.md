@@ -6,11 +6,11 @@ title: "关于"
 
 # 关于
 
+<div>查看<a href="/story">布袋豆腐因缘小记</a></div>
+
 <figure class="figure">
   <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/cover.jpg" alt="布袋豆腐">
 </figure>
-
-<div>查看<a href="/story">布袋豆腐因缘小记</a></div>
 
 * <b>小作坊名称</b>：大理市布袋食品加工坊。
 * <b>生产地址</b>：大理市银桥镇鹤阳村委会一社。
