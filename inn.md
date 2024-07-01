@@ -97,7 +97,7 @@ title: "住在大理"
 │ ├ 农贸市场（<em><strong>每月4次大型集市</strong></em>）
 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">快递/物流点</span><div class="collapse-body">
 │ │ ├ 自提网点：圆通、申通、极兔、中通、韵达，及邮政。
-│ │ └ 送货上门：顺丰、京东、德邦等。</div></div>
+│ │ └ 送货上门：顺丰、京东等。</div></div>
 │ ├ 咖啡馆
 │ ├ <b>很多旅居的邻居</b>
 │ ├ 云南农村信用银行
