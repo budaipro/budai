@@ -48,7 +48,7 @@ title: "启动"
  └ 直营店
    ├ <em>下关（大关邑）</em>
    ├ <em>下关（龙溪路）</em>
-   ├ <em>银桥镇</em>
+   ├ <em><b>银桥镇头铺农贸市场</b></em>
    └ <em>大理古城</em>
 </pre>
 
@@ -149,7 +149,7 @@ title: "启动"
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
 │   ├ <span  class="muted">下关（大关邑）</span>
 │   ├ <span  class="muted">下关（龙溪路）</span>
-│   ├ <span  class="muted">银桥镇</span>
+│   ├ <span  class="muted"><b>银桥镇头铺农贸市场</b></span>
 │   └ <span  class="muted">大理古城</span></div></div>
 │</div></div>
 └ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">市场</span><div class="collapse-body active">
