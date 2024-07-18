@@ -120,11 +120,11 @@ title: "启动"
 <h3><b>风险和回报</b></h3>
 
 需自行承担资金最多100%损失的风险，根据所占股权的比例参与每年的总净收入分红。
-{%- endcomment -%}
 
 <hr style="border-bottom: 1px solid; margin: 20px 0 50px;">
+{%- endcomment -%}
 
-<h2>总览</h2>
+<h2 style="border-bottom: 1px solid;">总览</h2>
 
 <pre>
 <strong class="collapse-toggler">布袋豆腐</strong>
