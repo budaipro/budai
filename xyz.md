@@ -1,5 +1,5 @@
 ---
-permalink: /launch
+permalink: /xyz
 layout: default
 title: "启动"
 ---
