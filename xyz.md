@@ -95,6 +95,7 @@ title: "启动"
  └ ...
 </pre>
 
+{%- comment -%}
 <h2 style="border-bottom: 1px solid;">本次筹资情况</h2>
 
 <h3><b>金额和股权</b></h3>
@@ -119,6 +120,7 @@ title: "启动"
 <h3><b>风险和回报</b></h3>
 
 需自行承担资金最多100%损失的风险，根据所占股权的比例参与每年的总净收入分红。
+{%- endcomment -%}
 
 <hr style="border-bottom: 1px solid; margin: 20px 0 50px;">
 
