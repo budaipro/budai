@@ -189,7 +189,9 @@ title: "启动"
   └ ...</div></div>
 </pre>
 
+{%- comment -%}
 <mark><em>有意向者，请电话联系：19542586219，也可通过该手机号添加微信。</em></mark>
+{%- endcomment -%}
 
 <script>    
   window.addEventListener('load', function() {
