@@ -8,15 +8,15 @@ title: "启动"
 
 经过一年多的实践，我们已确定了三种产品的品质标准，而且技术上也趋向于稳定。除此外，经过市场的检验，可以看到我们的产品是很受欢迎的。
 
-我们已经经过思惟，并选择了一种自己认可的模式。
+我们已经经过思惟，并选择了自己认可的以下模式。
 
-<h2 style="border-bottom: 1px solid;">规划</h2>
+<h2 style="border-bottom: 1px solid;">模式</h2>
 
 运作方式以“实体”为单元，一个实体由“必要证件、作坊、直营店”组成。作坊负责生产产品，后将其配送至各个直营店。每个直营店既负责线下的销售，也负责其周边的美团线上业务。
 
 <h3><b>现阶段</b></h3>
 
-只有以“豆腐、豆腐干、油豆腐”为主的产品和作坊，及一个直营摊位。
+只有以“豆浆、豆腐、豆腐干、油豆腐”为主的产品和作坊，及一个直营摊位。
 
 <pre>
 ├ 产品
@@ -31,12 +31,12 @@ title: "启动"
   ├ 作坊
   │ └ 银桥镇鹤阳村委会一社
   └ 直营店
-    └ <em><b>银桥镇头铺农贸市场</b></em>
+    └ <em><b>银桥镇头铺农贸市场 √</b></em>
 </pre>
 
 <h3><b>第一阶段</b></h3>
 
-开设大理古城1个、下关2个直营店，并且招聘相关人员。
+开设大理古城1个、下关2个直营店。
 
 <pre>
 实体（1）
@@ -48,13 +48,13 @@ title: "启动"
  └ 直营店
    ├ <em>下关（大关邑）</em>
    ├ <em>下关（龙溪路）</em>
-   ├ <em><b>银桥镇头铺农贸市场</b></em>
+   ├ <em><b>银桥镇头铺农贸市场 √</b></em>
    └ <em>大理古城</em>
 </pre>
 
 <h3><b>第二阶段</b></h3>
 
-以在第一阶段中的赢利资金，逐步地在其他城市<em><u>复制“实体”</u></em>。顺势引入合理的、更大的外部资金，帮助我们更快地开拓到更多的地区去。
+以在第一阶段中的赢利资金，逐步地在其他城市<em><u>复制“实体”</u></em>。或随顺具体形势引入合理的、更大的外部资金，帮助我们更快地开拓到更多的地区去。
 
 <pre>
 <strong>市场</strong>
@@ -149,7 +149,7 @@ title: "启动"
 │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">直营店</span><div class="collapse-body">
 │   ├ <span  class="muted">下关（大关邑）</span>
 │   ├ <span  class="muted">下关（龙溪路）</span>
-│   ├ <span  class="muted"><b>银桥镇头铺农贸市场</b></span>
+│   ├ <span><b>银桥镇头铺农贸市场 √</b></span>
 │   └ <span  class="muted">大理古城</span></div></div>
 │</div></div>
 └ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse">市场</span><div class="collapse-body active">
