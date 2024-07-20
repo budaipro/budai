@@ -11,7 +11,7 @@ title: "豆腐制品"
     <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
     <span class="balloon-title">承用老工艺，也不加任何化学添加剂。</span>
   </div>
-  <div>我们老实地，按照<b>我们老家老一辈人的工艺</b>来做豆腐。为让有些人，还能吃到本该美味的豆腐。</div>
+  <div>我们老实地，按照<b>老一辈人的工艺</b>来做豆腐。为让有些人，还能吃到本该美味的豆腐。</div>
 </div>
 
 <h2><span class="arrow">▶</span>豆腐（又名“白豆腐、老豆腐、卤水老豆腐”）<sup class="text-alert">零售价：6元/500克。</sup></h2>
