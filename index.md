@@ -3,6 +3,17 @@ layout: default
 title: "主页"
 ---
 
+<div class="balloon">
+  <div class="bolloon-header">
+    <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
+    <span class="balloon-title">郑重声明：</span>
+  </div>
+  <div>
+    <p>悟文以后不再对<em><strong>布袋豆腐</strong></em>的任何问题负责。包括之前由悟文对顾客作出的承诺，已全部作废。本站所展示的内容，悟文不再承诺其能代表<em>布袋豆腐</em>的真实情况。</p>
+    <div>2024年9月3日</div>
+  </div>
+</div>
+
 # 《布袋豆腐歌》
 
 用老工艺，无高科技；不为增产，加添加剂；<br>
