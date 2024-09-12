@@ -3,6 +3,7 @@ layout: default
 title: "主页"
 ---
 
+{%- comment -%}
 <div class="balloon">
   <div class="bolloon-header">
     <img class="balloon-icon" src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/ico/bulb_16.png" width="16" height="16">
@@ -13,6 +14,7 @@ title: "主页"
     <div>2024年9月3日</div>
   </div>
 </div>
+{%- endcomment -%}
 
 # 《布袋豆腐歌》
 
