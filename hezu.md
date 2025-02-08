@@ -4,8 +4,6 @@ layout: default
 title: "大理银桥镇独栋院子找合租"
 ---
 
-<div class="font-size: 12pt;"><a href="/about">&lt;&lt;返回</a></div>
-
 <div class="inn">
 
 <h1>大理银桥镇独栋院子找合租</h1>
