@@ -15,23 +15,23 @@ title: "大理银桥镇独栋院子找合租"
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/203.jpg" alt="/assets/img/inn/203.jpg">
-    <figcaption><span class="arrow">▲</span>203室</figcaption>
+    <figcaption><span class="arrow">▲</span>参考房间1</figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/204.jpg" alt="/assets/img/inn/204.jpg">
-    <figcaption><span class="arrow">▲</span>204室</figcaption>
+    <figcaption><span class="arrow">▲</span>参考房间2</figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/301.jpg" alt="/assets/img/inn/301.jpg">
-    <figcaption><span class="arrow">▲</span>301室</figcaption>
+    <figcaption><span class="arrow">▲</span>参考房间3</figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/302.jpg" alt="/assets/img/inn/302.jpg">
-    <figcaption><span class="arrow">▲</span>302室</figcaption>
+    <figcaption><span class="arrow">▲</span>参考房间4</figcaption>
   </figure>
   <figure class="figure sold">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/303.jpg" alt="/assets/img/inn/303.jpg">
-    <figcaption><span class="arrow">▲</span>303室</figcaption>
+    <figcaption><span class="arrow">▲</span>参考房间5</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
@@ -43,11 +43,11 @@ title: "大理银桥镇独栋院子找合租"
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg">
-    <figcaption><span class="arrow">▲</span>二楼公共区域（1）</figcaption>
+    <figcaption><span class="arrow">▲</span>参考厨房1</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/200p2.jpg" alt="/assets/img/inn/200p2.jpg">
-    <figcaption><span class="arrow">▲</span>二楼公共区域（2）</figcaption>
+    <figcaption><span class="arrow">▲</span>二楼公共区域</figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/300p1.jpg" alt="/assets/img/inn/300p1.jpg">
@@ -59,7 +59,7 @@ title: "大理银桥镇独栋院子找合租"
   </figure>
 </div>
 
-<p>院子总共有3层。1楼和2楼每层有4个独立房间，及每层2个公用卫生间；三楼3个独立房间，及1个公用卫生间。目前在住的有两位女士（85后），计划拼3-4户常住的人。这样的话，每户卫生间都是分开独立使用，互不影响。目前有两个厨房，并且还有一个大的操作间可以改成大厨房。
+<p>院子总共有3层，共11间房。1楼和2楼每层有4个独立房间，及每层2个公用卫生间；三楼3个独立房间，及1个公用卫生间。目前在住的有两位女士（85后），计划拼3-4户常住的人。这样的话，每户卫生间都是分开独立使用，互不影响。目前有两个厨房，并且还有一个大的操作间可以改成大厨房。
 
 目前整院的房租是55000元/年，分摊到具体每户的房租，要根据楼层和资源分配，相互协商。
 
