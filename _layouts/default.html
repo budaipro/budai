@@ -6,13 +6,10 @@
   <body>
     
     <div class="container" aria-label="Content">
-      {%- unless page.url == "/inn" -%}
+      {%- unless page.url == "/inn" or page.url == "/hezu" -%}
         <div class="title-bar">
           <a href="/" style="color: white; text-decoration: none;"><strong class="title-bar-text">{{ site.title | escape }}</strong></a>
         </div>
-      {%- endunless -%}
- 
-      {%- unless page.url == "/inn" or page.url == "/hezu" -%}
         {%- include nav.html -%}
       {%- endunless -%}
 
@@ -20,7 +17,7 @@
         {{ content }}
       </div>
 
-      {%- unless page.url == "/launch" -%}
+      {%- unless page.url == "/hezu" -%}
         <div style="padding: 0 10px;">&copy; 布袋豆腐</div>
       {%- endunless -%}
     </div>
