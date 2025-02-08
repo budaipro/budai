@@ -35,11 +35,11 @@ title: "大理银桥镇独栋院子找合租"
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/bathroom1.jpg" alt="/assets/img/inn/bathroom1.jpg">
-    <figcaption><span class="arrow">▲</span>卫生间（三楼）<sub>x1</sub></figcaption>
+    <figcaption><span class="arrow">▲</span>卫生间<em>（三楼）</em><sub>x1</sub></figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/bathroom2.jpg" alt="/assets/img/inn/bathroom2.jpg">
-    <figcaption><span class="arrow">▲</span>卫生间（一、二楼）<sub>x4</sub></figcaption>
+    <figcaption><span class="arrow">▲</span>卫生间<em>（一、二楼）</em><sub>x2</sub></figcaption>
   </figure>
   <figure class="figure">
     <img src="https://gcore.jsdelivr.net/gh/budaipro/assets/img/inn/200p1.jpg" alt="/assets/img/inn/200p1.jpg">
